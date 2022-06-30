@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <base href="https://www6.youdocms.com" />
+    <meta charset="utf-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' /><meta http-equiv='content-type' content='text/html; charset=utf-8' /><meta name='author' content='Paul Dennis' /><meta name='description' content='' /><meta name='generator' content='YouDoCMS Serverless Content Management' /><meta name='msvalidate.01' content='test' /><meta name='google-site-verification' content='test google' /><meta name='robots' content='index, follow' />
+
+    <script type="application/ld+json" class="youdo-schema-graph">
+        {
+	"@context": "https://schema.org",
+	"@graph": [
+		{
+			"@type": "Organization",
+			"@id": "https://www.https://www3.youdocms.com/#organization",
+			"name": "Youdo Limited",
+			"url": "https://www.https://www3.youdocms.com",
+			"logo": {
+				"@type": "ImageObject",
+				"@id": "https://www.https://www3.youdocms.com/#logo",
+				"inLanguage": "en-gb",
+				"url": "https://www.https://www3.youdocms.com/images/cms_logo.png",
+				"contentUrl": "https://www.https://www3.youdocms.com/images/cms_logo.png",
+				"width": "",
+				"height": "",
+				"caption": ""
+			},
+			"image": {
+				"@id": "https://www.https://www3.youdocms.com/#logo"
+			}
+		},
+		{
+			"@type": "WebSite",
+			"@id": "https://www.https://www3.youdocms.com/#website",
+			"url": "https://www.https://www3.youdocms.com",
+			"name": "YouDoCMS Serverless CMS",
+			"description": "Serverless desktop cms and static site generator.",
+			"publisher": {
+				"@id": "https://www.https://www3.youdocms.com/#organization"
+			},
+			"potentialAction": [
+				{
+					"@type": "SearchAction",
+					"target": {
+						"@type": "EntryPoint",
+						"urlTemplate": "https://www.youdocms.com/support/templates/youdocms={search_term_string}"
+					},
+					"query-input": "required name=search_term_string"
+				}
+			],
+			"inLanguage": "en-gb"
+		},
+		{
+			"@type": "ImageObject",
+			"@id": "https://www.https://www3.youdocms.com/integration/cloudflare/#primaryimage",
+			"inLanguage": "en-gb",
+			"url": "https://www.https://www3.youdocms.com/",
+			"contentUrl": "https://www.https://www3.youdocms.com/"
+		},
+		{
+			"@type": "WebPage",
+			"@id": "https://www.https://www3.youdocms.com/integration/cloudflare/#webpage",
+			"url": "https://www.https://www3.youdocms.com/integration/cloudflare",
+			"name": "Cloudflare",
+			"isPartOf": {
+				"@id": "https://www.https://www3.youdocms.com/integration/cloudflare/#webpage"
+			},
+			"primaryImageOfPage": {
+				"@id": "https://www.https://www3.youdocms.com/integration/cloudflare/#primaryimage"
+			},
+			"breadcrumb": {
+				"@id": "https://www.https://www3.youdocms.com/integration/cloudflare/#breadcrumb"
+			},
+			"inLanguage": "en-gb",
+			"potentialAction": {
+				"type": "ReadAction",
+				"target": "https://www.https://www3.youdocms.com/integration/cloudflare"
+			}
+		},
+		{
+			"@type": "BreadcrumbList",
+			"@id": "https://www.https://www3.youdocms.com/integration/cloudflare/#breadcrumb",
+			"itemListElement": [
+				{
+					"@type": "ListItem",
+					"item": "https://www.https://www3.youdocms.com/integration/cdn-integration",
+					"name": "Integration",
+					"position": 1
+				},
+				{
+					"@type": "ListItem",
+					"item": "https://www.https://www3.youdocms.com/integration/cloudflare",
+					"name": "Cloudflare",
+					"position": 2
+				}
+			]
+		}
+	]
+}
+    </script>
+
+    <link rel="shortcut icon" href="favicon.ico">
+    
+    <title>
+        Cloudflare
+    </title>
+
+    <link rel="stylesheet" href="templates/sandbox3/assets/css/plugins.css">
+    <link rel="stylesheet" href="templates/sandbox3/assets/css/style.css">
+    <link rel="stylesheet" href="templates/sandbox3/assets/css/colors/aqua.css">
+</head>
+
+<body>
+    <div class="content-wrapper">
+        <header class="wrapper bg-soft-primary">
+            <nav class="navbar center-nav transparent navbar-expand-lg navbar-light">
+                <div class="container flex-lg-row flex-nowrap align-items-center">
+                    <div class="navbar-brand w-100"><a href="https://www6.youdocms.com/index.html"><img
+                                src="/images/cms_logo.png" srcset="/images/cms_logo@2x.png 2x" alt="" /></a></div>
+
+                    <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
+                        <div class="offcanvas-header d-lg-none">
+                            <a href="https://www6.youdocms.com"><img src="/images/cms_logo.png"
+                                    srcset="/images/cms_logo@2x.png 2x" alt="" /></a>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
+                            
+                               <!-- if using a menu builder insert query here for the module -->
+
+   <!-- if using a menu builder insert query here for the module -->
+
+   <!-- if using a menu builder insert query here for the module -->
+
+
+<ul class="navbar-nav">
+    
+    
+    
+    <!-- dropdown menu -->
+    
+    <li class="nav-item dropdown">
+        <!-- top level with sub -->
+        <a class="nav-link dropdown-toggle" href="/create/go-serverless" data-bs-toggle="dropdown">
+            Create</a>
+        <ul class="dropdown-menu">
+            
+            
+            <!-- Second level no child-->
+            <li class="nav-item"><a class="dropdown-item" href="/create/go-serverless">
+                    Go Serverless</a>
+            </li>
+            
+            
+            
+            <!-- Second level no child-->
+            <li class="nav-item"><a class="dropdown-item" href="/create/joomla">
+                    Joomla</a>
+            </li>
+            
+            
+            
+            <!-- Second level no child-->
+            <li class="nav-item"><a class="dropdown-item" href="/create/wordpress">
+                    WordPress</a>
+            </li>
+            
+            
+        </ul>
+    </li>
+
+    
+    
+    
+    
+    <!-- dropdown menu -->
+    
+    <li class="nav-item dropdown">
+        <!-- top level with sub -->
+        <a class="nav-link dropdown-toggle" href="/features/desktop-cms" data-bs-toggle="dropdown">
+            Features</a>
+        <ul class="dropdown-menu">
+            
+            
+            <!-- Second level no child-->
+            <li class="nav-item"><a class="dropdown-item" href="/features/desktop-cms">
+                    Desktop CMS</a>
+            </li>
+            
+            
+            
+            <!-- Second level no child-->
+            <li class="nav-item"><a class="dropdown-item" href="/features/import-cms">
+                    Import CMS</a>
+            </li>
+            
+            
+            
+            <!-- Second level no child-->
+            <li class="nav-item"><a class="dropdown-item" href="/features/media-manager">
+                    Media Manager</a>
+            </li>
+            
+            
+            
+            <!-- Second level no child-->
+            <li class="nav-item"><a class="dropdown-item" href="/features/multiple-sites">
+                    Multiple Sites</a>
+            </li>
+            
+            
+            
+            <!-- Second level no child-->
+            <li class="nav-item"><a class="dropdown-item" href="/features/search-engine-optimisation">
+                    SEO </a>
+            </li>
+            
+            
+            
+            <!-- Second level no child-->
+            <li class="nav-item"><a class="dropdown-item" href="/features/site-search">
+                    Site Search</a>
+            </li>
+            
+            
+            
+            <!-- Second level no child-->
+            <li class="nav-item"><a class="dropdown-item" href="/features/static-site-generator">
+                    Static Site Generator</a>
+            </li>
+            
+            
+            
+            <!-- Second level no child-->
+            <li class="nav-item"><a class="dropdown-item" href="/features/tasks-and-users">
+                    Tasks and Users</a>
+            </li>
+            
+            
+        </ul>
+    </li>
+
+    
+    
+    
+    
+    <!-- dropdown menu -->
+    
+    <li class="nav-item dropdown">
+        <!-- top level with sub -->
+        <a class="nav-link dropdown-toggle" href="/integration/cdn-integration" data-bs-toggle="dropdown">
+            Integration</a>
+        <ul class="dropdown-menu">
+            
+            
+            <!-- Second level no child-->
+            <li class="nav-item"><a class="dropdown-item" href="/integration/cdn-integration">
+                    CDN Integration</a>
+            </li>
+            
+            
+            
+            <!-- Second level no child-->
+            <li class="nav-item"><a class="dropdown-item" href="/integration/amazon-aws">
+                    Amazon AWS</a>
+            </li>
+            
+            
+            
+            <!-- Second level no child-->
+            <li class="nav-item"><a class="dropdown-item" href="/integration/cloudflare">
+                    Cloudflare</a>
+            </li>
+            
+            
+            
+            <!-- Second level no child-->
+            <li class="nav-item"><a class="dropdown-item" href="/integration/github-pages">
+                    Github Pages</a>
+            </li>
+            
+            
+            
+            <!-- Second level no child-->
+            <li class="nav-item"><a class="dropdown-item" href="/integration/google-firebase">
+                    Google Firebase</a>
+            </li>
+            
+            
+            
+            <!-- Second level no child-->
+            <li class="nav-item"><a class="dropdown-item" href="/integration/microsoft-azure">
+                    Microsoft Azure</a>
+            </li>
+            
+            
+        </ul>
+    </li>
+
+    
+    
+    
+    
+    <!-- dropdown menu -->
+    
+    <li class="nav-item dropdown">
+        <!-- top level with sub -->
+        <a class="nav-link dropdown-toggle" href="/pricing/pricing-plans" data-bs-toggle="dropdown">
+            Pricing</a>
+        <ul class="dropdown-menu">
+            
+            
+            <!-- Second level no child-->
+            <li class="nav-item"><a class="dropdown-item" href="/pricing/download-installers">
+                    Download Installer</a>
+            </li>
+            
+            
+            
+            <!-- Second level no child-->
+            <li class="nav-item"><a class="dropdown-item" href="/pricing/pricing-plans">
+                    Pricing Plans</a>
+            </li>
+            
+            
+            
+            <!-- Second level no child-->
+            <li class="nav-item"><a class="dropdown-item" href="/pricing/subscribe">
+                    Subscribe</a>
+            </li>
+            
+            
+        </ul>
+    </li>
+
+    
+    
+    
+    
+
+    <li class="nav-item dropdown dropdown-mega">
+        <a class="nav-link dropdown-toggle" href="/support" data-bs-toggle="dropdown">
+            Support</a> <!-- Support -->
+        <ul class="dropdown-menu mega-menu">
+            <li class="mega-menu-content">
+                <div class="row gx-0 gx-lg-4">
+                    
+                    
+                    <!-- second level child-->
+                    
+                    <!-- first pass insert div -->
+                    <div class="col-lg-6">
+                        <h6 class="dropdown-header"><a href="/support/cloud-settings">
+                            Cloud Settings</a>
+                        
+                        </h6>
+                        <ul class="list-unstyled cc-2 pb-lg-1">
+                            
+                            <!-- Third level -->
+                            <li class=""><a class="dropdown-item" href="/support/cloud-settings/amazon-web-services">
+                                    Amazon AWS</a>
+                            </li>
+                            
+                            <!-- Third level -->
+                            <li class=""><a class="dropdown-item" href="/support/cloud-settings/cloudflare">
+                                    Cloudflare</a>
+                            </li>
+                            
+                            <!-- Third level -->
+                            <li class=""><a class="dropdown-item" href="/support/cloud-settings/github">
+                                    Github Hosting</a>
+                            </li>
+                            
+                            <!-- Third level -->
+                            <li class=""><a class="dropdown-item" href="/support/cloud-settings/google-firebase">
+                                    Google Firebase</a>
+                            </li>
+                            
+                            <!-- Third level -->
+                            <li class=""><a class="dropdown-item" href="/support/cloud-settings/microsoft-azure">
+                                    Microsoft Azure</a>
+                            </li>
+                            
+                        </ul>
+
+                        
+                    
+                    
+                    <!-- second level child-->
+                    
+                        <!-- second row -->
+                        <h6 class="dropdown-header mt-lg-6"><a href="/support/help">
+                            Help</a>
+                        </h6>
+                        <ul class="list-unstyled cc-2">
+                            
+                            <!-- Third level -->
+                            <li class=""><a class="dropdown-item" href="/support/help/create-site">
+                                    Create Site</a>
+                            </li>
+                            
+                            <!-- Third level -->
+                            <li class=""><a class="dropdown-item" href="/support/help/cli-and-node-tools">
+                                    CLI and Node Tools</a>
+                            </li>
+                            
+                            <!-- Third level -->
+                            <li class=""><a class="dropdown-item" href="/support/help/cms-import">
+                                    CMS Import</a>
+                            </li>
+                            
+                            <!-- Third level -->
+                            <li class=""><a class="dropdown-item" href="/support/help/joomla-example">
+                                    Joomla Example</a>
+                            </li>
+                            
+                            <!-- Third level -->
+                            <li class=""><a class="dropdown-item" href="/support/help/template-manager">
+                                    Template Manager</a>
+                            </li>
+                            
+                            <!-- Third level -->
+                            <li class=""><a class="dropdown-item" href="/support/help/wordpress-example">
+                                    WordPress Example</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    
+                    
+                    
+                    <!-- second level child-->
+                    
+                    <!-- first pass insert div -->
+                    <div class="col-lg-6">
+                        <h6 class="dropdown-header"><a href="/support/cloud-settings/search">
+                            Search SEO</a>
+                        
+                        </h6>
+                        <ul class="list-unstyled cc-2 pb-lg-1">
+                            
+                            <!-- Third level -->
+                            <li class=""><a class="dropdown-item" href="/support/cloud-settings/search/algolia">
+                                    Algolia</a>
+                            </li>
+                            
+                            <!-- Third level -->
+                            <li class=""><a class="dropdown-item" href="/support/cloud-settings/search/json-ld">
+                                    JSON-LD</a>
+                            </li>
+                            
+                        </ul>
+
+                        
+                    
+                    
+                    <!-- second level child-->
+                    
+                        <!-- second row -->
+                        <h6 class="dropdown-header mt-lg-6"><a href="/support/templates">
+                            Templates</a>
+                        </h6>
+                        <ul class="list-unstyled cc-2">
+                            
+                            <!-- Third level -->
+                            <li class=""><a class="dropdown-item" href="/support/templates/syntax">
+                                    Syntax</a>
+                            </li>
+                            
+                            <!-- Third level -->
+                            <li class=""><a class="dropdown-item" href="/support/templates/page-object">
+                                    Page Object</a>
+                            </li>
+                            
+                            <!-- Third level -->
+                            <li class=""><a class="dropdown-item" href="/support/templates/breadcrumbs">
+                                    Breadcrumbs</a>
+                            </li>
+                            
+                            <!-- Third level -->
+                            <li class=""><a class="dropdown-item" href="/support/templates/menus">
+                                    Menus</a>
+                            </li>
+                            
+                            <!-- Third level -->
+                            <li class=""><a class="dropdown-item" href="/support/templates/html-includes">
+                                    HTML Includes</a>
+                            </li>
+                            
+                            <!-- Third level -->
+                            <li class=""><a class="dropdown-item" href="/support/templates/modules-or-widgets">
+                                    Modules or Widgets</a>
+                            </li>
+                            
+                            <!-- Third level -->
+                            <li class=""><a class="dropdown-item" href="/support/templates/blog-list-pages-or-posts">
+                                    Blog List Pages or Posts</a>
+                            </li>
+                            
+                            <!-- Third level -->
+                            <li class=""><a class="dropdown-item" href="/support/templates/list-categories">
+                                    List Categories</a>
+                            </li>
+                            
+                            <!-- Third level -->
+                            <li class=""><a class="dropdown-item" href="/support/templates/single-article-example">
+                                    Single Article Example</a>
+                            </li>
+                            
+                            <!-- Third level -->
+                            <li class=""><a class="dropdown-item" href="/support/templates/single-category-with-datatables">
+                                    Single Category with Datatables</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    
+                    
+                    
+
+                    <!--/column -->
+
+                    <!--/column -->
+                </div>
+                <!--/.row -->
+            </li>
+            <!--/.mega-menu-content-->
+        </ul>
+        <!--/.dropdown-menu -->
+    </li>
+    
+    
+</ul>
+
+
+
+
+                            <!-- /.navbar-collapse -->
+                        </div>
+                    </div>
+
+                    <div class="navbar-other w-100 d-flex ms-auto">
+                        <ul class="navbar-nav flex-row align-items-center ms-auto">
+                            <li class="nav-item d-lg-none">
+                                <button class="hamburger offcanvas-nav-btn"><span></span></button>
+                            </li>
+                        </ul>
+                        <!-- /.navbar-nav -->
+                    </div>
+                    <!-- /.navbar-other -->
+                </div>
+                <!-- /.container -->
+
+            </nav>
+            <!-- /.navbar -->
+
+
+        </header>
+        <!-- /header -->
+
+        <section class="wrapper bg-soft-primary">
+            <div class="container pt-10 pb-12 pt-md-14 pb-md-16 text-center"
+                style="padding-bottom: 0rem !important; padding-top: 0rem !important;">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h1 class="display-1 mb-3">
+                            Cloudflare
+                        </h1>
+                        
+                        
+                        
+                        
+                        <nav class="d-inline-block" aria-label="breadcrumb">
+
+                            <ol class="breadcrumb">
+                                
+                                
+                                <li class="breadcrumb-item"><a href="/integration/cdn-integration">
+                                        Integration</a></li>
+
+                                
+                                
+                                
+                                <li class="breadcrumb-item active" aria-current="page">
+                                    Cloudflare
+                                </li>
+                                
+                                
+                            </ol>
+                        </nav>
+                        
+                        
+                        
+                        
+                        <!-- /nav -->
+                    </div>
+                    <!-- /column -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </section>
+
+
+        <section class="wrapper bg-light wrapper-border">
+<div class="container py-14 py-md-16"><!-- /.row --> <!-- /.nav-tabs -->
+<div class="tab-content mt-6 mt-lg-8">
+<div class="tab-pane fade show active" id="tab2-1">
+<div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
+<div class="col-lg-6">
+<figure class="rounded mb-0"><img src="/images/integration/cloudflare/cf-config.png" srcset="/images/integration/cloudflare/cf-config.png" 2x="" alt="" width="813" height="725" /></figure>
+<!-- /.row --></div>
+<!--/column -->
+<div class="col-lg-6">
+<h2 class="mb-3">Cloudflare Pages</h2>
+<p>The <a href="https://pages.cloudflare.com/">Cloudflare Pages</a> platform offers the fastest static site hosting available. Your site can be deployed automatically to the Cloudflare Pages CDN directly from YouDoCMS. With Cloudflare Workers and YouDoCMS you can build serverless applications and deploy instantly across the globe for exceptional performance, reliability, and scale</p>
+<ul class="icon-list bullet-bg bullet-soft-yellow">
+<li><i class="uil uil-check"></i>Custom Domain and Sub Domains supported.</li>
+<li><i class="uil uil-check"></i>Node js and Wrangler CLI integration.</li>
+<li><i class="uil uil-check"></i>Direct Upload Single click deployment</li>
+</ul>
+<a href="#" class="btn btn-yellow mt-2">Learn More</a></div>
+<!--/column --></div>
+<!--/.row --></div>
+<!--/.tab-pane -->
+<div class="tab-pane fade" id="tab2-2">
+<div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
+<div class="col-lg-6 order-lg-2">
+<div class="row gx-md-5 gy-5">
+<div class="col-5"><img class="img-fluid rounded shadow-lg my-5 d-flex ms-auto" src="/templates/sandbox3/assets/img/photos/sa9.jpg" srcset=" /templates/sandbox3/assets/img/photos/sa9@2x.jpg" 2x="" alt="" /> <img class="img-fluid rounded shadow-lg d-flex col-10 ms-auto" src="/templates/sandbox3/assets/img/photos/sa10.jpg" srcset=" /templates/sandbox3/assets/img/photos/sa10@2x.jpg" 2x="" alt="" /></div>
+<!-- /column -->
+<div class="col-7"><img class="img-fluid rounded shadow-lg mb-5" src="/templates/sandbox3/assets/img/photos/sa11.jpg" srcset=" /templates/sandbox3/assets/img/photos/sa11@2x.jpg" 2x="" alt="" /> <img class="img-fluid rounded shadow-lg d-flex col-11" src="/templates/sandbox3/assets/img/photos/sa12.jpg" srcset=" /templates/sandbox3/assets/img/photos/sa12@2x.jpg" 2x="" alt="" /></div>
+<!-- /column --></div>
+<!-- /.row --></div>
+<!--/column -->
+<div class="col-lg-6">
+<h2 class="mb-3">Fast Transactions</h2>
+<p>Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor fringilla. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam quis risus eget urna.</p>
+<ul class="icon-list bullet-bg bullet-soft-green">
+<li><i class="uil uil-check"></i>Aenean eu leo quam. Pellentesque ornare.</li>
+<li><i class="uil uil-check"></i>Nullam quis risus eget urna mollis ornare.</li>
+<li><i class="uil uil-check"></i>Donec id elit non mi porta gravida at eget.</li>
+</ul>
+<a href="#" class="btn btn-green mt-2">Learn More</a></div>
+<!--/column --></div>
+<!--/.row --></div>
+<!--/.tab-pane -->
+<div class="tab-pane fade" id="tab2-3">
+<div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
+<div class="col-lg-6">
+<div class="row gx-md-5 gy-5">
+<div class="col-6"><img class="img-fluid rounded shadow-lg mb-5" src="/templates/img/photos/sa5.jpg" srcset=" /templates/img/photos/sa5@2x.jpg" 2x="" alt="" /> <img class="img-fluid rounded shadow-lg d-flex col-10 ms-auto" src="/templates/img/photos/sa6.jpg" srcset=" /templates/img/photos/sa6@2x.jpg" 2x="" alt="" /></div>
+<!-- /column -->
+<div class="col-6"><img class="img-fluid rounded shadow-lg my-5" src="/templates/img/photos/sa7.jpg" srcset=" /templates/img/photos/sa7@2x.jpg" 2x="" alt="" /> <img class="img-fluid rounded shadow-lg d-flex col-10" src="/templates/img/photos/sa8.jpg" srcset=" /templates/img/photos/sa8@2x.jpg" 2x="" alt="" /></div>
+<!-- /column --></div>
+<!-- /.row --></div>
+<!--/column -->
+<div class="col-lg-6">
+<h2 class="mb-3">Secure Payments</h2>
+<p>Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor fringilla. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam quis risus eget urna.</p>
+<ul class="icon-list bullet-bg bullet-soft-red">
+<li><i class="uil uil-check"></i>Aenean eu leo quam. Pellentesque ornare.</li>
+<li><i class="uil uil-check"></i>Nullam quis risus eget urna mollis ornare.</li>
+<li><i class="uil uil-check"></i>Donec id elit non mi porta gravida at eget.</li>
+</ul>
+<a href="#" class="btn btn-red mt-2">Learn More</a></div>
+<!--/column --></div>
+<!--/.row --></div>
+<!--/.tab-pane --></div>
+<!-- /.tab-content --></div>
+<!-- /.container --></section>
+<section class="wrapper bg-light wrapper-border">
+<div class="container py-14 py-md-16">
+<div class="row text-center">
+<div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+<h2 class="fs-15 text-uppercase text-muted mb-3">Cloudflare Features</h2>
+<h3 class="display-4 mb-9 px-xl-11">YouDoCMS is the only app you need to create fast responsive serverless websites.</h3>
+</div>
+<!-- /column --></div>
+<!-- /.row -->
+<div class="row gx-lg-8 gx-xl-12 gy-8">
+<div class="col-md-6 col-lg-4">
+<div class="d-flex flex-row">
+<div><img src="/templates/sandbox3/assets/img/icons/lineal/target.svg" class=" svg-inject icon-svg icon-svg-sm text-aqua me-4" alt="" /></div>
+<div>
+<h4 class="mb-1">Cloudflare Name Servers</h4>
+<p class="mb-0">Register a custom domain or use the <strong><code>*.workers.dev sub domain.</code></strong></p>
+</div>
+</div>
+</div>
+<!--/column -->
+<div class="col-md-6 col-lg-4">
+<div class="d-flex flex-row">
+<div><img src="/templates/sandbox3/assets/img/icons/lineal/medal.svg" class=" svg-inject icon-svg icon-svg-sm text-yellow me-4" alt="" /></div>
+<div>
+<h4 class="mb-1">Static Site Builder</h4>
+<p class="mb-0">Setup and deploy to the <a href="https://pages.cloudflare.com/" target="_blank" rel="noopener">Cloudflare Pages</a> platform in 5 minutes.</p>
+</div>
+</div>
+</div>
+<!--/column -->
+<div class="col-md-6 col-lg-4">
+<div class="d-flex flex-row">
+<div><img src="/templates/sandbox3/assets/img/icons/lineal/clock-3.svg" class=" svg-inject icon-svg icon-svg-sm text-red me-4" alt="" /></div>
+<div>
+<h4 class="mb-1">Local Site Previews</h4>
+<p class="mb-0">Manage your site locally and preview changes before deployment.</p>
+</div>
+</div>
+</div>
+<!--/column -->
+<div class="col-md-6 col-lg-4">
+<div class="d-flex flex-row">
+<div><img src="/templates/sandbox3/assets/img/icons/lineal/check.svg" class=" svg-inject icon-svg icon-svg-sm text-pink me-4" alt="" /></div>
+<div>
+<h4 class="mb-1">Responsive Images</h4>
+<p class="mb-0">Use the media manager to create responsive image sizes for maximum performance.&nbsp;</p>
+</div>
+</div>
+</div>
+<!--/column -->
+<div class="col-md-6 col-lg-4">
+<div class="d-flex flex-row">
+<div><img src="/templates/sandbox3/assets/img/icons/lineal/shop-2.svg" class=" svg-inject icon-svg icon-svg-sm text-green me-4" alt="" /></div>
+<div>
+<h4 class="mb-1">Theme Library</h4>
+<p class="mb-0">Download free templates form our Github template library.</p>
+</div>
+</div>
+</div>
+<!--/column -->
+<div class="col-md-6 col-lg-4">
+<div class="d-flex flex-row">
+<div><img src="/templates/sandbox3/assets/img/icons/lineal/team.svg" class=" svg-inject icon-svg icon-svg-sm text-purple me-4" alt="" /></div>
+<div>
+<h4 class="mb-1">Free Hosting</h4>
+<p class="mb-0">Cloudflare free usage plan includes 100,000 requests per day and no build fees with YouDoCMS.</p>
+</div>
+</div>
+</div>
+<!--/column --></div>
+<!--/.row --></div>
+<!-- /.container --></section>
+
+
+        <!-- /section -->
+
+
+
+
+    </div>
+    <!-- /.content-wrapper -->
+    <footer class="bg-dark text-inverse">
+        <div class="container py-13 py-md-15">
+    <div class="row gy-6 gy-lg-0">
+        <div class="col-md-4 col-lg-3">
+            <div class="widget">
+                <img class="mb-4" src="/images/cms_logo.png" srcset="/images/cms_logo@2x.png 2x" alt="" />
+                <p class="mb-4">© 2021 Youdo Ltd. <br class="d-none d-lg-block" />All rights reserved.</p>
+                <nav class="nav social social-white">
+                    <a href="#"><i class="uil uil-twitter"></i></a>
+                    <a href="#"><i class="uil uil-facebook-f"></i></a>
+                    <a href="#"><i class="uil uil-dribbble"></i></a>
+                    <a href="#"><i class="uil uil-instagram"></i></a>
+                    <a href="#"><i class="uil uil-youtube"></i></a>
+                </nav>
+                <!-- /.social -->
+            </div>
+            <!-- /.widget -->
+        </div>
+        <!-- /column -->
+        <div class="col-md-4 col-lg-3">
+            <div class="widget">
+                <h4 class="widget-title text-white mb-3">Get in Touch</h4>
+                <address class="pe-xl-15 pe-xxl-17">Made in Upminster, Essex, United Kingdom</address>
+                <a href="mailto:#">info@youdocms.com</a><br /> +44 (020) 7148 3322
+            </div>
+            <!-- /.widget -->
+        </div>
+        <!-- /column -->
+        <div class="col-md-4 col-lg-3">
+            <div class="widget">
+                <h4 class="widget-title text-white mb-3">Learn More</h4>
+
+                
+                
+
+                <ul class="list-unstyled mb-0">
+                    
+
+                    <li><a href="/about-us">
+                            About Us</a></li>
+
+                    
+
+                    <li><a href="/terms-and-conditions">
+                            Terms and Conditions</a></li>
+
+                    
+
+                    <li><a href="/index.html">
+                            Home</a></li>
+
+                    
+                </ul>
+
+                
+                
+                
+                
+                
+                
+
+            </div>
+            <!-- /.widget -->
+        </div>
+        <!-- /column -->
+        <div class="col-md-12 col-lg-3">
+            <div class="widget">
+                <div class="widget">
+                    <h4 class="widget-title text-white mb-3">Our Newsletter</h4>
+                    <p class="mb-5">Subscribe to our newsletter for news and community support.</p>
+                    <div class="newsletter-wrapper">
+                        <!-- Begin Mailchimp Signup Form -->
+                        <div id="mc_embed_signup2">
+                            <form
+                                action="https://elemisfreebies.us20.list-manage.com/subscribe/post?u=aa4947f70a475ce162057838d&amp;id=b49ef47a9a"
+                                method="post" id="mc-embedded-subscribe-form2" name="mc-embedded-subscribe-form"
+                                class="validate dark-fields" target="_blank" novalidate>
+                                <div id="mc_embed_signup_scroll2">
+                                    <div class="mc-field-group input-group form-floating">
+                                        <input type="email" value="" name="EMAIL"
+                                            class="required email form-control" placeholder="Email Address"
+                                            id="mce-EMAIL2">
+                                        <label for="mce-EMAIL2">Email Address</label>
+                                        <input type="submit" value="Join" name="subscribe"
+                                            id="mc-embedded-subscribe2" class="btn btn-primary ">
+                                    </div>
+                                    <div id="mce-responses2" class="clear">
+                                        <div class="response" id="mce-error-response2" style="display:none">
+                                        </div>
+                                        <div class="response" id="mce-success-response2" style="display:none">
+                                        </div>
+                                    </div>
+                                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                    <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                                        <input type="text" name="b_ddc180777a163e0f9f66ee014_4b1bcfa0bc"
+                                            tabindex="-1" value=""></div>
+                                    <div class="clear"></div>
+                                </div>
+                            </form>
+                        </div>
+                        <!--End mc_embed_signup-->
+                    </div>
+                    <!-- /.newsletter-wrapper -->
+                </div>
+                <!-- /.widget -->
+            </div>
+            <!-- /column -->
+        </div>
+        <!--/.row -->
+    </div>
+    <!-- /.container -->
+    </footer>
+
+
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+
+
+    <script src="/templates/sandbox3/assets/js/plugins.js"></script>
+    <script src="/templates/sandbox3/assets/js/theme.js"></script>
+</body>
+
+</html>
