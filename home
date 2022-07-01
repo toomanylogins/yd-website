@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <base href="https://www6.youdocms.com" />
+    <base href="http://localhost:8080" />
     <meta charset="utf-8">
     <meta name='viewport' content='width=device-width, initial-scale=1.0' /><meta http-equiv='content-type' content='text/html; charset=utf-8' /><meta name='author' content='Paul Dennis' /><meta name='description' content='' /><meta name='generator' content='YouDoCMS Serverless Content Management' /><meta name='msvalidate.01' content='' /><meta name='google-site-verification' content='' /><meta name='robots' content='index, follow' />
   
@@ -52,34 +52,34 @@
 		},
 		{
 			"@type": "ImageObject",
-			"@id": "https://www.youdocms.com/index.html/#primaryimage",
+			"@id": "https://www.youdocms.com/home/#primaryimage",
 			"inLanguage": "en-gb",
 			"url": "https://www.youdocms.com/",
 			"contentUrl": "https://www.youdocms.com/"
 		},
 		{
 			"@type": "WebPage",
-			"@id": "https://www.youdocms.com/index.html/#webpage",
-			"url": "https://www.youdocms.com/index.html",
+			"@id": "https://www.youdocms.com/home/#webpage",
+			"url": "https://www.youdocms.com/home",
 			"name": "Home Page",
 			"isPartOf": {
-				"@id": "https://www.youdocms.com/index.html/#webpage"
+				"@id": "https://www.youdocms.com/home/#webpage"
 			},
 			"primaryImageOfPage": {
-				"@id": "https://www.youdocms.com/index.html/#primaryimage"
+				"@id": "https://www.youdocms.com/home/#primaryimage"
 			},
 			"breadcrumb": {
-				"@id": "https://www.youdocms.com/index.html/#breadcrumb"
+				"@id": "https://www.youdocms.com/home/#breadcrumb"
 			},
 			"inLanguage": "en-gb",
 			"potentialAction": {
 				"type": "ReadAction",
-				"target": "https://www.youdocms.com/index.html"
+				"target": "https://www.youdocms.com/home"
 			}
 		},
 		{
 			"@type": "BreadcrumbList",
-			"@id": "https://www.youdocms.com/index.html/#breadcrumb",
+			"@id": "https://www.youdocms.com/home/#breadcrumb",
 			"itemListElement": [
 				{
 					"@type": "ListItem",
@@ -111,12 +111,12 @@
 
             <nav class="navbar center-nav transparent navbar-expand-lg navbar-light">
                 <div class="container flex-lg-row flex-nowrap align-items-center">
-                    <div class="navbar-brand w-100"><a href="https://www6.youdocms.com"><img
+                    <div class="navbar-brand w-100"><a href="http://localhost:8080"><img
                                 src="/images/cms_logo.png" srcset="/images/cms_logo@2x.png 2x" alt="" /></a></div>
 
                     <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
                         <div class="offcanvas-header d-lg-none">
-                            <a href="https://www6.youdocms.com/index.html"><img src="/images/cms_logo.png"
+                            <a href="http://localhost:8080/index.html"><img src="/images/cms_logo.png"
                                     srcset="/images/cms_logo@2x.png 2x" alt="" /></a>
                             <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
                                 aria-label="Close"></button>
