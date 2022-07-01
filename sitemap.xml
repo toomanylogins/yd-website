@@ -3,7 +3,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/support/help/cms-import</loc>
-    <lastmod>2022-07-01T11:31:38Z</lastmod>
+    <lastmod>2022-07-01T11:57:40Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/features/prefs_database.png</image:loc>
     </image:image>
@@ -35,7 +35,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/pricing/subscribe</loc>
-    <lastmod>2022-07-01T11:31:38Z</lastmod>
+    <lastmod>2022-07-01T11:57:40Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/features/medium/prefs-register_medium.png</image:loc>
     </image:image>
@@ -58,7 +58,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/about-us</loc>
-    <lastmod>2022-07-01T11:31:38Z</lastmod>
+    <lastmod>2022-07-01T11:57:41Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/cms_logo.png</image:loc>
     </image:image>
@@ -75,7 +75,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/integration/amazon-aws</loc>
-    <lastmod>2022-07-01T11:31:38Z</lastmod>
+    <lastmod>2022-07-01T11:57:41Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/cms_logo.png</image:loc>
     </image:image>
@@ -95,7 +95,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/support/cloud-settings/amazon-web-services/aws-certificate-manager</loc>
-    <lastmod>2022-07-01T11:31:39Z</lastmod>
+    <lastmod>2022-07-01T11:57:41Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/integration/aws/prefs_createbucket.png</image:loc>
     </image:image>
@@ -121,7 +121,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/support/cloud-settings/amazon-web-services/aws-cloudfront</loc>
-    <lastmod>2022-07-01T11:31:39Z</lastmod>
+    <lastmod>2022-07-01T11:57:41Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/integration/aws/prefs_createbucket.png</image:loc>
     </image:image>
@@ -150,7 +150,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/support/cloud-settings/amazon-web-services/aws-configuration</loc>
-    <lastmod>2022-07-01T11:31:39Z</lastmod>
+    <lastmod>2022-07-01T11:57:41Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/cms_logo.png</image:loc>
     </image:image>
@@ -164,7 +164,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/support/cloud-settings/amazon-web-services/aws-iam-new-user</loc>
-    <lastmod>2022-07-01T11:31:39Z</lastmod>
+    <lastmod>2022-07-01T11:57:41Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/integration/aws/prefs_listbucket.png</image:loc>
     </image:image>
@@ -196,7 +196,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/support/cloud-settings/amazon-web-services/aws-s3-bucket</loc>
-    <lastmod>2022-07-01T11:31:39Z</lastmod>
+    <lastmod>2022-07-01T11:57:41Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/integration/aws/prefs_createbucket.png</image:loc>
     </image:image>
@@ -222,7 +222,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/support/templates/blog-list-pages-or-posts</loc>
-    <lastmod>2022-07-01T11:31:39Z</lastmod>
+    <lastmod>2022-07-01T11:57:41Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/cms_logo.png</image:loc>
     </image:image>
@@ -236,7 +236,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/integration/cdn-integration</loc>
-    <lastmod>2022-07-01T11:31:39Z</lastmod>
+    <lastmod>2022-07-01T11:57:41Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/cms_logo.png</image:loc>
     </image:image>
@@ -265,7 +265,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/support/help/cli-and-node-tools</loc>
-    <lastmod>2022-07-01T11:31:39Z</lastmod>
+    <lastmod>2022-07-01T11:57:41Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/features/prefs-empty-domain.png</image:loc>
     </image:image>
@@ -297,7 +297,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/integration/cloudflare</loc>
-    <lastmod>2022-07-01T11:31:39Z</lastmod>
+    <lastmod>2022-07-01T11:57:41Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/cms_logo.png</image:loc>
     </image:image>
@@ -314,7 +314,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/support/cloud-settings/cloudflare/cloudflare-pages-custom-domain</loc>
-    <lastmod>2022-07-01T11:31:39Z</lastmod>
+    <lastmod>2022-07-01T11:57:41Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/integration/aws/prefs_createbucket.png</image:loc>
     </image:image>
@@ -352,7 +352,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/features/import-cms</loc>
-    <lastmod>2022-07-01T11:31:39Z</lastmod>
+    <lastmod>2022-07-01T11:57:42Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/features/prefs_ftp_folders.png</image:loc>
     </image:image>
@@ -396,7 +396,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/features/static-site-generator</loc>
-    <lastmod>2022-07-01T11:31:40Z</lastmod>
+    <lastmod>2022-07-01T11:57:42Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/cms_logo.png</image:loc>
     </image:image>
@@ -410,7 +410,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/features/desktop-cms</loc>
-    <lastmod>2022-07-01T11:31:40Z</lastmod>
+    <lastmod>2022-07-01T11:57:42Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/cms_logo.png</image:loc>
     </image:image>
@@ -436,7 +436,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/pricing/download-installers</loc>
-    <lastmod>2022-07-01T11:31:40Z</lastmod>
+    <lastmod>2022-07-01T11:57:42Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/cms_logo.png</image:loc>
     </image:image>
@@ -450,7 +450,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/support/cloud-settings/google-firebase/firebase-custom-domain</loc>
-    <lastmod>2022-07-01T11:31:40Z</lastmod>
+    <lastmod>2022-07-01T11:57:42Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/integration/google/fb_add_domain.png</image:loc>
     </image:image>
@@ -479,7 +479,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/support/cloud-settings/google-firebase/firebase-hosting</loc>
-    <lastmod>2022-07-01T11:31:40Z</lastmod>
+    <lastmod>2022-07-01T11:57:42Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/integration/google/fb_cli_start.png</image:loc>
     </image:image>
@@ -508,7 +508,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/support/cloud-settings/google-firebase/firebase-project</loc>
-    <lastmod>2022-07-01T11:31:40Z</lastmod>
+    <lastmod>2022-07-01T11:57:42Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/integration/google/fb_create_project.png</image:loc>
     </image:image>
@@ -531,7 +531,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/support/cloud-settings/google-firebase/firebase-setup</loc>
-    <lastmod>2022-07-01T11:31:40Z</lastmod>
+    <lastmod>2022-07-01T11:57:42Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/cms_logo.png</image:loc>
     </image:image>
@@ -545,7 +545,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/support/cloud-settings/github/github-hosting</loc>
-    <lastmod>2022-07-01T11:31:40Z</lastmod>
+    <lastmod>2022-07-01T11:57:42Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/integration/aws/prefs_createbucket.png</image:loc>
     </image:image>
@@ -574,7 +574,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/integration/github-pages</loc>
-    <lastmod>2022-07-01T11:31:40Z</lastmod>
+    <lastmod>2022-07-01T11:57:43Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/cms_logo.png</image:loc>
     </image:image>
@@ -594,7 +594,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/create/go-serverless</loc>
-    <lastmod>2022-07-01T11:31:40Z</lastmod>
+    <lastmod>2022-07-01T11:57:43Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/features/prefs_ftp_folders.png</image:loc>
     </image:image>
@@ -632,7 +632,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/integration/google-firebase</loc>
-    <lastmod>2022-07-01T11:31:40Z</lastmod>
+    <lastmod>2022-07-01T11:57:43Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/cms_logo.png</image:loc>
     </image:image>
@@ -652,7 +652,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/features/site-search</loc>
-    <lastmod>2022-07-01T11:31:41Z</lastmod>
+    <lastmod>2022-07-01T11:57:43Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/cms_logo.png</image:loc>
     </image:image>
@@ -675,7 +675,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/support/templates/html-includes</loc>
-    <lastmod>2022-07-01T11:31:41Z</lastmod>
+    <lastmod>2022-07-01T11:57:43Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/cms_logo.png</image:loc>
     </image:image>
@@ -689,7 +689,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/support/help/create-site</loc>
-    <lastmod>2022-07-01T11:31:41Z</lastmod>
+    <lastmod>2022-07-01T11:57:43Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/features/prefs-register.png</image:loc>
     </image:image>
@@ -733,7 +733,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/create/joomla</loc>
-    <lastmod>2022-07-01T11:31:41Z</lastmod>
+    <lastmod>2022-07-01T11:57:43Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/cms_logo.png</image:loc>
     </image:image>
@@ -753,7 +753,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/support/help/joomla-example</loc>
-    <lastmod>2022-07-01T11:31:41Z</lastmod>
+    <lastmod>2022-07-01T11:57:43Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/integration/aws/prefs_createbucket.png</image:loc>
     </image:image>
@@ -800,7 +800,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/support/templates/list-categories</loc>
-    <lastmod>2022-07-01T11:31:41Z</lastmod>
+    <lastmod>2022-07-01T11:57:43Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/cms_logo.png</image:loc>
     </image:image>
@@ -814,7 +814,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/features/media-manager</loc>
-    <lastmod>2022-07-01T11:31:41Z</lastmod>
+    <lastmod>2022-07-01T11:57:43Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/cms_logo.png</image:loc>
     </image:image>
@@ -837,7 +837,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/support/templates/menus</loc>
-    <lastmod>2022-07-01T11:31:41Z</lastmod>
+    <lastmod>2022-07-01T11:57:44Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/cms_logo.png</image:loc>
     </image:image>
@@ -851,7 +851,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/integration/microsoft-azure</loc>
-    <lastmod>2022-07-01T11:31:41Z</lastmod>
+    <lastmod>2022-07-01T11:57:44Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/cms_logo.png</image:loc>
     </image:image>
@@ -871,7 +871,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/support/cloud-settings/microsoft-azure/microsoft-azure-custom-domain</loc>
-    <lastmod>2022-07-01T11:31:41Z</lastmod>
+    <lastmod>2022-07-01T11:57:44Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/integration/aws/prefs_createbucket.png</image:loc>
     </image:image>
@@ -903,7 +903,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/support/cloud-settings/microsoft-azure/microsoft-azure-setup</loc>
-    <lastmod>2022-07-01T11:31:42Z</lastmod>
+    <lastmod>2022-07-01T11:57:44Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/integration/aws/prefs_createbucket.png</image:loc>
     </image:image>
@@ -935,7 +935,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/support/templates/modules-or-widgets</loc>
-    <lastmod>2022-07-01T11:31:42Z</lastmod>
+    <lastmod>2022-07-01T11:57:44Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/cms_logo.png</image:loc>
     </image:image>
@@ -949,7 +949,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/features/multiple-sites</loc>
-    <lastmod>2022-07-01T11:31:42Z</lastmod>
+    <lastmod>2022-07-01T11:57:44Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/cms_logo.png</image:loc>
     </image:image>
@@ -963,7 +963,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/support/templates/page-object</loc>
-    <lastmod>2022-07-01T11:31:42Z</lastmod>
+    <lastmod>2022-07-01T11:57:44Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/cms_logo.png</image:loc>
     </image:image>
@@ -977,7 +977,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/features/search-engine-optimisation</loc>
-    <lastmod>2022-07-01T11:31:42Z</lastmod>
+    <lastmod>2022-07-01T11:57:44Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/cms_logo.png</image:loc>
     </image:image>
@@ -1003,7 +1003,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/support/templates/single-article-example</loc>
-    <lastmod>2022-07-01T11:31:42Z</lastmod>
+    <lastmod>2022-07-01T11:57:44Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/cms_logo.png</image:loc>
     </image:image>
@@ -1017,7 +1017,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/support/templates/single-category-with-datatables</loc>
-    <lastmod>2022-07-01T11:31:42Z</lastmod>
+    <lastmod>2022-07-01T11:57:44Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/cms_logo.png</image:loc>
     </image:image>
@@ -1031,7 +1031,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/support/help/template-manager</loc>
-    <lastmod>2022-07-01T11:31:42Z</lastmod>
+    <lastmod>2022-07-01T11:57:45Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/templates/template-group.png</image:loc>
     </image:image>
@@ -1075,7 +1075,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/support/templates/syntax</loc>
-    <lastmod>2022-07-01T11:31:42Z</lastmod>
+    <lastmod>2022-07-01T11:57:45Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/cms_logo.png</image:loc>
     </image:image>
@@ -1089,7 +1089,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/create/wordpress</loc>
-    <lastmod>2022-07-01T11:31:42Z</lastmod>
+    <lastmod>2022-07-01T11:57:45Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/cms_logo.png</image:loc>
     </image:image>
@@ -1115,7 +1115,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/support/help/wordpress-example</loc>
-    <lastmod>2022-07-01T11:31:43Z</lastmod>
+    <lastmod>2022-07-01T11:57:45Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/integration/aws/prefs_createbucket.png</image:loc>
     </image:image>
@@ -1159,7 +1159,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/support/cloud-settings/cloudflare/cloudflare-pages</loc>
-    <lastmod>2022-07-01T11:31:43Z</lastmod>
+    <lastmod>2022-07-01T11:57:45Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/integration/aws/prefs_createbucket.png</image:loc>
     </image:image>
@@ -1209,7 +1209,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/support/templates/breadcrumbs</loc>
-    <lastmod>2022-07-01T11:31:43Z</lastmod>
+    <lastmod>2022-07-01T11:57:45Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/cms_logo.png</image:loc>
     </image:image>
@@ -1223,7 +1223,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/pricing/register</loc>
-    <lastmod>2022-07-01T11:31:43Z</lastmod>
+    <lastmod>2022-07-01T11:57:45Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/cms_logo.png</image:loc>
     </image:image>
@@ -1237,7 +1237,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/support/cloud-settings/search/search-settings</loc>
-    <lastmod>2022-07-01T11:31:43Z</lastmod>
+    <lastmod>2022-07-01T11:57:45Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/cms_logo.png</image:loc>
     </image:image>
@@ -1254,7 +1254,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/support/cloud-settings/search/algolia</loc>
-    <lastmod>2022-07-01T11:31:43Z</lastmod>
+    <lastmod>2022-07-01T11:57:45Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/cms_logo.png</image:loc>
     </image:image>
@@ -1268,7 +1268,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/support/cloud-settings/search/json-ld</loc>
-    <lastmod>2022-07-01T11:31:43Z</lastmod>
+    <lastmod>2022-07-01T11:57:46Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/cms_logo.png</image:loc>
     </image:image>
@@ -1282,7 +1282,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/features/tasks-and-users</loc>
-    <lastmod>2022-07-01T11:31:43Z</lastmod>
+    <lastmod>2022-07-01T11:57:46Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/cms_logo.png</image:loc>
     </image:image>
@@ -1308,7 +1308,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/pricing/pricing-plans</loc>
-    <lastmod>2022-07-01T11:31:43Z</lastmod>
+    <lastmod>2022-07-01T11:57:46Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/cms_logo.png</image:loc>
     </image:image>
@@ -1322,7 +1322,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/pricing/cancelled</loc>
-    <lastmod>2022-07-01T11:31:43Z</lastmod>
+    <lastmod>2022-07-01T11:57:46Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/cms_logo.png</image:loc>
     </image:image>
@@ -1339,7 +1339,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/pricing/success</loc>
-    <lastmod>2022-07-01T11:31:44Z</lastmod>
+    <lastmod>2022-07-01T11:57:46Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/cms_logo.png</image:loc>
     </image:image>
@@ -1356,7 +1356,7 @@
 
   <url>
     <loc>https://www6.youdocms.com/terms-and-conditions</loc>
-    <lastmod>2022-07-01T11:31:44Z</lastmod>
+    <lastmod>2022-07-01T11:57:46Z</lastmod>
     <image:image>
       <image:loc>https://www6.youdocms.com/images/cms_logo.png</image:loc>
     </image:image>
