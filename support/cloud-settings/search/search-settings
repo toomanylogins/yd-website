@@ -4,39 +4,39 @@
 <head>
   <base href="https://www6.youdocms.com" />
   <meta charset="utf-8">
-  <meta name='viewport' content='width=device-width, initial-scale=1.0' /><meta http-equiv='content-type' content='text/html; charset=utf-8' /><meta name='author' content='Paul Dennis' /><meta name='description' content='' /><meta name='generator' content='YouDoCMS Serverless Content Management' /><meta name='robots' content='index, follow' />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0' /><meta http-equiv='content-type' content='text/html; charset=utf-8' /><meta name='author' content='Paul Dennis' /><meta name='description' content='' /><meta name='generator' content='YouDoCMS Serverless Content Management' /><meta name='robots' content='' />
 
   <script type="application/ld+json" class="youdo-schema-graph">
-  {
+      {
 	"@context": "https://schema.org",
 	"@graph": [
 		{
 			"@type": "Organization",
-			"@id": "https://www.youdocms.com/#organization",
+			"@id": "https://www.https://www3.youdocms.com/#organization",
 			"name": "Youdo Limited",
-			"url": "https://www.youdocms.com",
+			"url": "https://www.https://www3.youdocms.com",
 			"logo": {
 				"@type": "ImageObject",
-				"@id": "https://www.youdocms.com/#logo",
+				"@id": "https://www.https://www3.youdocms.com/#logo",
 				"inLanguage": "en-gb",
-				"url": "https://www.youdocms.com/images/cms_logo.png",
-				"contentUrl": "https://www.youdocms.com/images/cms_logo.png",
+				"url": "https://www.https://www3.youdocms.com/images/cms_logo.png",
+				"contentUrl": "https://www.https://www3.youdocms.com/images/cms_logo.png",
 				"width": "",
 				"height": "",
 				"caption": ""
 			},
 			"image": {
-				"@id": "https://www.youdocms.com/#logo"
+				"@id": "https://www.https://www3.youdocms.com/#logo"
 			}
 		},
 		{
 			"@type": "WebSite",
-			"@id": "https://www.youdocms.com/#website",
-			"url": "https://www.youdocms.com",
+			"@id": "https://www.https://www3.youdocms.com/#website",
+			"url": "https://www.https://www3.youdocms.com",
 			"name": "YouDoCMS Serverless CMS",
 			"description": "Serverless desktop cms and static site generator.",
 			"publisher": {
-				"@id": "https://www.youdocms.com/#organization"
+				"@id": "https://www.https://www3.youdocms.com/#organization"
 			},
 			"potentialAction": [
 				{
@@ -51,42 +51,52 @@
 			"inLanguage": "en-gb"
 		},
 		{
-			"@type": "CollectionPage",
-			"@id": "https://www.youdocms.com/support/cloud-settings/google-firebase/#webpage",
-			"url": "https://www.youdocms.com/support/cloud-settings/google-firebase",
-			"name": "Google Firebase",
+			"@type": "ImageObject",
+			"@id": "https://www.https://www3.youdocms.com/support/cloud-settings/search/search-settings/#primaryimage",
+			"inLanguage": "en-gb",
+			"url": "https://www.https://www3.youdocms.com/",
+			"contentUrl": "https://www.https://www3.youdocms.com/"
+		},
+		{
+			"@type": "WebPage",
+			"@id": "https://www.https://www3.youdocms.com/support/cloud-settings/search/search-settings/#webpage",
+			"url": "https://www.https://www3.youdocms.com/support/cloud-settings/search/search-settings",
+			"name": "Search Settings",
 			"isPartOf": {
-				"@id": "https://www.youdocms.com/support/cloud-settings/google-firebase/#webpage"
+				"@id": "https://www.https://www3.youdocms.com/support/cloud-settings/search/search-settings/#webpage"
+			},
+			"primaryImageOfPage": {
+				"@id": "https://www.https://www3.youdocms.com/support/cloud-settings/search/search-settings/#primaryimage"
 			},
 			"breadcrumb": {
-				"@id": "https://www.youdocms.com/support/cloud-settings/google-firebase/#breadcrumb"
+				"@id": "https://www.https://www3.youdocms.com/support/cloud-settings/search/search-settings/#breadcrumb"
 			},
 			"inLanguage": "en-gb",
 			"potentialAction": {
 				"type": "ReadAction",
-				"target": "https://www.youdocms.com/support/cloud-settings/google-firebase"
+				"target": "https://www.https://www3.youdocms.com/support/cloud-settings/search/search-settings"
 			}
 		},
 		{
 			"@type": "BreadcrumbList",
-			"@id": "https://www.youdocms.com/support/cloud-settings/google-firebase/#breadcrumb",
+			"@id": "https://www.https://www3.youdocms.com/support/cloud-settings/search/search-settings/#breadcrumb",
 			"itemListElement": [
 				{
 					"@type": "ListItem",
-					"item": "https://www.youdocms.com/support",
+					"item": "https://www.https://www3.youdocms.com/support",
 					"name": "Support",
 					"position": 1
 				},
 				{
 					"@type": "ListItem",
-					"item": "https://www.youdocms.com/support/cloud-settings",
-					"name": "Cloud Settings",
+					"item": "https://www.https://www3.youdocms.com/support/cloud-settings/search",
+					"name": "Search SEO",
 					"position": 2
 				},
 				{
 					"@type": "ListItem",
-					"item": "https://www.youdocms.com/support/cloud-settings/google-firebase",
-					"name": "Google Firebase",
+					"item": "https://www.https://www3.youdocms.com/support/cloud-settings/search/search-settings",
+					"name": "Search Settings",
 					"position": 3
 				}
 			]
@@ -97,16 +107,11 @@
 
   <link rel="shortcut icon" href="favicon.ico">
   <title>
-    Google Firebase
+    Search Settings
   </title>
-
-  <script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.5.1/dist/algoliasearch-lite.umd.js"
-  integrity="sha256-EXPXz4W6pQgfYY3yTpnDa3OH8/EPn16ciVsPQ/ypsjk=" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.8.3/dist/instantsearch.production.min.js"
-  integrity="sha256-LAGhRRdtVoD6RLo2qDQsU2mp+XVSciKRC8XPOBWmofM=" crossorigin="anonymous"></script>
-
   <link rel="stylesheet" href="templates/sandbox3/assets/css/plugins.css">
   <link rel="stylesheet" href="templates/sandbox3/assets/css/style.css">
+  <link rel="stylesheet" href="templates/sandbox3/assets/css/prism.css">
 </head>
 
 <body data-bs-spy="scroll" data-bs-target="#sidebar-nav">
@@ -115,8 +120,8 @@
 
       <nav class="navbar center-nav transparent navbar-expand-lg navbar-light">
         <div class="container flex-lg-row flex-nowrap align-items-center">
-          <div class="navbar-brand w-100"><a href="https://www6.youdocms.com/index.html"><img
-                src="/images/cms_logo.png" srcset="/images/cms_logo@2x.png 2x" alt="" /></a>
+          <div class="navbar-brand w-100"><a href="https://www6.youdocms.com/index.html"><img src="/images/cms_logo.png"
+                srcset="/images/cms_logo@2x.png 2x" alt="" /></a>
           </div>
 
           <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
@@ -130,6 +135,10 @@
 
               
                  <!-- if using a menu builder insert query here for the module -->
+
+   <!-- if using a menu builder insert query here for the module -->
+
+   <!-- if using a menu builder insert query here for the module -->
 
    <!-- if using a menu builder insert query here for the module -->
 
@@ -542,6 +551,10 @@
 
    <!-- if using a menu builder insert query here for the module -->
 
+   <!-- if using a menu builder insert query here for the module -->
+
+   <!-- if using a menu builder insert query here for the module -->
+
 
               <!-- /.navbar-nav -->
               <div class="offcanvas-footer d-lg-none">
@@ -587,53 +600,66 @@
         <div class="row">
           <div class="col-md-9 col-lg-7 col-xl-5 mx-auto">
             <h1 class="display-2 mb-3">
-              Google Firebase
+              Search Settings
             </h1>
-
-            
-            
-            
-            
-            
-            
-            <nav class="d-inline-block" aria-label="breadcrumb">
-
-              <ol class="breadcrumb">
-                
-                
-                <li class="breadcrumb-item"><a href="/support">
-                    Support</a></li>
-
-                
-                
-                
-                <li class="breadcrumb-item"><a href="/support/cloud-settings">
-                    Cloud Settings</a></li>
-
-                
-                
-                
-                <li class="breadcrumb-item active" aria-current="page">
-                  Google Firebase
-                </li>
-                
-                
-              </ol>
-            </nav>
-            
-            
-            
-            
-            
-            
-            
-            
-
-
-
-
+            <p class="lead px-xxl-11">
+              
+            </p>
 
           </div>
+          <div class="row">
+            <div class="col-md-10 col-lg-9 col-xl-8 mx-auto"> <!-- was the same as the header but made it wider -->
+                                  
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                        <nav class="d-inline-block" aria-label="breadcrumb">
+
+                          <ol class="breadcrumb">
+                              
+                              
+                              <li class="breadcrumb-item"><a href="/support">
+                                      Support</a></li>
+
+                              
+                              
+                              
+                              <li class="breadcrumb-item"><a href="/support/cloud-settings/search">
+                                      Search SEO</a></li>
+
+                              
+                              
+                              
+                              <li class="breadcrumb-item active" aria-current="page">
+                                  Search Settings
+                              </li>
+                              
+                              
+                          </ol>
+                      </nav>
+                      
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                    </div>
+                    <!-- /.row -->
+                  </div>
+                  <!-- /.row -->
+
           <!-- /column -->
         </div>
         <!-- /.row -->
@@ -641,51 +667,9 @@
       <!-- /.container -->
     </section>
     <!-- /section -->
-
-    <section class="wrapper bg-light wrapper-border">
-      <div class="container inner py-8">
-          <div class="row gx-lg-8 gx-xl-12 gy-4 gy-lg-0">
-              <div class="col-lg-8 align-self-center">
-                  <div class="blog-filter filter">
-                      <p>Blog Categories:</p>
-
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                  </div>
-                  <!--/.filter -->
-              </div>
-              <!--/column -->
-              <aside class="col-lg-4 sidebar">
-                  
-                      <div id="search-form">
-                          <!-- agoloia box here -->                            
-                      </div>
-                  
-                  <!-- /.search-form -->
-              </aside>
-              <!-- /column .sidebar -->
-          </div>
-          <!--/.row -->
-      </div>
-      <!-- /.container -->
-  </section>
-
-
-    
     <div class="container">
       <div class="row">
-        <aside class="col-xl-2 sidebar sticky-sidebar doc-sidebar mt-md-0 py-8 d-none d-xl-block">
+        <aside class="col-xl-2 sidebar sticky-sidebar doc-sidebar mt-md-0 py-16 d-none d-xl-block">
           <!-- /.widget -->
           
           
@@ -723,7 +707,58 @@
           
           
           
+          <div class="widget pb-3">
+            <h6 class="widget-title fs-17 mb-2">
+              AWS
+            </h6>
+            <nav id="collapse-usage">
+              <ul class="list-unstyled fs-sm lh-sm text-reset">
+                
+                <li><a href="/support/cloud-settings/amazon-web-services/aws-certificate-manager" class="active">
+                    AWS Certificate Manager</a></li>
+                
+                <li><a href="/support/cloud-settings/amazon-web-services/aws-cloudfront" class="active">
+                    AWS Cloudfront</a></li>
+                
+                <li><a href="/support/cloud-settings/amazon-web-services/aws-configuration" class="active">
+                    AWS Configuration</a></li>
+                
+                <li><a href="/support/cloud-settings/amazon-web-services/aws-iam-new-user" class="active">
+                    AWS IAM New User</a></li>
+                
+                <li><a href="/support/cloud-settings/amazon-web-services/aws-s3-bucket" class="active">
+                    AWS S3 Bucket</a></li>
+                
+              </ul>
+            </nav>
+            <!-- /nav -->
+          </div>
           
+          
+          
+          
+          
+          
+          
+          
+          
+          <div class="widget pb-3">
+            <h6 class="widget-title fs-17 mb-2">
+              Azure
+            </h6>
+            <nav id="collapse-usage">
+              <ul class="list-unstyled fs-sm lh-sm text-reset">
+                
+                <li><a href="/support/cloud-settings/microsoft-azure/microsoft-azure-setup" class="active">
+                    Microsoft Azure Setup</a></li>
+                
+                <li><a href="/support/cloud-settings/microsoft-azure/microsoft-azure-custom-domain" class="active">
+                    Microsoft Azure Custom Domain</a></li>
+                
+              </ul>
+            </nav>
+            <!-- /nav -->
+          </div>
           
           
           
@@ -745,6 +780,26 @@
                 
                 <li><a href="/support/cloud-settings/google-firebase/firebase-setup" class="active">
                     Firebase Setup</a></li>
+                
+              </ul>
+            </nav>
+            <!-- /nav -->
+          </div>
+          
+          
+          
+          <div class="widget pb-3">
+            <h6 class="widget-title fs-17 mb-2">
+              Cloudflare
+            </h6>
+            <nav id="collapse-usage">
+              <ul class="list-unstyled fs-sm lh-sm text-reset">
+                
+                <li><a href="/support/cloud-settings/cloudflare/cloudflare-pages" class="active">
+                    Cloudflare Pages</a></li>
+                
+                <li><a href="/support/cloud-settings/cloudflare/cloudflare-pages-custom-domain" class="active">
+                    Cloudflare Pages Custom Domain</a></li>
                 
               </ul>
             </nav>
@@ -800,246 +855,156 @@
         <!-- /column -->
         <div class="col-xl-10 order-xl-2">
 
-          <div id="hitlist"></div>
-          <div id="pagination"></div>
-
           <section id="snippet-3" class="wrapper pt-16">
-<h2 class="mb-5">Google Firebase</h2>
-<div class="alert alert-blue alert-icon mb-6" role="alert"><i class="uil uil-exclamation-circle"></i>YouDoCMS supports Google Firebase</div>
+<h2 class="mb-5">Search Settings</h2>
+<div class="alert alert-blue alert-icon mb-6" role="alert"><i class="uil uil-exclamation-circle"></i>Setup your <a href="https://schema.org/" target="_blank" rel="noopener">schema.org</a> default site organisation information and responsive image dimensions<span style="font-family: var(--bs-body-font-family); font-size: var(--bs-body-font-size); font-weight: var(--bs-body-font-weight); text-align: var(--bs-body-text-align); word-spacing: 0.05rem;">.</span></div>
 <div class="card">
 <div class="card-body">
-<p>YouDoCMS integrates with the Firebase command line application to initialise your project and deploy your files to a custom domain. Google does not provide a DNS solution so you will need to edit your DNS records to set up your domain. However the provision of SSL and storage is integrated as a single step when you initialise and create a project.&nbsp;</p>
-<p><a href="https://firebase.google.com/" target="_blank" rel="noopener">Go to Google Firebase</a></p>
-<p>Firebase hosting includes a couple of notable features including rollback and preview which are very useful when developing a new site.</p>
+<h4>Schema.org</h4>
+<p>Using dot notation <code>page_o</code> is the page object and within the page object are collections and entities representing the data for the page.</p>
+<h4><img src="/images/help/medium/prefs-search_medium.png" width="500" height="291" alt="prefs-search_medium.png" /></h4>
+<h4>Responsive Image Sizes</h4>
+<p>Any data within the <code>page_o.article</code> object can be referenced in an hmtl page as follows:</p>
+<h4>Wordpress Permalinks</h4>
+<p>Any data within the <code>page_o.article</code> object can be referenced in an hmtl page as follows:</p>
+<h4>301 Redirect List</h4>
+<p>Any data within the <code>page_o.article</code> object can be referenced in an hmtl page as follows:</p>
+<h4>&nbsp;</h4>
+<p></p>
 </div>
-<!--/.card-body --></div>
-<!--/.card --></section>
+</div>
+</section>
 
-
-        <section id="articles" class="wrapper pt-8"> 
-          <div class="card">
-              <div class="card-body">
-                <div class="row gy-6">
-                  
-    
-                  <div class="col-md-6 col-lg-4">
-                    <a href="support/cloud-settings/google-firebase/firebase-custom-domain" class="card shadow-lg lift h-100">
-                      <div class="card-body p-5 d-flex flex-row">
-                        <div>
-                          <img class="svg-inject icon-svg icon-svg-md text-red mb-3" src="/templates/sandbox3/assets/img/icons/lineal/browser.svg" />
-                        </div>
-                        <div >
-                          <h4 style="margin-left: 0.5rem;">
-                            Firebase Custom Domain
-                          </h4>
-                          <p class="mb-0 text-body">
-                            
-                          </p>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  <!--/column -->
-                  
-    
-                  <div class="col-md-6 col-lg-4">
-                    <a href="support/cloud-settings/google-firebase/firebase-hosting" class="card shadow-lg lift h-100">
-                      <div class="card-body p-5 d-flex flex-row">
-                        <div>
-                          <img class="svg-inject icon-svg icon-svg-md text-red mb-3" src="/templates/sandbox3/assets/img/icons/lineal/browser.svg" />
-                        </div>
-                        <div >
-                          <h4 style="margin-left: 0.5rem;">
-                            Firebase Hosting
-                          </h4>
-                          <p class="mb-0 text-body">
-                            
-                          </p>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  <!--/column -->
-                  
-    
-                  <div class="col-md-6 col-lg-4">
-                    <a href="support/cloud-settings/google-firebase/firebase-project" class="card shadow-lg lift h-100">
-                      <div class="card-body p-5 d-flex flex-row">
-                        <div>
-                          <img class="svg-inject icon-svg icon-svg-md text-red mb-3" src="/templates/sandbox3/assets/img/icons/lineal/browser.svg" />
-                        </div>
-                        <div >
-                          <h4 style="margin-left: 0.5rem;">
-                            Firebase Project
-                          </h4>
-                          <p class="mb-0 text-body">
-                            
-                          </p>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  <!--/column -->
-                  
-    
-                  <div class="col-md-6 col-lg-4">
-                    <a href="support/cloud-settings/google-firebase/firebase-setup" class="card shadow-lg lift h-100">
-                      <div class="card-body p-5 d-flex flex-row">
-                        <div>
-                          <img class="svg-inject icon-svg icon-svg-md text-red mb-3" src="/templates/sandbox3/assets/img/icons/lineal/browser.svg" />
-                        </div>
-                        <div >
-                          <h4 style="margin-left: 0.5rem;">
-                            Firebase Setup
-                          </h4>
-                          <p class="mb-0 text-body">
-                            
-                          </p>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  <!--/column -->
-                  
-                </div>
-                </div>
-              <!--/.card-body -->
-          </div>
-          <!--/.card -->
-      </section>
-
-
-
-
-
-
-
+        </div>
+        <!-- /column -->
       </div>
-      <!-- /column -->
+      <!-- /.row -->
     </div>
-    <!-- /.row -->
-  </div>
-  <!-- /.container -->
+    <!-- /.container -->
   </div>
   <!-- /.content-wrapper -->
   <footer class="bg-dark text-inverse">
     <div class="container py-13 py-md-15">
-    <div class="row gy-6 gy-lg-0">
+      <div class="row gy-6 gy-lg-0">
         <div class="col-md-4 col-lg-3">
-            <div class="widget">
-                <img class="mb-4" src="/images/cms_logo.png" srcset="/images/cms_logo@2x.png 2x" alt="" />
-                <p class="mb-4">© 2021 Youdo Ltd. <br class="d-none d-lg-block" />All rights reserved.</p>
-                <nav class="nav social social-white">
-                    <a href="#"><i class="uil uil-twitter"></i></a>
-                    <a href="#"><i class="uil uil-facebook-f"></i></a>
-                    <a href="#"><i class="uil uil-dribbble"></i></a>
-                    <a href="#"><i class="uil uil-instagram"></i></a>
-                    <a href="#"><i class="uil uil-youtube"></i></a>
-                </nav>
-                <!-- /.social -->
-            </div>
-            <!-- /.widget -->
+          <div class="widget">
+            <img class="mb-4" src="/images/cms_logo.png" srcset="/images/cms_logo@2x.png 2x" alt="" />
+            <p class="mb-4">© 2021 Youdo Ltd. <br class="d-none d-lg-block" />All rights reserved.</p>
+            <nav class="nav social social-white">
+              <a href="#"><i class="uil uil-twitter"></i></a>
+              <a href="#"><i class="uil uil-facebook-f"></i></a>
+              <a href="#"><i class="uil uil-dribbble"></i></a>
+              <a href="#"><i class="uil uil-instagram"></i></a>
+              <a href="#"><i class="uil uil-youtube"></i></a>
+            </nav>
+            <!-- /.social -->
+          </div>
+          <!-- /.widget -->
         </div>
         <!-- /column -->
         <div class="col-md-4 col-lg-3">
-            <div class="widget">
-                <h4 class="widget-title text-white mb-3">Get in Touch</h4>
-                <address class="pe-xl-15 pe-xxl-17">Made in Upminster, Essex, United Kingdom</address>
-                <a href="mailto:#">info@youdocms.com</a><br /> +44 (020) 7148 3322
-            </div>
-            <!-- /.widget -->
+          <div class="widget">
+            <h4 class="widget-title text-white mb-3">Get in Touch</h4>
+            <address class="pe-xl-15 pe-xxl-17">Made in Upminster, Essex, United Kingdom</address>
+            <a href="mailto:#">info@youdocms.com</a><br /> +44 (020) 7148 3322
+          </div>
+          <!-- /.widget -->
         </div>
         <!-- /column -->
         <div class="col-md-4 col-lg-3">
-            <div class="widget">
-                <h4 class="widget-title text-white mb-3">Learn More</h4>
+          <div class="widget">
+            <h4 class="widget-title text-white mb-3">Learn More</h4>
 
-                
-                
-                
-                
+            
+            
+            
+            
+            
+            
+            
+            
 
-                <ul class="list-unstyled mb-0">
-                    
+            <ul class="list-unstyled mb-0">
+              
 
-                    <li><a href="/about-us">
-                            About Us</a></li>
+              <li><a href="/about-us">
+                  About Us</a></li>
 
-                    
+              
 
-                    <li><a href="/terms-and-conditions">
-                            Terms and Conditions</a></li>
+              <li><a href="/terms-and-conditions">
+                  Terms and Conditions</a></li>
 
-                    
+              
 
-                    <li><a href="/index.html">
-                            Home</a></li>
+              <li><a href="/index.html">
+                  Home</a></li>
 
-                    
-                </ul>
+              
+            </ul>
 
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
 
-            </div>
-            <!-- /.widget -->
+          </div>
+          <!-- /.widget -->
         </div>
         <!-- /column -->
         <div class="col-md-12 col-lg-3">
+          <div class="widget">
             <div class="widget">
-                <div class="widget">
-                    <h4 class="widget-title text-white mb-3">Our Newsletter</h4>
-                    <p class="mb-5">Subscribe to our newsletter for news and community support.</p>
-                    <div class="newsletter-wrapper">
-                        <!-- Begin Mailchimp Signup Form -->
-                        <div id="mc_embed_signup2">
-                            <form
-                                action="https://elemisfreebies.us20.list-manage.com/subscribe/post?u=aa4947f70a475ce162057838d&amp;id=b49ef47a9a"
-                                method="post" id="mc-embedded-subscribe-form2" name="mc-embedded-subscribe-form"
-                                class="validate dark-fields" target="_blank" novalidate>
-                                <div id="mc_embed_signup_scroll2">
-                                    <div class="mc-field-group input-group form-floating">
-                                        <input type="email" value="" name="EMAIL"
-                                            class="required email form-control" placeholder="Email Address"
-                                            id="mce-EMAIL2">
-                                        <label for="mce-EMAIL2">Email Address</label>
-                                        <input type="submit" value="Join" name="subscribe"
-                                            id="mc-embedded-subscribe2" class="btn btn-primary ">
-                                    </div>
-                                    <div id="mce-responses2" class="clear">
-                                        <div class="response" id="mce-error-response2" style="display:none">
-                                        </div>
-                                        <div class="response" id="mce-success-response2" style="display:none">
-                                        </div>
-                                    </div>
-                                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                                    <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                                        <input type="text" name="b_ddc180777a163e0f9f66ee014_4b1bcfa0bc"
-                                            tabindex="-1" value=""></div>
-                                    <div class="clear"></div>
-                                </div>
-                            </form>
-                        </div>
-                        <!--End mc_embed_signup-->
+              <h4 class="widget-title text-white mb-3">Our Newsletter</h4>
+              <p class="mb-5">Subscribe to our newsletter for news and community support.</p>
+              <div class="newsletter-wrapper">
+                <!-- Begin Mailchimp Signup Form -->
+                <div id="mc_embed_signup2">
+                  <form
+                    action="https://elemisfreebies.us20.list-manage.com/subscribe/post?u=aa4947f70a475ce162057838d&amp;id=b49ef47a9a"
+                    method="post" id="mc-embedded-subscribe-form2" name="mc-embedded-subscribe-form"
+                    class="validate dark-fields" target="_blank" novalidate>
+                    <div id="mc_embed_signup_scroll2">
+                      <div class="mc-field-group input-group form-floating">
+                        <input type="email" value="" name="EMAIL" class="required email form-control"
+                          placeholder="Email Address" id="mce-EMAIL2">
+                        <label for="mce-EMAIL2">Email Address</label>
+                        <input type="submit" value="Join" name="subscribe" id="mc-embedded-subscribe2"
+                          class="btn btn-primary ">
+                      </div>
+                      <div id="mce-responses2" class="clear">
+                        <div class="response" id="mce-error-response2" style="display:none"></div>
+                        <div class="response" id="mce-success-response2" style="display:none"></div>
+                      </div>
+                      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                          name="b_ddc180777a163e0f9f66ee014_4b1bcfa0bc" tabindex="-1" value=""></div>
+                      <div class="clear"></div>
                     </div>
-                    <!-- /.newsletter-wrapper -->
+                  </form>
                 </div>
-                <!-- /.widget -->
+                <!--End mc_embed_signup-->
+              </div>
+              <!-- /.newsletter-wrapper -->
             </div>
-            <!-- /column -->
+            <!-- /.widget -->
+          </div>
+          <!-- /column -->
         </div>
         <!--/.row -->
-    </div>
-    <!-- /.container --> <!-- Only call 4d base once per page -->
-</footer>
+      </div>
+      <!-- /.container -->
+  </footer>
   <!-- /section -->
   <div class="progress-wrap">
     <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
@@ -1047,9 +1012,10 @@
     </svg>
   </div>
 
-  <script src="/templates/sandbox3/assets/js/search.js"></script>
+
   <script src="/templates/sandbox3/assets/js/plugins.js"></script>
   <script src="/templates/sandbox3/assets/js/theme.js"></script>
+  <script src="/templates/sandbox3/assets/js/prism.js"></script>
 </body>
 
 </html>

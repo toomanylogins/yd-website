@@ -2,136 +2,46 @@
 <html lang="en">
 
 <head>
-  <base href="https://www6.youdocms.com" />
-  <meta charset="utf-8">
-  <meta name='viewport' content='width=device-width, initial-scale=1.0' /><meta http-equiv='content-type' content='text/html; charset=utf-8' /><meta name='author' content='Paul Dennis' /><meta name='description' content='' /><meta name='generator' content='YouDoCMS Serverless Content Management' /><meta name='robots' content='index, follow' />
+    <base href="https://www6.youdocms.com" />
+    <meta charset="utf-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' /><meta http-equiv='content-type' content='text/html; charset=utf-8' /><meta name='generator' content='YouDoCMS Serverless Content Management' /><meta name='msvalidate.01' content='' /><meta name='google-site-verification' content='' />
 
-  <script type="application/ld+json" class="youdo-schema-graph">
-  {
+    <script type="application/ld+json" class="youdo-schema-graph">
+        {
 	"@context": "https://schema.org",
-	"@graph": [
-		{
-			"@type": "Organization",
-			"@id": "https://www.youdocms.com/#organization",
-			"name": "Youdo Limited",
-			"url": "https://www.youdocms.com",
-			"logo": {
-				"@type": "ImageObject",
-				"@id": "https://www.youdocms.com/#logo",
-				"inLanguage": "en-gb",
-				"url": "https://www.youdocms.com/images/cms_logo.png",
-				"contentUrl": "https://www.youdocms.com/images/cms_logo.png",
-				"width": "",
-				"height": "",
-				"caption": ""
-			},
-			"image": {
-				"@id": "https://www.youdocms.com/#logo"
-			}
-		},
-		{
-			"@type": "WebSite",
-			"@id": "https://www.youdocms.com/#website",
-			"url": "https://www.youdocms.com",
-			"name": "YouDoCMS Serverless CMS",
-			"description": "Serverless desktop cms and static site generator.",
-			"publisher": {
-				"@id": "https://www.youdocms.com/#organization"
-			},
-			"potentialAction": [
-				{
-					"@type": "SearchAction",
-					"target": {
-						"@type": "EntryPoint",
-						"urlTemplate": "https://www.youdocms.com/support/templates/youdocms={search_term_string}"
-					},
-					"query-input": "required name=search_term_string"
-				}
-			],
-			"inLanguage": "en-gb"
-		},
-		{
-			"@type": "CollectionPage",
-			"@id": "https://www.youdocms.com/support/cloud-settings/google-firebase/#webpage",
-			"url": "https://www.youdocms.com/support/cloud-settings/google-firebase",
-			"name": "Google Firebase",
-			"isPartOf": {
-				"@id": "https://www.youdocms.com/support/cloud-settings/google-firebase/#webpage"
-			},
-			"breadcrumb": {
-				"@id": "https://www.youdocms.com/support/cloud-settings/google-firebase/#breadcrumb"
-			},
-			"inLanguage": "en-gb",
-			"potentialAction": {
-				"type": "ReadAction",
-				"target": "https://www.youdocms.com/support/cloud-settings/google-firebase"
-			}
-		},
-		{
-			"@type": "BreadcrumbList",
-			"@id": "https://www.youdocms.com/support/cloud-settings/google-firebase/#breadcrumb",
-			"itemListElement": [
-				{
-					"@type": "ListItem",
-					"item": "https://www.youdocms.com/support",
-					"name": "Support",
-					"position": 1
-				},
-				{
-					"@type": "ListItem",
-					"item": "https://www.youdocms.com/support/cloud-settings",
-					"name": "Cloud Settings",
-					"position": 2
-				},
-				{
-					"@type": "ListItem",
-					"item": "https://www.youdocms.com/support/cloud-settings/google-firebase",
-					"name": "Google Firebase",
-					"position": 3
-				}
-			]
-		}
-	]
+	"@graph": []
 }
-  </script>
+    </script>
 
-  <link rel="shortcut icon" href="favicon.ico">
-  <title>
-    Google Firebase
-  </title>
+    <link rel="shortcut icon" href="favicon.ico">
+    
+    <title>
+        Algolia
+    </title>
 
-  <script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.5.1/dist/algoliasearch-lite.umd.js"
-  integrity="sha256-EXPXz4W6pQgfYY3yTpnDa3OH8/EPn16ciVsPQ/ypsjk=" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.8.3/dist/instantsearch.production.min.js"
-  integrity="sha256-LAGhRRdtVoD6RLo2qDQsU2mp+XVSciKRC8XPOBWmofM=" crossorigin="anonymous"></script>
-
-  <link rel="stylesheet" href="templates/sandbox3/assets/css/plugins.css">
-  <link rel="stylesheet" href="templates/sandbox3/assets/css/style.css">
+    <link rel="stylesheet" href="templates/sandbox3/assets/css/plugins.css">
+    <link rel="stylesheet" href="templates/sandbox3/assets/css/style.css">
+    <link rel="stylesheet" href="templates/sandbox3/assets/css/colors/aqua.css">
 </head>
 
-<body data-bs-spy="scroll" data-bs-target="#sidebar-nav">
-  <div class="content-wrapper">
-    <header class="wrapper bg-gray">
+<body>
+    <div class="content-wrapper">
+        <header class="wrapper bg-soft-primary">
+            <nav class="navbar center-nav transparent navbar-expand-lg navbar-light">
+                <div class="container flex-lg-row flex-nowrap align-items-center">
+                    <div class="navbar-brand w-100"><a href="https://www6.youdocms.com/index.html"><img
+                                src="/images/cms_logo.png" srcset="/images/cms_logo@2x.png 2x" alt="" /></a></div>
 
-      <nav class="navbar center-nav transparent navbar-expand-lg navbar-light">
-        <div class="container flex-lg-row flex-nowrap align-items-center">
-          <div class="navbar-brand w-100"><a href="https://www6.youdocms.com/index.html"><img
-                src="/images/cms_logo.png" srcset="/images/cms_logo@2x.png 2x" alt="" /></a>
-          </div>
-
-          <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
-            <div class="offcanvas-header d-lg-none">
-              <a href="https://www6.youdocms.com"><img src="/images/cms_logo.png"
-                  srcset="/images/cms_logo@2x.png 2x" alt="" /></a>
-              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
-                aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
-
-              
-                 <!-- if using a menu builder insert query here for the module -->
-
-   <!-- if using a menu builder insert query here for the module -->
+                    <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
+                        <div class="offcanvas-header d-lg-none">
+                            <a href="https://www6.youdocms.com"><img src="/images/cms_logo.png"
+                                    srcset="/images/cms_logo@2x.png 2x" alt="" /></a>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
+                            
+                               <!-- if using a menu builder insert query here for the module -->
 
    <!-- if using a menu builder insert query here for the module -->
 
@@ -538,392 +448,203 @@
 </ul>
 
 
-   <!-- if using a menu builder insert query here for the module -->
-
-   <!-- if using a menu builder insert query here for the module -->
 
 
-              <!-- /.navbar-nav -->
-              <div class="offcanvas-footer d-lg-none">
-                <div>
-                  <a href="mailto:first.last@email.com" class="link-inverse">info@youdocms.com</a>
-                  <br /> +44 (020) 7148 3322 <br />
-                  <nav class="nav social social-white mt-4">
-                    <a href="#"><i class="uil uil-twitter"></i></a>
-                    <a href="#"><i class="uil uil-facebook-f"></i></a>
-                    <a href="#"><i class="uil uil-dribbble"></i></a>
-                    <a href="#"><i class="uil uil-instagram"></i></a>
-                    <a href="#"><i class="uil uil-youtube"></i></a>
-                  </nav>
-                  <!-- /.social -->
-                  <!-- /.offcanvas-footer -->
+                            <!-- /.navbar-collapse -->
+                        </div>
+                    </div>
+
+                    <div class="navbar-other w-100 d-flex ms-auto">
+                        <ul class="navbar-nav flex-row align-items-center ms-auto">
+                            <li class="nav-item d-lg-none">
+                                <button class="hamburger offcanvas-nav-btn"><span></span></button>
+                            </li>
+                        </ul>
+                        <!-- /.navbar-nav -->
+                    </div>
+                    <!-- /.navbar-other -->
                 </div>
-                <!-- /.offcanvas-body -->
-              </div>
-              <!-- /.offcanvas-footer -->
+                <!-- /.container -->
+
+            </nav>
+            <!-- /.navbar -->
+
+
+        </header>
+        <!-- /header -->
+
+        <section class="wrapper bg-soft-primary">
+            <div class="container pt-10 pb-12 pt-md-14 pb-md-16 text-center"
+                style="padding-bottom: 0rem !important; padding-top: 0rem !important;">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h1 class="display-2 mb-3">
+                            Algolia
+                        </h1>
+                        
+                        
+                        
+                        
+                        <nav class="d-inline-block" aria-label="breadcrumb">
+
+                            <ol class="breadcrumb">
+                                
+                                
+                                <li class="breadcrumb-item"><a href="/features/desktop-cms">
+                                        Features</a></li>
+
+                                
+                                
+                                
+                                <li class="breadcrumb-item active" aria-current="page">
+                                    Site Search
+                                </li>
+                                
+                                
+                            </ol>
+                        </nav>
+                        
+                        
+                        
+                        
+                        <!-- /nav -->
+                    </div>
+                    <!-- /column -->
+                </div>
+                <!-- /.row -->
             </div>
-            <!-- /.offcanvas-body -->
-          </div>
-          <!-- /.navbar-collapse -->
-          <div class="navbar-other w-100 d-flex ms-auto">
-            <ul class="navbar-nav flex-row align-items-center ms-auto">
-              <li class="nav-item d-lg-none">
-                <button class="hamburger offcanvas-nav-btn"><span></span></button>
-              </li>
-            </ul>
-            <!-- /.navbar-nav -->
-          </div>
-          <!-- /.navbar-other -->
-        </div>
-        <!-- /.container -->
-      </nav>
-      <!-- /.navbar -->
-    </header>
-    <!-- /header -->
-
-    <section class="wrapper bg-gray">
-      <div class="container pt-10 pb-12 pt-md-14 pb-md-16 text-center"
-        style="padding-bottom: 0rem !important; padding-top: 0rem !important;">
-        <div class="row">
-          <div class="col-md-9 col-lg-7 col-xl-5 mx-auto">
-            <h1 class="display-2 mb-3">
-              Google Firebase
-            </h1>
-
-            
-            
-            
-            
-            
-            
-            <nav class="d-inline-block" aria-label="breadcrumb">
-
-              <ol class="breadcrumb">
-                
-                
-                <li class="breadcrumb-item"><a href="/support">
-                    Support</a></li>
-
-                
-                
-                
-                <li class="breadcrumb-item"><a href="/support/cloud-settings">
-                    Cloud Settings</a></li>
-
-                
-                
-                
-                <li class="breadcrumb-item active" aria-current="page">
-                  Google Firebase
-                </li>
-                
-                
-              </ol>
-            </nav>
-            
-            
-            
-            
-            
-            
-            
-            
+            <!-- /.container -->
+        </section>
 
 
-
-
-
-          </div>
-          <!-- /column -->
-        </div>
-        <!-- /.row -->
-      </div>
-      <!-- /.container -->
-    </section>
-    <!-- /section -->
-
-    <section class="wrapper bg-light wrapper-border">
-      <div class="container inner py-8">
-          <div class="row gx-lg-8 gx-xl-12 gy-4 gy-lg-0">
-              <div class="col-lg-8 align-self-center">
-                  <div class="blog-filter filter">
-                      <p>Blog Categories:</p>
-
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                  </div>
-                  <!--/.filter -->
-              </div>
-              <!--/column -->
-              <aside class="col-lg-4 sidebar">
-                  
-                      <div id="search-form">
-                          <!-- agoloia box here -->                            
-                      </div>
-                  
-                  <!-- /.search-form -->
-              </aside>
-              <!-- /column .sidebar -->
-          </div>
-          <!--/.row -->
-      </div>
-      <!-- /.container -->
-  </section>
-
-
-    
-    <div class="container">
-      <div class="row">
-        <aside class="col-xl-2 sidebar sticky-sidebar doc-sidebar mt-md-0 py-8 d-none d-xl-block">
-          <!-- /.widget -->
-          
-          
-          <div class="widget pb-3">
-            <h6 class="widget-title fs-17 mb-2">
-              Help
-            </h6>
-            <nav id="collapse-usage">
-              <ul class="list-unstyled fs-sm lh-sm text-reset">
-                
-                <li><a href="/support/help/cli-and-node-tools" class="active">
-                    CLI and Node Tools</a></li>
-                
-                <li><a href="/support/help/cms-settings" class="active">
-                    CMS Settings</a></li>
-                
-                <li><a href="/support/help/create-site" class="active">
-                    Installation</a></li>
-                
-                <li><a href="/support/help/joomla-example" class="active">
-                    Joomla Example</a></li>
-                
-                <li><a href="/support/help/template-manager" class="active">
-                    Template Manager</a></li>
-                
-                <li><a href="/support/help/wordpress-example" class="active">
-                    WordPress Example</a></li>
-                
-              </ul>
-            </nav>
-            <!-- /nav -->
-          </div>
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          <div class="widget pb-3">
-            <h6 class="widget-title fs-17 mb-2">
-              Firebase
-            </h6>
-            <nav id="collapse-usage">
-              <ul class="list-unstyled fs-sm lh-sm text-reset">
-                
-                <li><a href="/support/cloud-settings/google-firebase/firebase-custom-domain" class="active">
-                    Firebase Custom Domain</a></li>
-                
-                <li><a href="/support/cloud-settings/google-firebase/firebase-hosting" class="active">
-                    Firebase Hosting</a></li>
-                
-                <li><a href="/support/cloud-settings/google-firebase/firebase-project" class="active">
-                    Firebase Project</a></li>
-                
-                <li><a href="/support/cloud-settings/google-firebase/firebase-setup" class="active">
-                    Firebase Setup</a></li>
-                
-              </ul>
-            </nav>
-            <!-- /nav -->
-          </div>
-          
-          
-          
-          <div class="widget pb-3">
-            <h6 class="widget-title fs-17 mb-2">
-              Templates
-            </h6>
-            <nav id="collapse-usage">
-              <ul class="list-unstyled fs-sm lh-sm text-reset">
-                
-                <li><a href="/support/templates/blog-list-pages-or-posts" class="active">
-                    Blog List Articles Pages or Posts</a></li>
-                
-                <li><a href="/support/templates/html-includes" class="active">
-                    HTML Include</a></li>
-                
-                <li><a href="/support/templates/list-categories" class="active">
-                    List Categories</a></li>
-                
-                <li><a href="/support/templates/menus" class="active">
-                    Menus</a></li>
-                
-                <li><a href="/support/templates/modules-or-widgets" class="active">
-                    Modules or Widgets</a></li>
-                
-                <li><a href="/support/templates/page-object" class="active">
-                    Page Object</a></li>
-                
-                <li><a href="/support/templates/single-article-example" class="active">
-                    Single Article Page or Post</a></li>
-                
-                <li><a href="/support/templates/single-category-with-datatables" class="active">
-                    Single Category with Datatables</a></li>
-                
-                <li><a href="/support/templates/syntax" class="active">
-                    Template Syntax</a></li>
-                
-              </ul>
-            </nav>
-            <!-- /nav -->
-          </div>
-          
-          
-          <!-- /.widget -->
-        </aside>
-        <!-- /column -->
-
-        <!-- /column -->
-        <div class="col-xl-10 order-xl-2">
-
-          <div id="hitlist"></div>
-          <div id="pagination"></div>
-
-          <section id="snippet-3" class="wrapper pt-16">
-<h2 class="mb-5">Google Firebase</h2>
-<div class="alert alert-blue alert-icon mb-6" role="alert"><i class="uil uil-exclamation-circle"></i>YouDoCMS supports Google Firebase</div>
-<div class="card">
-<div class="card-body">
-<p>YouDoCMS integrates with the Firebase command line application to initialise your project and deploy your files to a custom domain. Google does not provide a DNS solution so you will need to edit your DNS records to set up your domain. However the provision of SSL and storage is integrated as a single step when you initialise and create a project.&nbsp;</p>
-<p><a href="https://firebase.google.com/" target="_blank" rel="noopener">Go to Google Firebase</a></p>
-<p>Firebase hosting includes a couple of notable features including rollback and preview which are very useful when developing a new site.</p>
+        <section class="wrapper bg-light wrapper-border">
+<div class="container py-14 py-md-16"><!--/.row -->
+<div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
+<div class="col-lg-6 order-lg-2 position-relative">
+<div class="shape bg-line aqua rounded-circle rellax w-17 h-17" style="top: -2rem; left: -0.6rem;" data-rellax-speed="1">&nbsp;</div>
+<div class="shape bg-pale-red rounded-circle rellax w-17 h-17" style="bottom: -2rem; right: -0.4rem;" data-rellax-speed="1">&nbsp;</div>
+<figure class="rounded mb-0"><img src="/images/features/medium/algolia-settings_medium.png" width="500" height="438" alt="algolia-settings_medium.png" /></figure>
 </div>
+<div class="col-lg-6">
+<h3 class="display-4 mb-4">Algolia Site Search</h3>
+<p class="mb-5">Site search in WordPress and Joomla! use the server to generate indexes of the page content. However static websites do not include search functionality by default.&nbsp;</p>
+<p>To add search to a static site YouDoCMS integrates with Algolia. On site build an index is generated from the content of the pages of your site. This is uploaded to Algolia and via the API search can be incorporated on all or selected pages.&nbsp;</p>
+<div class="row gy-3">
+<div class="col-xl-6">
+<ul class="icon-list bullet-bg bullet-soft-aqua mb-0">
+<li><span><i class="uil uil-check"></i></span><span>Create Algolia Index.</span></li>
+<li class="mt-3"><span><i class="uil uil-check"></i></span><span>Update index on site build.</span></li>
+</ul>
+</div>
+<!--/column -->
+<div class="col-xl-6">
+<ul class="icon-list bullet-bg bullet-soft-aqua mb-0">
+<li><span><i class="uil uil-check"></i></span><span>Set search target url.</span></li>
+<li class="mt-3"><span><i class="uil uil-check"></i></span><span>Single click install Algolia CLI</span></li>
+</ul>
+</div>
+<!--/column --></div>
+<!--/.row --> <a class="btn btn-soft-aqua rounded-pill mt-6 mb-0" href="#">More Details</a></div>
+</div>
+</div>
+</section>
+<section class="wrapper bg-light wrapper-border">
+<div class="container py-14 py-md-16">
+<div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
+<div class="col-lg-6 position-relative">
+<div class="shape rounded bg-pale-red rellax d-md-block" style="top: 50%; left: 50%; width: 50%; height: 60%; transform: translate(-50%,-50%); z-index: 0;" data-rellax-speed="0">&nbsp;</div>
+<div class="row gx-md-5 gy-5 position-relative">
+<div class="col-6"><img class="img-fluid rounded shadow-lg mb-5" src="/images/features/small/algolia-build_small.png" srcset="/templates/img/photos/sa5@2x.jpg 2x" alt="algolia-build_small.png" width="400" height="267" /> <img class="img-fluid rounded shadow-lg d-flex col-10 ms-auto" src="/images/features/small/algolia-installed_small.png" srcset="/templates/img/photos/sa6@2x.jpg 2x" alt="responsive-sizes.png" width="393" height="400" /></div>
+<!-- /column -->
+<div class="col-6"><img class="img-fluid rounded shadow-lg my-5" src="http://templates//img/photos/sa7.jpg" srcset="img/photos/sa7@2x.jpg 2x" alt="" /> <img class="img-fluid rounded shadow-lg d-flex col-10" src="http://templates//img/photos/sa8.jpg" srcset="/templates/img/photos/sa8@2x.jpg 2x" alt="" /></div>
+<!-- /column --></div>
+<!-- /.row --></div>
+<!--/column -->
+<div class="col-lg-6">
+<h3 class="display-4 mb-5">Search Results.</h3>
+<p class="mb-5"><span>Algolia search results can include some or all of the information incorporated into the index. The format of the search results can be a simple single line or include meta description, publication date and author.</span></p>
+<div class="row gy-3">
+<div class="col-xl-6">
+<ul class="icon-list bullet-bg bullet-soft-red mb-0">
+<li><span><i class="uil uil-check"></i></span><span>Custom search results format</span></li>
+<li class="mt-3"><span><i class="uil uil-check"></i></span><span>Define selected content to index.</span></li>
+</ul>
+</div>
+<!--/column -->
+<div class="col-xl-6">
+<ul class="icon-list bullet-bg bullet-soft-red mb-0">
+<li><span><i class="uil uil-check"></i></span><span>Index SEO focus key phrase.</span></li>
+<li class="mt-3"><span><i class="uil uil-check"></i></span><span>Low code example boilerplate JavaScript</span></li>
+</ul>
+</div>
+<!--/column --></div>
+<!--/.row --></div>
+<!--/column --></div>
+<!--/.row --></div>
+<!-- /.container --></section>
+<section class="wrapper bg-light wrapper-border">
+<div class="container py-14 py-md-16 text-center">
+<div class="row">
+<div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+<h2 class="fs-15 text-uppercase text-muted mb-3">task manager?</h2>
+<h3 class="display-4 mb-10 px-xl-10">We have included a task manager .</h3>
+</div>
+<!-- /column --></div>
+<!-- /.row -->
+<div class="position-relative">
+<div class="shape rounded-circle bg-soft-blue rellax w-16 h-16" style="bottom: -0.5rem; right: -2.2rem; z-index: 0;" data-rellax-speed="1">&nbsp;</div>
+<div class="shape bg-dot yellow rellax w-16 h-17" style="top: -0.5rem; left: -2.5rem; z-index: 0;" data-rellax-speed="1">&nbsp;</div>
+<div class="row gx-md-5 gy-5 text-center">
+<div class="col-md-6 col-xl-3">
+<div class="card shadow-lg">
+<div class="card-body"><img class="svg-inject icon-svg icon-svg-md text-yellow mb-3" src="/templates/sandbox3/assets/img/icons/lineal/search.svg" />
+<h4>Build Dashboard</h4>
+<p class="mb-2">Our control panel provides an overview of your page builds.</p>
+<a class="more hover link-yellow" href="#">Learn More</a></div>
 <!--/.card-body --></div>
-<!--/.card --></section>
+<!--/.card --></div>
+<!--/column -->
+<div class="col-md-6 col-xl-3">
+<div class="card shadow-lg">
+<div class="card-body"><img class="svg-inject icon-svg icon-svg-md text-red mb-3" src="/templates/sandbox3/assets/img/icons/lineal/browser.svg" />
+<h4>Simple ToDo's</h4>
+<p class="mb-2">Use the task manager to create draft contents and new topics. Keep track of your ideas to refresh your content and keep on top of your search engine rankings..</p>
+<a class="more hover link-red" href="#">Learn More</a></div>
+<!--/.card-body --></div>
+<!--/.card --></div>
+<!--/column -->
+<div class="col-md-6 col-xl-3">
+<div class="card shadow-lg">
+<div class="card-body"><img class="svg-inject icon-svg icon-svg-md text-green mb-3" src="/templates/sandbox3/assets/img/icons/lineal/chat-2.svg" />
+<h4>Schedule Tasks</h4>
+<p class="mb-2">Our scheduler can be used to publish new content to a timetable if you have announcements and news releases to incorporate into your site.</p>
+<a class="more hover link-green" href="#">Learn More</a></div>
+<!--/.card-body --></div>
+<!--/.card --></div>
+<!--/column -->
+<div class="col-md-6 col-xl-3">
+<div class="card shadow-lg">
+<div class="card-body"><img class="svg-inject icon-svg icon-svg-md text-blue mb-3" src="/templates/sandbox3/assets/img/icons/lineal/megaphone.svg" />
+<h4>Task Draft Content</h4>
+<p class="mb-2">Creating new content is not easy. Use the task manager to keep track of your ideas and create draft content.</p>
+<a class="more hover link-blue" href="#">Learn More</a></div>
+<!--/.card-body --></div>
+<!--/.card --></div>
+<!--/column --></div>
+<!--/.row --></div>
+<!-- /.position-relative --></div>
+<!-- /.container --></section>
 
 
-        <section id="articles" class="wrapper pt-8"> 
-          <div class="card">
-              <div class="card-body">
-                <div class="row gy-6">
-                  
-    
-                  <div class="col-md-6 col-lg-4">
-                    <a href="support/cloud-settings/google-firebase/firebase-custom-domain" class="card shadow-lg lift h-100">
-                      <div class="card-body p-5 d-flex flex-row">
-                        <div>
-                          <img class="svg-inject icon-svg icon-svg-md text-red mb-3" src="/templates/sandbox3/assets/img/icons/lineal/browser.svg" />
-                        </div>
-                        <div >
-                          <h4 style="margin-left: 0.5rem;">
-                            Firebase Custom Domain
-                          </h4>
-                          <p class="mb-0 text-body">
-                            
-                          </p>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  <!--/column -->
-                  
-    
-                  <div class="col-md-6 col-lg-4">
-                    <a href="support/cloud-settings/google-firebase/firebase-hosting" class="card shadow-lg lift h-100">
-                      <div class="card-body p-5 d-flex flex-row">
-                        <div>
-                          <img class="svg-inject icon-svg icon-svg-md text-red mb-3" src="/templates/sandbox3/assets/img/icons/lineal/browser.svg" />
-                        </div>
-                        <div >
-                          <h4 style="margin-left: 0.5rem;">
-                            Firebase Hosting
-                          </h4>
-                          <p class="mb-0 text-body">
-                            
-                          </p>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  <!--/column -->
-                  
-    
-                  <div class="col-md-6 col-lg-4">
-                    <a href="support/cloud-settings/google-firebase/firebase-project" class="card shadow-lg lift h-100">
-                      <div class="card-body p-5 d-flex flex-row">
-                        <div>
-                          <img class="svg-inject icon-svg icon-svg-md text-red mb-3" src="/templates/sandbox3/assets/img/icons/lineal/browser.svg" />
-                        </div>
-                        <div >
-                          <h4 style="margin-left: 0.5rem;">
-                            Firebase Project
-                          </h4>
-                          <p class="mb-0 text-body">
-                            
-                          </p>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  <!--/column -->
-                  
-    
-                  <div class="col-md-6 col-lg-4">
-                    <a href="support/cloud-settings/google-firebase/firebase-setup" class="card shadow-lg lift h-100">
-                      <div class="card-body p-5 d-flex flex-row">
-                        <div>
-                          <img class="svg-inject icon-svg icon-svg-md text-red mb-3" src="/templates/sandbox3/assets/img/icons/lineal/browser.svg" />
-                        </div>
-                        <div >
-                          <h4 style="margin-left: 0.5rem;">
-                            Firebase Setup
-                          </h4>
-                          <p class="mb-0 text-body">
-                            
-                          </p>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  <!--/column -->
-                  
-                </div>
-                </div>
-              <!--/.card-body -->
-          </div>
-          <!--/.card -->
-      </section>
+        <!-- /section -->
 
 
 
 
-
-
-
-      </div>
-      <!-- /column -->
     </div>
-    <!-- /.row -->
-  </div>
-  <!-- /.container -->
-  </div>
-  <!-- /.content-wrapper -->
-  <footer class="bg-dark text-inverse">
-    <div class="container py-13 py-md-15">
+    <!-- /.content-wrapper -->
+    <footer class="bg-dark text-inverse">
+        <div class="container py-13 py-md-15">
     <div class="row gy-6 gy-lg-0">
         <div class="col-md-4 col-lg-3">
             <div class="widget">
@@ -956,8 +677,6 @@
 
                 
                 
-                
-                
 
                 <ul class="list-unstyled mb-0">
                     
@@ -978,10 +697,6 @@
                     
                 </ul>
 
-                
-                
-                
-                
                 
                 
                 
@@ -1038,18 +753,19 @@
         </div>
         <!--/.row -->
     </div>
-    <!-- /.container --> <!-- Only call 4d base once per page -->
-</footer>
-  <!-- /section -->
-  <div class="progress-wrap">
-    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
-    </svg>
-  </div>
+    <!-- /.container -->
+    </footer>
 
-  <script src="/templates/sandbox3/assets/js/search.js"></script>
-  <script src="/templates/sandbox3/assets/js/plugins.js"></script>
-  <script src="/templates/sandbox3/assets/js/theme.js"></script>
+
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+
+
+    <script src="/templates/sandbox3/assets/js/plugins.js"></script>
+    <script src="/templates/sandbox3/assets/js/theme.js"></script>
 </body>
 
 </html>

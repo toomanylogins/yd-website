@@ -2,51 +2,42 @@
 <html lang="en">
 
 <head>
-    <base href="https://www6.youdocms.com" />
-    <meta charset="utf-8">
+  <base href="https://www6.youdocms.com" />
+  <meta charset="utf-8">
+  
+
+  <script type="application/ld+json" class="youdo-schema-graph">
+      null
+  </script>
+
+  <link rel="shortcut icon" href="favicon.ico">
+  <title>
     
+  </title>
 
-    <script type="application/ld+json" class="youdo-schema-graph">
-    null
-    </script>
-
-    <script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.5.1/dist/algoliasearch-lite.umd.js"
-    integrity="sha256-EXPXz4W6pQgfYY3yTpnDa3OH8/EPn16ciVsPQ/ypsjk=" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.8.3/dist/instantsearch.production.min.js"
-    integrity="sha256-LAGhRRdtVoD6RLo2qDQsU2mp+XVSciKRC8XPOBWmofM=" crossorigin="anonymous"></script>
-
-    <link rel="shortcut icon" href="/favicon.ico">
-
-    <title>
-        
-    </title>
-
-    <link rel="stylesheet" href="/templates/sandbox3/assets/css/plugins.css">
-    <link rel="stylesheet" href="/templates/sandbox3/assets/css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@7.3.1/themes/reset.css"
-        integrity="sha256-TehzF/2QvNKhGQrrNpoOb2Ck4iGZ1J/DI4pkd2oUsBc=" crossorigin="anonymous">
-
-
+  <link rel="stylesheet" href="/templates/sandbox3/assets/css/plugins.css">
+  <link rel="stylesheet" href="/templates/sandbox3/assets/css/style.css">
+  <link rel="stylesheet" href="/templates/sandbox3/assets/css/colors/purple.css">
+  <link rel="preload" href="/templates/css/fonts/thicccboi.css" as="style" onload="this.rel='stylesheet'">
 </head>
 
 <body>
-    <div class="content-wrapper">
-        <header class="wrapper bg-gray">
-            <nav class="navbar navbar-expand-lg center-nav transparent navbar-light">
-                <div class="container flex-lg-row flex-nowrap align-items-center">
-                    <div class="navbar-brand w-100"><a href="https://www6.youdocms.com"><img
-                                src="/images/cms_logo.png" srcset="/images/cms_logo@2x.png 2x" alt="" /></a></div>
+  <div class="content-wrapper">
+    <header class="wrapper bg-soft-primary">
+      <nav class="navbar center-nav transparent navbar-expand-lg navbar-light">
+          <div class="container flex-lg-row flex-nowrap align-items-center">
+              <div class="navbar-brand w-100"><a href="https://www6.youdocms.com/index.html"><img
+                          src="/images/cms_logo.png" srcset="/images/cms_logo@2x.png 2x" alt="" /></a></div>
 
-                    <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
+              <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
+                  <div class="offcanvas-header d-lg-none">
+                      <a href="https://www6.youdocms.com/index.html"><img src="/images/cms_logo.png"
+                              srcset="/images/cms_logo@2x.png 2x" alt="" /></a>
+                      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                          aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
 
-                        <div class="offcanvas-header d-lg-none">
-                            <a href="https://www6.youdocms.com"><img src="/images/cms_logo.png"
-                                    srcset="/images/cms_logo@2x.png 2x" alt="" /></a>
-                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
-                                aria-label="Close"></button>
-                        </div>
-
-                        <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
                             
                                <!-- if using a menu builder insert query here for the module -->
 
@@ -456,314 +447,221 @@
 
 
 
+                      <!-- /.navbar-nav -->
+                  </div>
+              </div>
+              <!-- /.navbar-collapse -->
+              <div class="navbar-other w-100 d-flex ms-auto">
+                  <ul class="navbar-nav flex-row align-items-center ms-auto">
+                      <li class="nav-item d-lg-none">
+                          <button class="hamburger offcanvas-nav-btn"><span></span></button>
+                      </li>
+                  </ul>
+                  <!-- /.navbar-nav -->
+              </div>
+              <!-- /.navbar-other -->
+          </div>
+          <!-- /.container -->
+      </nav>
+      <!-- /.navbar -->
 
-                            <!-- /.navbar-collapse -->
-                        </div>
-                        <!-- /.navbar-nav -->
-                    </div>
-                    <!-- /.navbar-collapse -->
-                    <div class="navbar-other w-100 d-flex ms-auto">
-                        <ul class="navbar-nav flex-row align-items-center ms-auto" data-sm-skip="true">
-                            <li class="nav-item d-lg-none">
-                                <button class="hamburger offcanvas-nav-btn"><span></span></button>
-                            </li>
-                        </ul>
-                        <!-- /.navbar-nav -->
-                    </div>
-                    <!-- /.navbar-other -->
-                </div>
-                <!-- /.container -->
+
+  </header>
+    <!-- /header -->
+
+    
+
+    <section class="wrapper bg-gradient-primary">
+<div class="container py-14 pt-md-15 pb-md-18">
+<div class="row text-center">
+<div class="col-lg-9 col-xxl-7 mx-auto" data-cues="zoomIn" data-group="welcome" data-interval="-200">
+<h2 class="display-1 mb-4">Download Installer</h2>
+<p class="lead fs-24 lh-sm px-md-5 px-xl-15 px-xxl-10 mb-7">YouDoCMS is a desktop application available for Windows 7,8 and 10 x64 and OSX 10.14+. After installation routine you will need to register the software with a valid email address.&nbsp;<br />The free version the software allows you to import your Joomla! or WordPress website and create a static version.</p>
+</div>
+<!-- /column --></div>
+<!-- /.row -->
+<div class="d-flex justify-content-center" data-cues="slideInDown" data-group="join" data-delay="900"><span><a href="/youdocms.msi" class="btn btn-lg btn-primary rounded-pill mx-1">Windows X64</a></span> <span><a href="/youdocms.dmg" class="btn btn-lg btn-outline-primary rounded-pill mx-1">Mac OS X64</a></span></div>
+<!-- /div -->
+<div class="row mt-12" data-cue="fadeIn" data-delay="1600">
+<div class="col-lg-8 mx-auto">
+<figure><img class="img-fluid" src="/templates/img/concept/concept12.png" srcset="img/concept/concept12@2x.png 2x" alt="" /></figure>
+</div>
+<!-- /column --></div>
+<!-- /.row --></div>
+</section>
+<section class="wrapper bg-light">
+<div class="container">
+<div class="row gx-lg-0 gy-10 mb-15 mb-md-18 align-items-center">
+<div class="col-lg-6">
+<div class="row g-6 text-center">
+<div class="col-md-6">
+<div class="row">
+<div class="col-lg-12">
+<figure class="rounded mb-6"><img src="/img/photos/se1.jpg" srcset="img/photos/se1@2x.jpg 2x" alt="" /></figure>
+</div>
+<!-- /column -->
+<div class="col-lg-12">
+<div class="card shadow-lg">
+<div class="card-body">
+<div class="icon btn btn-circle btn-lg btn-soft-purple disabled mb-3"><i class="uil uil-monitor"></i></div>
+<h4>Import CMS</h4>
+<p class="mb-2">Single click import of your Joomla or WordPress site.</p>
+<a href="#" class="more hover link-purple">Learn More</a></div>
+<!--/.card-body --></div>
+<!--/.card --></div>
+<!-- /column --></div>
+<!-- /.row --></div>
+<!-- /column -->
+<div class="col-md-6">
+<div class="row">
+<div class="col-lg-12 order-md-2">
+<figure class="rounded mb-6 mb-md-0"><img src="/img/photos/se2.jpg" srcset="img/photos/se2@2x.jpg 2x" alt="" /></figure>
+</div>
+<!-- /column -->
+<div class="col-lg-12">
+<div class="card shadow-lg mb-md-6 mt-lg-6">
+<div class="card-body">
+<div class="icon btn btn-circle btn-lg btn-soft-purple disabled mb-3"><i class="uil uil-mobile-android"></i></div>
+<h4>Manage Content</h4>
+<p class="mb-2">Manage articles, pages, posts, menus and tags directly on your desktop.</p>
+<a href="#" class="more hover link-purple">Learn More</a></div>
+<!--/.card-body --></div>
+<!--/.card --></div>
+<!-- /column --></div>
+<!-- /.row --></div>
+<!-- /column --></div>
+<!-- /.row --></div>
+<!-- /column -->
+<div class="col-lg-5 offset-lg-1">
+<h2 class="display-4 mb-3">Going Serverless?</h2>
+<p class="lead fs-lg lh-sm">Take advantage of the cloud to improve your search ranking.</p>
+<p><span>Our static pages incorporate all of the search and meta data information to maximise your ranking in search engines.</span></p>
+<a href="#" class="btn btn-primary rounded-pill mt-3">More Details</a></div>
+<!-- /column --></div>
+<!-- /.row --> <!--/.row --> <!-- /.row --></div>
+<!-- /.container --> <!-- /.container-fluid --></section>
+    <!-- /.container -->
+
+    <!-- /section -->
+
+
+  </div>
+  <!-- /.content-wrapper -->
+  <footer class="bg-dark text-inverse">
+    <div class="container py-13 py-md-15">
+      <div class="row gy-6 gy-lg-0">
+        <div class="col-md-4 col-lg-3">
+          <div class="widget">
+            <img class="mb-4" src="/images/cms_logo.png" srcset="/images/cms_logo@2x.png 2x" alt="" />
+            <p class="mb-4">© 2021 Youdo Ltd. <br class="d-none d-lg-block" />All rights reserved.</p>
+            <nav class="nav social social-white">
+              <a href="#"><i class="uil uil-twitter"></i></a>
+              <a href="#"><i class="uil uil-facebook-f"></i></a>
+              <a href="#"><i class="uil uil-dribbble"></i></a>
+              <a href="#"><i class="uil uil-instagram"></i></a>
+              <a href="#"><i class="uil uil-youtube"></i></a>
             </nav>
-            <!-- /.navbar -->
-
-
-        </header>
-
-        <!-- /header -->
-
-
-        <section class="wrapper bg-gray">
-            <div class="container pt-10 pb-12 pt-md-14 pb-md-16 text-center"
-                style="padding-bottom: 0rem !important; padding-top: 0rem !important;">
-                <div class="row">
-                    <div class="col-md-7 col-lg-6 col-xl-5 mx-auto">
-                        <h1 class="display-2 mb-3">
-                            Blog
-                        </h1>
-
-                        
-                        
-                        
-                        
-                        <nav class="d-inline-block" aria-label="breadcrumb">
-
-                            <ol class="breadcrumb">
-                                
-                                
-                                <li class="breadcrumb-item active" aria-current="page">
-                                    Blog
-                                </li>
-                                
-                                
-                                
-                                <li class="breadcrumb-item active" aria-current="page">
-                                    Serverless Blog
-                                </li>
-                                
-                                
-                            </ol>
-                        </nav>
-                        
-                        
-                        
-                        
-                    </div>
-                    <!-- /column -->
-                </div>
-                <!-- /.row -->
-            </div>
-            <!-- /.container -->
-        </section>
-        <!-- /section -->
-        <section class="wrapper bg-light wrapper-border">
-            <div class="container inner py-8">
-                <div class="row gx-lg-8 gx-xl-12 gy-4 gy-lg-0">
-                    <div class="col-lg-8 align-self-center">
-                        <div class="blog-filter filter">
-                            <p>Blog Categories:</p>
-
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                        </div>
-                        <!--/.filter -->
-                    </div>
-                    <!--/column -->
-                    <aside class="col-lg-4 sidebar">
-                        
-                            <div id="search-form">
-                                <!-- agoloia box here -->                            
-                            </div>
-                        
-                        <!-- /.search-form -->
-                    </aside>
-                    <!-- /column .sidebar -->
-                </div>
-                <!--/.row -->
-            </div>
-            <!-- /.container -->
-        </section>
-        <!-- /section -->
-        <section class="wrapper bg-light">
-            <div class="container py-14 py-md-16">
-                <div class="row gx-lg-8 gx-xl-12">
-                    <div class="col-lg-8 order-lg-2">
-
-                        <!-- /.blog -->
-
-                        <div id="hitlist"></div>
-                        <div id="pagination"></div>
-
-                        <div id="articles" class="blog grid grid-view">
-                            test
-                            <div class="row isotope gx-md-8 gy-8 mb-8">
-                                
-                                <!-- /.post -->
-
-
-                                <!-- /.post -->
-
-                                <!-- /.post -->
-
-                                <!-- /.post -->
-                            </div>
-                            <!-- /.row -->
-                        </div>
-                        <!-- /.blog -->
-                        <nav class="d-flex" aria-label="pagination">
-                            <ul class="pagination">
-                                <li class="page-item disabled">
-                                    <a class="page-link" href="#" aria-label="Previous">
-                                        <span aria-hidden="true"><i class="uil uil-arrow-left"></i></span>
-                                    </a>
-                                </li>
-                                <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                <li class="page-item">
-                                    <a class="page-link" href="#" aria-label="Next">
-                                        <span aria-hidden="true"><i class="uil uil-arrow-right"></i></span>
-                                    </a>
-                                </li>
-                            </ul>
-                            <!-- /.pagination -->
-                        </nav>
-                        <!-- /nav -->
-                    </div>
-                    <!-- /column -->
-                    <aside class="col-lg-4 sidebar mt-8 mt-lg-6">
-                        <div class="widget">
-                            <h4 class="widget-title mb-3">Tags</h4>
-                            <ul class="list-unstyled tag-list">
-                                <li><a href="#" class="btn btn-soft-ash btn-sm rounded-pill">Still Life</a></li>
-                                <li><a href="#" class="btn btn-soft-ash btn-sm rounded-pill">Urban</a></li>
-                                <li><a href="#" class="btn btn-soft-ash btn-sm rounded-pill">Nature</a></li>
-                                <li><a href="#" class="btn btn-soft-ash btn-sm rounded-pill">Landscape</a></li>
-                                <li><a href="#" class="btn btn-soft-ash btn-sm rounded-pill">Macro</a></li>
-                                <li><a href="#" class="btn btn-soft-ash btn-sm rounded-pill">Fun</a></li>
-                                <li><a href="#" class="btn btn-soft-ash btn-sm rounded-pill">Workshop</a></li>
-                                <li><a href="#" class="btn btn-soft-ash btn-sm rounded-pill">Photography</a></li>
-                            </ul>
-                        </div>
-                        <!-- /.widget -->
-                        <div class="widget">
-                            <h4 class="widget-title mb-3">Archive</h4>
-                            <ul class="unordered-list bullet-primary text-reset">
-                                <li><a href="#">February 2019</a></li>
-                                <li><a href="#">January 2019</a></li>
-                                <li><a href="#">December 2018</a></li>
-                                <li><a href="#">November 2018</a></li>
-                                <li><a href="#">October 2018</a></li>
-                            </ul>
-                        </div>
-                        <!-- /.widget -->
-                    </aside>
-                    <!-- /column .sidebar -->
-                </div>
-                <!-- /.row -->
-            </div>
-            <!-- /.container -->
-        </section>
-        <!-- /section -->
-    </div>
-    <!-- /.content-wrapper -->
-    <footer class="bg-dark text-inverse">
-        <div class="container py-13 py-md-15">
-    <div class="row gy-6 gy-lg-0">
-        <div class="col-md-4 col-lg-3">
-            <div class="widget">
-                <img class="mb-4" src="/images/cms_logo.png" srcset="/images/cms_logo@2x.png 2x" alt="" />
-                <p class="mb-4">© 2021 Youdo Ltd. <br class="d-none d-lg-block" />All rights reserved.</p>
-                <nav class="nav social social-white">
-                    <a href="#"><i class="uil uil-twitter"></i></a>
-                    <a href="#"><i class="uil uil-facebook-f"></i></a>
-                    <a href="#"><i class="uil uil-dribbble"></i></a>
-                    <a href="#"><i class="uil uil-instagram"></i></a>
-                    <a href="#"><i class="uil uil-youtube"></i></a>
-                </nav>
-                <!-- /.social -->
-            </div>
-            <!-- /.widget -->
+            <!-- /.social -->
+          </div>
+          <!-- /.widget -->
         </div>
         <!-- /column -->
         <div class="col-md-4 col-lg-3">
-            <div class="widget">
-                <h4 class="widget-title text-white mb-3">Get in Touch</h4>
-                <address class="pe-xl-15 pe-xxl-17">Made in Upminster, Essex, United Kingdom</address>
-                <a href="mailto:#">info@youdocms.com</a><br /> +44 (020) 7148 3322
-            </div>
-            <!-- /.widget -->
+          <div class="widget">
+            <h4 class="widget-title text-white mb-3">Get in Touch</h4>
+            <address class="pe-xl-15 pe-xxl-17">Made in Upminster, Essex, United Kingdom</address>
+            <a href="mailto:#">info@youdocms.com</a><br /> +44 (020) 7148 3322
+          </div>
+          <!-- /.widget -->
         </div>
         <!-- /column -->
         <div class="col-md-4 col-lg-3">
-            <div class="widget">
-                <h4 class="widget-title text-white mb-3">Learn More</h4>
+          <div class="widget">
+            <h4 class="widget-title text-white mb-3">Learn More</h4>
 
-                
-                
 
-                <ul class="list-unstyled mb-0">
-                    
 
-                    <li><a href="/about-us">
-                            About Us</a></li>
+                        
+                        
 
-                    
+                        <ul class="list-unstyled mb-0">
+                          
 
-                    <li><a href="/terms-and-conditions">
-                            Terms and Conditions</a></li>
+                          <li><a href="//about-us">
+                                  About Us</a></li>
 
-                    
+                          
 
-                    <li><a href="/index.html">
-                            Home</a></li>
+                          <li><a href="//terms-and-conditions">
+                                  Terms and Conditions</a></li>
 
-                    
-                </ul>
+                          
 
-                
-                
-                
-                
-                
-                
+                          <li><a href="//index.html">
+                                  Home</a></li>
 
-            </div>
-            <!-- /.widget -->
+                          
+                      </ul>
+
+                      
+                      
+                        
+                      
+                        
+                      
+          </div>
+          <!-- /.widget -->
         </div>
         <!-- /column -->
         <div class="col-md-12 col-lg-3">
-            <div class="widget">
-                <div class="widget">
-                    <h4 class="widget-title text-white mb-3">Our Newsletter</h4>
-                    <p class="mb-5">Subscribe to our newsletter for news and community support.</p>
-                    <div class="newsletter-wrapper">
-                        <!-- Begin Mailchimp Signup Form -->
-                        <div id="mc_embed_signup2">
-                            <form
-                                action="https://elemisfreebies.us20.list-manage.com/subscribe/post?u=aa4947f70a475ce162057838d&amp;id=b49ef47a9a"
-                                method="post" id="mc-embedded-subscribe-form2" name="mc-embedded-subscribe-form"
-                                class="validate dark-fields" target="_blank" novalidate>
-                                <div id="mc_embed_signup_scroll2">
-                                    <div class="mc-field-group input-group form-floating">
-                                        <input type="email" value="" name="EMAIL"
-                                            class="required email form-control" placeholder="Email Address"
-                                            id="mce-EMAIL2">
-                                        <label for="mce-EMAIL2">Email Address</label>
-                                        <input type="submit" value="Join" name="subscribe"
-                                            id="mc-embedded-subscribe2" class="btn btn-primary ">
-                                    </div>
-                                    <div id="mce-responses2" class="clear">
-                                        <div class="response" id="mce-error-response2" style="display:none">
-                                        </div>
-                                        <div class="response" id="mce-success-response2" style="display:none">
-                                        </div>
-                                    </div>
-                                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                                    <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                                        <input type="text" name="b_ddc180777a163e0f9f66ee014_4b1bcfa0bc"
-                                            tabindex="-1" value=""></div>
-                                    <div class="clear"></div>
-                                </div>
-                            </form>
-                        </div>
-                        <!--End mc_embed_signup-->
+          <div class="widget">
+            <h4 class="widget-title text-white mb-3">Our Newsletter</h4>
+            <p class="mb-5">Subscribe to our newsletter for news and community support.</p>
+            <div class="newsletter-wrapper">
+              <!-- Begin Mailchimp Signup Form -->
+              <div id="mc_embed_signup2">
+                <form
+                  action="https://elemisfreebies.us20.list-manage.com/subscribe/post?u=aa4947f70a475ce162057838d&amp;id=b49ef47a9a"
+                  method="post" id="mc-embedded-subscribe-form2" name="mc-embedded-subscribe-form"
+                  class="validate dark-fields" target="_blank" novalidate>
+                  <div id="mc_embed_signup_scroll2">
+                    <div class="mc-field-group input-group form-label-group">
+                      <input type="email" value="" name="EMAIL" class="required email form-control"
+                        placeholder="Email Address" id="mce-EMAIL2">
+                      <label for="mce-EMAIL2">Email Address</label>
+                      <input type="submit" value="Join" name="subscribe" id="mc-embedded-subscribe2"
+                        class="btn btn-primary">
                     </div>
-                    <!-- /.newsletter-wrapper -->
-                </div>
-                <!-- /.widget -->
+                    <div id="mce-responses2" class="clear">
+                      <div class="response" id="mce-error-response2" style="display:none"></div>
+                      <div class="response" id="mce-success-response2" style="display:none"></div>
+                    </div>
+                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                        name="b_ddc180777a163e0f9f66ee014_4b1bcfa0bc" tabindex="-1" value=""></div>
+                    <div class="clear"></div>
+                  </div>
+                </form>
+              </div>
+              <!--End mc_embed_signup-->
             </div>
-            <!-- /column -->
+            <!-- /.newsletter-wrapper -->
+          </div>
+          <!-- /.widget -->
         </div>
-        <!--/.row -->
+        <!-- /column -->
+      </div>
+      <!--/.row -->
     </div>
     <!-- /.container -->
-    </footer>
-    <div class="progress-wrap">
-        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
-        </svg>
-    </div>
-        <script src="/templates/sandbox3/assets/js/plugins.js"></script>
-        <script src="/templates/sandbox3/assets/js/theme.js"></script>
-        <script src="/templates/sandbox3/assets/js/search.js"></script>
-
-
-
+  </footer>
+  <div class="progress-wrap">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+    </svg>
+  </div>
+<script src="/templates/sandbox3/assets/js/plugins.js"></script>
+<script src="/templates/sandbox3/assets/js/theme.js"></script>
 </body>
 
 </html>
