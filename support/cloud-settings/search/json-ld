@@ -4,7 +4,7 @@
 <head>
   <base href="https://www6.youdocms.com" />
   <meta charset="utf-8">
-  <meta name='viewport' content='width=device-width, initial-scale=1.0' /><meta http-equiv='content-type' content='text/html; charset=utf-8' /><meta name='author' content='Paul Dennis' /><meta name='description' content='' /><meta name='generator' content='YouDoCMS Serverless Content Management' /><meta name='robots' content='index, follow' />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0' /><meta http-equiv='content-type' content='text/html; charset=utf-8' /><meta name='author' content='Paul Dennis' /><meta name='description' content='Generate validated schema.org JSON-LD structured data to include in your YouDoCMS pages ' /><meta name='generator' content='YouDoCMS Serverless Content Management' /><meta name='msvalidate.01' content='' /><meta name='google-site-verification' content='' /><meta name='robots' content='index, follow' />
 
   <script type="application/ld+json" class="youdo-schema-graph">
       {
@@ -12,38 +12,38 @@
 	"@graph": [
 		{
 			"@type": "Organization",
-			"@id": "https://www.https://www3.youdocms.com/#organization",
+			"@id": "https://www.youdocms.com/#organization",
 			"name": "Youdo Limited",
-			"url": "https://www.https://www3.youdocms.com",
+			"url": "https://www.youdocms.com",
 			"logo": {
 				"@type": "ImageObject",
-				"@id": "https://www.https://www3.youdocms.com/#logo",
+				"@id": "https://www.youdocms.com/#logo",
 				"inLanguage": "en-gb",
-				"url": "https://www.https://www3.youdocms.com/images/cms_logo.png",
-				"contentUrl": "https://www.https://www3.youdocms.com/images/cms_logo.png",
+				"url": "https://www.youdocms.com/images/cms_logo.png",
+				"contentUrl": "https://www.youdocms.com/images/cms_logo.png",
 				"width": "",
 				"height": "",
 				"caption": ""
 			},
 			"image": {
-				"@id": "https://www.https://www3.youdocms.com/#logo"
+				"@id": "https://www.youdocms.com/#logo"
 			}
 		},
 		{
 			"@type": "WebSite",
-			"@id": "https://www.https://www3.youdocms.com/#website",
-			"url": "https://www.https://www3.youdocms.com",
+			"@id": "https://www.youdocms.com/#website",
+			"url": "https://www.youdocms.com",
 			"name": "YouDoCMS Serverless CMS",
 			"description": "Serverless desktop cms and static site generator.",
 			"publisher": {
-				"@id": "https://www.https://www3.youdocms.com/#organization"
+				"@id": "https://www.youdocms.com/#organization"
 			},
 			"potentialAction": [
 				{
 					"@type": "SearchAction",
 					"target": {
 						"@type": "EntryPoint",
-						"urlTemplate": "https://www.youdocms.com/support/templates/youdocms={search_term_string}"
+						"urlTemplate": "https://www.youdocms.com/support/help/youdocms={search_term_string}"
 					},
 					"query-input": "required name=search_term_string"
 				}
@@ -52,50 +52,70 @@
 		},
 		{
 			"@type": "ImageObject",
-			"@id": "https://www.https://www3.youdocms.com/support/cloud-settings/search/json-ld/#primaryimage",
+			"@id": "https://www.youdocms.com/support/cloud-settings/search/json-ld/#primaryimage",
 			"inLanguage": "en-gb",
-			"url": "https://www.https://www3.youdocms.com/",
-			"contentUrl": "https://www.https://www3.youdocms.com/"
+			"url": "https://www.youdocms.com/",
+			"contentUrl": "https://www.youdocms.com/"
 		},
 		{
 			"@type": "WebPage",
-			"@id": "https://www.https://www3.youdocms.com/support/cloud-settings/search/json-ld/#webpage",
-			"url": "https://www.https://www3.youdocms.com/support/cloud-settings/search/json-ld",
+			"@id": "https://www.youdocms.com/support/cloud-settings/search/json-ld/#webpage",
+			"url": "https://www.youdocms.com/support/cloud-settings/search/json-ld",
 			"name": "JSON-LD",
 			"isPartOf": {
-				"@id": "https://www.https://www3.youdocms.com/support/cloud-settings/search/json-ld/#webpage"
+				"@id": "https://www.youdocms.com/support/cloud-settings/search/json-ld/#webpage"
 			},
 			"primaryImageOfPage": {
-				"@id": "https://www.https://www3.youdocms.com/support/cloud-settings/search/json-ld/#primaryimage"
+				"@id": "https://www.youdocms.com/support/cloud-settings/search/json-ld/#primaryimage"
 			},
 			"breadcrumb": {
-				"@id": "https://www.https://www3.youdocms.com/support/cloud-settings/search/json-ld/#breadcrumb"
+				"@id": "https://www.youdocms.com/support/cloud-settings/search/json-ld/#breadcrumb"
 			},
 			"inLanguage": "en-gb",
 			"potentialAction": {
 				"type": "ReadAction",
-				"target": "https://www.https://www3.youdocms.com/support/cloud-settings/search/json-ld"
+				"target": "https://www.youdocms.com/support/cloud-settings/search/json-ld"
 			}
 		},
 		{
+			"@type": "Article",
+			"@id": "https://www.youdocms.com/support/cloud-settings/search/json-ld/#article",
+			"headline": "JSON-LD",
+			"description": "Generate validated schema.org JSON-LD structured data to include in your YouDoCMS pages ",
+			"keywords": [
+				"JSON-LD",
+				"schema.org"
+			],
+			"articleSection": [
+				"Search"
+			],
+			"publisher": {
+				"@id": "https://www.youdocms.com/#organization"
+			},
+			"mainEntityOfPage": {
+				"@id": "https://www.youdocms.com/support/cloud-settings/search/json-ld/#webpage"
+			},
+			"inLanguage": "en-gb"
+		},
+		{
 			"@type": "BreadcrumbList",
-			"@id": "https://www.https://www3.youdocms.com/support/cloud-settings/search/json-ld/#breadcrumb",
+			"@id": "https://www.youdocms.com/support/cloud-settings/search/json-ld/#breadcrumb",
 			"itemListElement": [
 				{
 					"@type": "ListItem",
-					"item": "https://www.https://www3.youdocms.com/support",
+					"item": "https://www.youdocms.com/support",
 					"name": "Support",
 					"position": 1
 				},
 				{
 					"@type": "ListItem",
-					"item": "https://www.https://www3.youdocms.com/support/cloud-settings/search",
+					"item": "https://www.youdocms.com/support/cloud-settings/search",
 					"name": "Search SEO",
 					"position": 2
 				},
 				{
 					"@type": "ListItem",
-					"item": "https://www.https://www3.youdocms.com/support/cloud-settings/search/json-ld",
+					"item": "https://www.youdocms.com/support/cloud-settings/search/json-ld",
 					"name": "JSON-LD",
 					"position": 3
 				}
@@ -151,27 +171,27 @@
     
     <li class="nav-item dropdown">
         <!-- top level with sub -->
-        <a class="nav-link dropdown-toggle" href="/create/go-serverless" data-bs-toggle="dropdown">
+        <a class="nav-link dropdown-toggle" href="/create/go-serverless/" data-bs-toggle="dropdown">
             Create</a>
         <ul class="dropdown-menu">
             
             
             <!-- Second level no child-->
-            <li class="nav-item"><a class="dropdown-item" href="/create/go-serverless">
+            <li class="nav-item"><a class="dropdown-item" href="/create/go-serverless/">
                     Go Serverless</a>
             </li>
             
             
             
             <!-- Second level no child-->
-            <li class="nav-item"><a class="dropdown-item" href="/create/joomla">
+            <li class="nav-item"><a class="dropdown-item" href="/create/joomla/">
                     Joomla</a>
             </li>
             
             
             
             <!-- Second level no child-->
-            <li class="nav-item"><a class="dropdown-item" href="/create/wordpress">
+            <li class="nav-item"><a class="dropdown-item" href="/create/wordpress/">
                     WordPress</a>
             </li>
             
@@ -187,62 +207,62 @@
     
     <li class="nav-item dropdown">
         <!-- top level with sub -->
-        <a class="nav-link dropdown-toggle" href="/features/desktop-cms" data-bs-toggle="dropdown">
+        <a class="nav-link dropdown-toggle" href="/features/desktop-cms/" data-bs-toggle="dropdown">
             Features</a>
         <ul class="dropdown-menu">
             
             
             <!-- Second level no child-->
-            <li class="nav-item"><a class="dropdown-item" href="/features/desktop-cms">
+            <li class="nav-item"><a class="dropdown-item" href="/features/desktop-cms/">
                     Desktop CMS</a>
             </li>
             
             
             
             <!-- Second level no child-->
-            <li class="nav-item"><a class="dropdown-item" href="/features/import-cms">
+            <li class="nav-item"><a class="dropdown-item" href="/features/import-cms/">
                     Import CMS</a>
             </li>
             
             
             
             <!-- Second level no child-->
-            <li class="nav-item"><a class="dropdown-item" href="/features/media-manager">
+            <li class="nav-item"><a class="dropdown-item" href="/features/media-manager/">
                     Media Manager</a>
             </li>
             
             
             
             <!-- Second level no child-->
-            <li class="nav-item"><a class="dropdown-item" href="/features/multiple-sites">
+            <li class="nav-item"><a class="dropdown-item" href="/features/multiple-sites/">
                     Multiple Sites</a>
             </li>
             
             
             
             <!-- Second level no child-->
-            <li class="nav-item"><a class="dropdown-item" href="/features/search-engine-optimisation">
+            <li class="nav-item"><a class="dropdown-item" href="/features/search-engine-optimisation/">
                     SEO </a>
             </li>
             
             
             
             <!-- Second level no child-->
-            <li class="nav-item"><a class="dropdown-item" href="/features/site-search">
+            <li class="nav-item"><a class="dropdown-item" href="/features/site-search/">
                     Site Search</a>
             </li>
             
             
             
             <!-- Second level no child-->
-            <li class="nav-item"><a class="dropdown-item" href="/features/static-site-generator">
+            <li class="nav-item"><a class="dropdown-item" href="/features/static-site-generator/">
                     Static Site Generator</a>
             </li>
             
             
             
             <!-- Second level no child-->
-            <li class="nav-item"><a class="dropdown-item" href="/features/tasks-and-users">
+            <li class="nav-item"><a class="dropdown-item" href="/features/tasks-and-users/">
                     Tasks and Users</a>
             </li>
             
@@ -258,48 +278,48 @@
     
     <li class="nav-item dropdown">
         <!-- top level with sub -->
-        <a class="nav-link dropdown-toggle" href="/integration/cdn-integration" data-bs-toggle="dropdown">
+        <a class="nav-link dropdown-toggle" href="/integration/cdn-integration/" data-bs-toggle="dropdown">
             Integration</a>
         <ul class="dropdown-menu">
             
             
             <!-- Second level no child-->
-            <li class="nav-item"><a class="dropdown-item" href="/integration/cdn-integration">
+            <li class="nav-item"><a class="dropdown-item" href="/integration/cdn-integration/">
                     CDN Integration</a>
             </li>
             
             
             
             <!-- Second level no child-->
-            <li class="nav-item"><a class="dropdown-item" href="/integration/amazon-aws">
+            <li class="nav-item"><a class="dropdown-item" href="/integration/amazon-aws/">
                     Amazon AWS</a>
             </li>
             
             
             
             <!-- Second level no child-->
-            <li class="nav-item"><a class="dropdown-item" href="/integration/cloudflare">
+            <li class="nav-item"><a class="dropdown-item" href="/integration/cloudflare/">
                     Cloudflare</a>
             </li>
             
             
             
             <!-- Second level no child-->
-            <li class="nav-item"><a class="dropdown-item" href="/integration/github-pages">
+            <li class="nav-item"><a class="dropdown-item" href="/integration/github-pages/">
                     Github Pages</a>
             </li>
             
             
             
             <!-- Second level no child-->
-            <li class="nav-item"><a class="dropdown-item" href="/integration/google-firebase">
+            <li class="nav-item"><a class="dropdown-item" href="/integration/google-firebase/">
                     Google Firebase</a>
             </li>
             
             
             
             <!-- Second level no child-->
-            <li class="nav-item"><a class="dropdown-item" href="/integration/microsoft-azure">
+            <li class="nav-item"><a class="dropdown-item" href="/integration/microsoft-azure/">
                     Microsoft Azure</a>
             </li>
             
@@ -315,27 +335,27 @@
     
     <li class="nav-item dropdown">
         <!-- top level with sub -->
-        <a class="nav-link dropdown-toggle" href="/pricing/pricing-plans" data-bs-toggle="dropdown">
+        <a class="nav-link dropdown-toggle" href="/pricing/pricing-plans/" data-bs-toggle="dropdown">
             Pricing</a>
         <ul class="dropdown-menu">
             
             
             <!-- Second level no child-->
-            <li class="nav-item"><a class="dropdown-item" href="/pricing/download-installers">
+            <li class="nav-item"><a class="dropdown-item" href="/pricing/download-installers/">
                     Download Installer</a>
             </li>
             
             
             
             <!-- Second level no child-->
-            <li class="nav-item"><a class="dropdown-item" href="/pricing/pricing-plans">
+            <li class="nav-item"><a class="dropdown-item" href="/pricing/pricing-plans/">
                     Pricing Plans</a>
             </li>
             
             
             
             <!-- Second level no child-->
-            <li class="nav-item"><a class="dropdown-item" href="/pricing/subscribe">
+            <li class="nav-item"><a class="dropdown-item" href="/pricing/subscribe/">
                     Subscribe</a>
             </li>
             
@@ -349,7 +369,7 @@
     
 
     <li class="nav-item dropdown dropdown-mega">
-        <a class="nav-link dropdown-toggle" href="/support" data-bs-toggle="dropdown">
+        <a class="nav-link dropdown-toggle" href="/support/" data-bs-toggle="dropdown">
             Support</a> <!-- Support -->
         <ul class="dropdown-menu mega-menu">
             <li class="mega-menu-content">
@@ -589,7 +609,7 @@
         style="padding-bottom: 0rem !important; padding-top: 0rem !important;">
         <div class="row">
           <div class="col-md-9 col-lg-7 col-xl-5 mx-auto">
-            <h1 class="display-1 mb-3">
+            <h1 class="display-2 mb-3">
               JSON-LD
             </h1>
             <p class="lead px-xxl-11">
@@ -649,7 +669,7 @@
     <!-- /section -->
     <div class="container">
       <div class="row">
-        <aside class="col-xl-2 sidebar doc-sidebar mt-md-0 py-16 d-none d-xl-block">
+        <aside class="col-xl-2 sidebar sticky-sidebar doc-sidebar mt-md-0 py-16 d-none d-xl-block">
           <!-- /.widget -->
           
           
@@ -743,58 +763,153 @@
 <div class="alert alert-blue alert-icon mb-6" role="alert"><i class="uil uil-exclamation-circle"></i>JSON-LD is a method of encoding linked data using JSON. Include in your head section<span style="font-family: var(--bs-body-font-family); font-size: var(--bs-body-font-size); font-weight: var(--bs-body-font-weight); text-align: var(--bs-body-text-align); word-spacing: 0.05rem;"> to improve google search results.</span></div>
 <div class="card">
 <div class="card-body">
-<h4>Page Object Structure</h4>
-<p>Using dot notation <code>page_o</code> is the page object and within the page object are collections and entities representing the data for the page.</p>
-<pre class="language-markup"><code>page_o.article:=New article entity object
-page_o.articles:=New collection of article entities
-page_o.category:=New category entity object
-page_o.categories:=New collection of category entities
-page_o.menu:=New current menu object
-page_o.modules:=New collection of module entities
-page_o.pagination:=New pagination object
-page_o.paginate:=Boolean (True = include pagination)
-page_o.tag:=New tag entity object
-page_o.tags:=New collection of tag entities</code></pre>
+<h4>Page Meta and JSON-LD</h4>
+<p>For every article, category and tag in your project we create a meta object and a JSON-LD object. When you build the page these objects are inserted into your HTML. See below. Our JSON-LD validates correctly against Google rich text and schema.org testing tools..</p>
+<pre class="language-markup"><code>&lt;head&gt;
+    &lt;base href="&lt;!--#4DHTML prefs_o.domain--&gt;" /&gt;
+    &lt;meta charset="utf-8"&gt;
+    &lt;!--#4DHTML page_o.metatag--&gt;
+
+    &lt;script type="application/ld+json" class="youdo-schema-graph"&gt;
+        &lt;!--#4DHTML page_o.jsonld--&gt;
+    &lt;/script&gt;</code></pre>
 <h4></h4>
-<h4>Single Article Object Example</h4>
-<p>Any data within the <code>page_o.article</code> object can be referenced in an hmtl page as follows:</p>
-<pre class="language-markup"><code>&lt;!--#4DHTML page_o.article.fulltext--&gt; Returns the html content of the article</code></pre>
-<h4>&nbsp;<br />List Articles Collection Example&nbsp;</h4>
-<p>Any data within the <code>page_o.articles</code> collection can be referenced using and 4DEACH statement in an html page as follows:</p>
-<pre class="language-markup"><code>&lt;!--#4DEACH $post in page_o.articles--&gt; Each post in the page_o.articles collection
-&lt;h2 class="post-title h3 mt-1 mb-3"&gt;&lt;a class="link-dark"
-    href="/&lt;!--#4DTEXT $post.filepath--&gt;"&gt; The relative url
-    &lt;!--#4DTEXT $post.title--&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;div class="post-content"&gt;
-&lt;!--#4DHTML $post.introtext--&gt; Equivalent to page_o.article.introtext
-&lt;/div&gt;
-&lt;!--#4DENDEACH--&gt;
+<h4>Example Meta Content</h4>
+<p>Using this page is an example the meta data is as follows.</p>
+<pre class="language-markup"><code>  &lt;base href="http://localhost:8080" /&gt;
+  &lt;meta charset="utf-8"&gt;
+  &lt;meta name='viewport' content='width=device-width, initial-scale=1.0' /&gt;
+&lt;meta http-equiv='content-type' content='text/html; charset=utf-8' /&gt;
+&lt;meta name='author' content='Paul Dennis' /&gt;
+&lt;meta name='description' content='Generate validated schema.org JSON-LD structured data to include in your YouDoCMS pages ' /&gt;
+&lt;meta name='generator' content='YouDoCMS Serverless Content Management' /&gt;
+&lt;meta name='msvalidate.01' content='' /&gt;
+&lt;meta name='google-site-verification' content='' /&gt;
+&lt;meta name='robots' content='index, follow' /&gt;</code></pre>
+<h4>&nbsp;<br />JSON-LD Example&nbsp;</h4>
+<p>The JSON-LD object for the organisation, webpage and article is as follows. This includes the path to the Algolia search target URL.</p>
+<pre class="language-markup"><code>
+      {
+	"@context": "https://schema.org",
+	"@graph": [
+		{
+			"@type": "Organization",
+			"@id": "https://www.youdocms.com/#organization",
+			"name": "Youdo Limited",
+			"url": "https://www.youdocms.com",
+			"logo": {
+				"@type": "ImageObject",
+				"@id": "https://www.youdocms.com/#logo",
+				"inLanguage": "en-gb",
+				"url": "https://www.youdocms.com/images/cms_logo.png",
+				"contentUrl": "https://www.youdocms.com/images/cms_logo.png",
+				"width": "",
+				"height": "",
+				"caption": ""
+			},
+			"image": {
+				"@id": "https://www.youdocms.com/#logo"
+			}
+		},
+		{
+			"@type": "WebSite",
+			"@id": "https://www.youdocms.com/#website",
+			"url": "https://www.youdocms.com",
+			"name": "YouDoCMS Serverless CMS",
+			"description": "Serverless desktop cms and static site generator.",
+			"publisher": {
+				"@id": "https://www.youdocms.com/#organization"
+			},
+			"potentialAction": [
+				{
+					"@type": "SearchAction",
+					"target": {
+						"@type": "EntryPoint",
+						"urlTemplate": "https://www.youdocms.com/support/help/youdocms={search_term_string}"
+					},
+					"query-input": "required name=search_term_string"
+				}
+			],
+			"inLanguage": "en-gb"
+		},
+		{
+			"@type": "ImageObject",
+			"@id": "https://www.youdocms.com/support/cloud-settings/search/json-ld/#primaryimage",
+			"inLanguage": "en-gb",
+			"url": "https://www.youdocms.com/",
+			"contentUrl": "https://www.youdocms.com/"
+		},
+		{
+			"@type": "WebPage",
+			"@id": "https://www.youdocms.com/support/cloud-settings/search/json-ld/#webpage",
+			"url": "https://www.youdocms.com/support/cloud-settings/search/json-ld",
+			"name": "JSON-LD",
+			"isPartOf": {
+				"@id": "https://www.youdocms.com/support/cloud-settings/search/json-ld/#webpage"
+			},
+			"primaryImageOfPage": {
+				"@id": "https://www.youdocms.com/support/cloud-settings/search/json-ld/#primaryimage"
+			},
+			"breadcrumb": {
+				"@id": "https://www.youdocms.com/support/cloud-settings/search/json-ld/#breadcrumb"
+			},
+			"inLanguage": "en-gb",
+			"potentialAction": {
+				"type": "ReadAction",
+				"target": "https://www.youdocms.com/support/cloud-settings/search/json-ld"
+			}
+		},
+		{
+			"@type": "Article",
+			"@id": "https://www.youdocms.com/support/cloud-settings/search/json-ld#article",
+			"headline": "JSON-LD",
+			"description": "Generate validated schema.org JSON-LD structured data to include in your YouDoCMS pages ",
+			"keywords": [
+				"JSON-LD",
+				"schema.org"
+			],
+			"articleSection": [
+				"Search"
+			],
+			"publisher": {
+				"@id": "https://www.youdocms.com/#organization"
+			},
+			"mainEntityOfPage": {
+				"@id": "https://www.youdocms.com/support/cloud-settings/search/json-ld/#webpage"
+			}
+		},
+		{
+			"@type": "BreadcrumbList",
+			"@id": "https://www.youdocms.com/support/cloud-settings/search/json-ld/#breadcrumb",
+			"itemListElement": [
+				{
+					"@type": "ListItem",
+					"item": "https://www.youdocms.com/support",
+					"name": "Support",
+					"position": 1
+				},
+				{
+					"@type": "ListItem",
+					"item": "https://www.youdocms.com/support/cloud-settings/search",
+					"name": "Search SEO",
+					"position": 2
+				},
+				{
+					"@type": "ListItem",
+					"item": "https://www.youdocms.com/support/cloud-settings/search/json-ld",
+					"name": "JSON-LD",
+					"position": 3
+				}
+			]
+		}
+	]
+}
+
 
 
 
 </code></pre>
 <p></p>
-<h4>Pagination Example</h4>
-<p>The <code>page_o.pagination</code> object is built for each list type page if the number of articles, categories or tags is greater then the list length defined by the list source usually the menu or module.&nbsp;</p>
-<pre class="language-markup"><code>&lt;!-- Pagination --&gt;
-&lt;!--#4DIF (page_o.paginate)--&gt; Boolean True if length of page_o.articles &gt; the list length param.
-&lt;nav class="navigation pagination" role="navigation" aria-label="Posts"&gt;
-    &lt;h2 class="screen-reader-text"&gt;Posts navigation&lt;/h2&gt;
-    &lt;div class="nav-links"&gt;&lt;a class="prev page-numbers" href="&lt;!--#4DHTML page_o.pagination.startpath--&gt;"&gt;&lt;i
-                class="fa fa-angle-double-left"&gt;&lt;/i&gt;&lt;/a&gt;
-        &lt;a class="page-numbers" href="&lt;!--#4DHTML page_o.pagination.startpath--&gt;"&gt;
-            &lt;!--#4DHTML page_o.pagination.start--&gt;&lt;/a&gt;
-        &lt;span class="page-numbers dots"&gt;&amp;hellip;&lt;/span&gt;
-        &lt;a class="page-numbers" href="&lt;!--#4DHTML page_o.pagination.previouspath--&gt;"&gt;
-            &lt;!--#4DHTML page_o.pagination.previous--&gt;&lt;/a&gt;
-        &lt;span aria-current="page" class="page-numbers current"&gt;
-            &lt;!--#4DHTML page_o.pagination.current--&gt;&lt;/span&gt;
-        &lt;a class="page-numbers" href="&lt;!--#4DHTML page_o.pagination.nextpath--&gt;"&gt;
-            &lt;!--#4DHTML page_o.pagination.next--&gt;&lt;/a&gt;
-        &lt;a class="next page-numbers" href="&lt;!--#4DHTML page_o.pagination.nextpath--&gt;"&gt;&lt;i
-                class="fa fa-angle-double-right"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;/nav&gt; &lt;!-- Pagination --&gt;
-&lt;!--#4DENDIF--&gt;</code></pre>
 <p></p>
 <p></p>
 </div>

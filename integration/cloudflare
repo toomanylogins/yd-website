@@ -142,27 +142,27 @@
     
     <li class="nav-item dropdown">
         <!-- top level with sub -->
-        <a class="nav-link dropdown-toggle" href="/create/go-serverless" data-bs-toggle="dropdown">
+        <a class="nav-link dropdown-toggle" href="/create/go-serverless/" data-bs-toggle="dropdown">
             Create</a>
         <ul class="dropdown-menu">
             
             
             <!-- Second level no child-->
-            <li class="nav-item"><a class="dropdown-item" href="/create/go-serverless">
+            <li class="nav-item"><a class="dropdown-item" href="/create/go-serverless/">
                     Go Serverless</a>
             </li>
             
             
             
             <!-- Second level no child-->
-            <li class="nav-item"><a class="dropdown-item" href="/create/joomla">
+            <li class="nav-item"><a class="dropdown-item" href="/create/joomla/">
                     Joomla</a>
             </li>
             
             
             
             <!-- Second level no child-->
-            <li class="nav-item"><a class="dropdown-item" href="/create/wordpress">
+            <li class="nav-item"><a class="dropdown-item" href="/create/wordpress/">
                     WordPress</a>
             </li>
             
@@ -178,62 +178,62 @@
     
     <li class="nav-item dropdown">
         <!-- top level with sub -->
-        <a class="nav-link dropdown-toggle" href="/features/desktop-cms" data-bs-toggle="dropdown">
+        <a class="nav-link dropdown-toggle" href="/features/desktop-cms/" data-bs-toggle="dropdown">
             Features</a>
         <ul class="dropdown-menu">
             
             
             <!-- Second level no child-->
-            <li class="nav-item"><a class="dropdown-item" href="/features/desktop-cms">
+            <li class="nav-item"><a class="dropdown-item" href="/features/desktop-cms/">
                     Desktop CMS</a>
             </li>
             
             
             
             <!-- Second level no child-->
-            <li class="nav-item"><a class="dropdown-item" href="/features/import-cms">
+            <li class="nav-item"><a class="dropdown-item" href="/features/import-cms/">
                     Import CMS</a>
             </li>
             
             
             
             <!-- Second level no child-->
-            <li class="nav-item"><a class="dropdown-item" href="/features/media-manager">
+            <li class="nav-item"><a class="dropdown-item" href="/features/media-manager/">
                     Media Manager</a>
             </li>
             
             
             
             <!-- Second level no child-->
-            <li class="nav-item"><a class="dropdown-item" href="/features/multiple-sites">
+            <li class="nav-item"><a class="dropdown-item" href="/features/multiple-sites/">
                     Multiple Sites</a>
             </li>
             
             
             
             <!-- Second level no child-->
-            <li class="nav-item"><a class="dropdown-item" href="/features/search-engine-optimisation">
+            <li class="nav-item"><a class="dropdown-item" href="/features/search-engine-optimisation/">
                     SEO </a>
             </li>
             
             
             
             <!-- Second level no child-->
-            <li class="nav-item"><a class="dropdown-item" href="/features/site-search">
+            <li class="nav-item"><a class="dropdown-item" href="/features/site-search/">
                     Site Search</a>
             </li>
             
             
             
             <!-- Second level no child-->
-            <li class="nav-item"><a class="dropdown-item" href="/features/static-site-generator">
+            <li class="nav-item"><a class="dropdown-item" href="/features/static-site-generator/">
                     Static Site Generator</a>
             </li>
             
             
             
             <!-- Second level no child-->
-            <li class="nav-item"><a class="dropdown-item" href="/features/tasks-and-users">
+            <li class="nav-item"><a class="dropdown-item" href="/features/tasks-and-users/">
                     Tasks and Users</a>
             </li>
             
@@ -249,48 +249,48 @@
     
     <li class="nav-item dropdown">
         <!-- top level with sub -->
-        <a class="nav-link dropdown-toggle" href="/integration/cdn-integration" data-bs-toggle="dropdown">
+        <a class="nav-link dropdown-toggle" href="/integration/cdn-integration/" data-bs-toggle="dropdown">
             Integration</a>
         <ul class="dropdown-menu">
             
             
             <!-- Second level no child-->
-            <li class="nav-item"><a class="dropdown-item" href="/integration/cdn-integration">
+            <li class="nav-item"><a class="dropdown-item" href="/integration/cdn-integration/">
                     CDN Integration</a>
             </li>
             
             
             
             <!-- Second level no child-->
-            <li class="nav-item"><a class="dropdown-item" href="/integration/amazon-aws">
+            <li class="nav-item"><a class="dropdown-item" href="/integration/amazon-aws/">
                     Amazon AWS</a>
             </li>
             
             
             
             <!-- Second level no child-->
-            <li class="nav-item"><a class="dropdown-item" href="/integration/cloudflare">
+            <li class="nav-item"><a class="dropdown-item" href="/integration/cloudflare/">
                     Cloudflare</a>
             </li>
             
             
             
             <!-- Second level no child-->
-            <li class="nav-item"><a class="dropdown-item" href="/integration/github-pages">
+            <li class="nav-item"><a class="dropdown-item" href="/integration/github-pages/">
                     Github Pages</a>
             </li>
             
             
             
             <!-- Second level no child-->
-            <li class="nav-item"><a class="dropdown-item" href="/integration/google-firebase">
+            <li class="nav-item"><a class="dropdown-item" href="/integration/google-firebase/">
                     Google Firebase</a>
             </li>
             
             
             
             <!-- Second level no child-->
-            <li class="nav-item"><a class="dropdown-item" href="/integration/microsoft-azure">
+            <li class="nav-item"><a class="dropdown-item" href="/integration/microsoft-azure/">
                     Microsoft Azure</a>
             </li>
             
@@ -306,27 +306,27 @@
     
     <li class="nav-item dropdown">
         <!-- top level with sub -->
-        <a class="nav-link dropdown-toggle" href="/pricing/pricing-plans" data-bs-toggle="dropdown">
+        <a class="nav-link dropdown-toggle" href="/pricing/pricing-plans/" data-bs-toggle="dropdown">
             Pricing</a>
         <ul class="dropdown-menu">
             
             
             <!-- Second level no child-->
-            <li class="nav-item"><a class="dropdown-item" href="/pricing/download-installers">
+            <li class="nav-item"><a class="dropdown-item" href="/pricing/download-installers/">
                     Download Installer</a>
             </li>
             
             
             
             <!-- Second level no child-->
-            <li class="nav-item"><a class="dropdown-item" href="/pricing/pricing-plans">
+            <li class="nav-item"><a class="dropdown-item" href="/pricing/pricing-plans/">
                     Pricing Plans</a>
             </li>
             
             
             
             <!-- Second level no child-->
-            <li class="nav-item"><a class="dropdown-item" href="/pricing/subscribe">
+            <li class="nav-item"><a class="dropdown-item" href="/pricing/subscribe/">
                     Subscribe</a>
             </li>
             
@@ -340,7 +340,7 @@
     
 
     <li class="nav-item dropdown dropdown-mega">
-        <a class="nav-link dropdown-toggle" href="/support" data-bs-toggle="dropdown">
+        <a class="nav-link dropdown-toggle" href="/support/" data-bs-toggle="dropdown">
             Support</a> <!-- Support -->
         <ul class="dropdown-menu mega-menu">
             <li class="mega-menu-content">
@@ -564,7 +564,7 @@
                 style="padding-bottom: 0rem !important; padding-top: 0rem !important;">
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
-                        <h1 class="display-1 mb-3">
+                        <h1 class="display-2 mb-3">
                             Cloudflare
                         </h1>
                         
