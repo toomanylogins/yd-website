@@ -7,7 +7,7 @@
   <meta name='viewport' content='width=device-width, initial-scale=1.0' /><meta http-equiv='content-type' content='text/html; charset=utf-8' /><meta name='author' content='Paul Dennis' /><meta name='description' content='' /><meta name='generator' content='YouDoCMS Serverless Content Management' /><meta name='robots' content='index, follow' />
 
   <script type="application/ld+json" class="youdo-schema-graph">
-  {
+      {
 	"@context": "https://schema.org",
 	"@graph": [
 		{
@@ -51,25 +51,35 @@
 			"inLanguage": "en-gb"
 		},
 		{
-			"@type": "CollectionPage",
-			"@id": "https://www.youdocms.com/support/cloud-settings/#webpage",
-			"url": "https://www.youdocms.com/support/cloud-settings",
-			"name": "Documentation",
+			"@type": "ImageObject",
+			"@id": "https://www.youdocms.com/support/templates/page-object/#primaryimage",
+			"inLanguage": "en-gb",
+			"url": "https://www.youdocms.com/",
+			"contentUrl": "https://www.youdocms.com/"
+		},
+		{
+			"@type": "WebPage",
+			"@id": "https://www.youdocms.com/support/templates/page-object/#webpage",
+			"url": "https://www.youdocms.com/support/templates/page-object",
+			"name": "Page Object",
 			"isPartOf": {
-				"@id": "https://www.youdocms.com/support/cloud-settings/#webpage"
+				"@id": "https://www.youdocms.com/support/templates/page-object/#webpage"
+			},
+			"primaryImageOfPage": {
+				"@id": "https://www.youdocms.com/support/templates/page-object/#primaryimage"
 			},
 			"breadcrumb": {
-				"@id": "https://www.youdocms.com/support/cloud-settings/#breadcrumb"
+				"@id": "https://www.youdocms.com/support/templates/page-object/#breadcrumb"
 			},
 			"inLanguage": "en-gb",
 			"potentialAction": {
 				"type": "ReadAction",
-				"target": "https://www.youdocms.com/support/cloud-settings"
+				"target": "https://www.youdocms.com/support/templates/page-object"
 			}
 		},
 		{
 			"@type": "BreadcrumbList",
-			"@id": "https://www.youdocms.com/support/cloud-settings/#breadcrumb",
+			"@id": "https://www.youdocms.com/support/templates/page-object/#breadcrumb",
 			"itemListElement": [
 				{
 					"@type": "ListItem",
@@ -79,9 +89,15 @@
 				},
 				{
 					"@type": "ListItem",
-					"item": "https://www.youdocms.com/support/cloud-settings",
-					"name": "Cloud Settings",
+					"item": "https://www.youdocms.com/support/templates",
+					"name": "Templates",
 					"position": 2
+				},
+				{
+					"@type": "ListItem",
+					"item": "https://www.youdocms.com/support/templates/page-object",
+					"name": "Page Object",
+					"position": 3
 				}
 			]
 		}
@@ -91,16 +107,11 @@
 
   <link rel="shortcut icon" href="favicon.ico">
   <title>
-    Documentation
+    Page Object
   </title>
-
-  <script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.5.1/dist/algoliasearch-lite.umd.js"
-  integrity="sha256-EXPXz4W6pQgfYY3yTpnDa3OH8/EPn16ciVsPQ/ypsjk=" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.8.3/dist/instantsearch.production.min.js"
-  integrity="sha256-LAGhRRdtVoD6RLo2qDQsU2mp+XVSciKRC8XPOBWmofM=" crossorigin="anonymous"></script>
-
   <link rel="stylesheet" href="templates/sandbox3/assets/css/plugins.css">
   <link rel="stylesheet" href="templates/sandbox3/assets/css/style.css">
+  <link rel="stylesheet" href="templates/sandbox3/assets/css/prism.css">
 </head>
 
 <body data-bs-spy="scroll" data-bs-target="#sidebar-nav">
@@ -109,8 +120,8 @@
 
       <nav class="navbar center-nav transparent navbar-expand-lg navbar-light">
         <div class="container flex-lg-row flex-nowrap align-items-center">
-          <div class="navbar-brand w-100"><a href="https://www6.youdocms.com/index.html"><img
-                src="/images/cms_logo.png" srcset="/images/cms_logo@2x.png 2x" alt="" /></a>
+          <div class="navbar-brand w-100"><a href="https://www6.youdocms.com/index.html"><img src="/images/cms_logo.png"
+                srcset="/images/cms_logo@2x.png 2x" alt="" /></a>
           </div>
 
           <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
@@ -124,10 +135,6 @@
 
               
                  <!-- if using a menu builder insert query here for the module -->
-
-   <!-- if using a menu builder insert query here for the module -->
-
-   <!-- if using a menu builder insert query here for the module -->
 
    <!-- if using a menu builder insert query here for the module -->
 
@@ -538,12 +545,6 @@
 
    <!-- if using a menu builder insert query here for the module -->
 
-   <!-- if using a menu builder insert query here for the module -->
-
-   <!-- if using a menu builder insert query here for the module -->
-
-   <!-- if using a menu builder insert query here for the module -->
-
 
               <!-- /.navbar-nav -->
               <div class="offcanvas-footer d-lg-none">
@@ -589,55 +590,56 @@
         <div class="row">
           <div class="col-md-9 col-lg-7 col-xl-5 mx-auto">
             <h1 class="display-2 mb-3">
-              Documentation
+              Page Object
             </h1>
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            <nav class="d-inline-block" aria-label="breadcrumb">
-
-              <ol class="breadcrumb">
-                
-                
-                <li class="breadcrumb-item"><a href="/support.html">
-                    Support</a></li>
-
-                
-                
-                
-                <li class="breadcrumb-item active" aria-current="page">
-                  Cloud Settings
-                </li>
-                
-                
-              </ol>
-            </nav>
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-
-
-
+            <p class="lead px-xxl-11">
+              
+            </p>
 
           </div>
+          <div class="row">
+            <div class="col-md-10 col-lg-9 col-xl-8 mx-auto"> <!-- was the same as the header but made it wider -->
+                                  
+                        
+                      
+                        
+                      
+                        
+                        <nav class="d-inline-block" aria-label="breadcrumb">
+
+                          <ol class="breadcrumb">
+                              
+                              
+                              <li class="breadcrumb-item"><a href="/support.html">
+                                      Support</a></li>
+
+                              
+                              
+                              
+                              <li class="breadcrumb-item"><a href="/support/templates.html">
+                                      Templates</a></li>
+
+                              
+                              
+                              
+                              <li class="breadcrumb-item active" aria-current="page">
+                                  Page Object
+                              </li>
+                              
+                              
+                          </ol>
+                      </nav>
+                      
+                      
+                        
+                      
+                        
+                      
+                    </div>
+                    <!-- /.row -->
+                  </div>
+                  <!-- /.row -->
+
           <!-- /column -->
         </div>
         <!-- /.row -->
@@ -645,59 +647,9 @@
       <!-- /.container -->
     </section>
     <!-- /section -->
-
-    <section class="wrapper bg-light wrapper-border">
-      <div class="container inner py-8">
-          <div class="row gx-lg-8 gx-xl-12 gy-4 gy-lg-0">
-              <div class="col-lg-8 align-self-center">
-                  <div class="blog-filter filter">
-                      <p>Blog Categories:</p>
-
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                  </div>
-                  <!--/.filter -->
-              </div>
-              <!--/column -->
-              <aside class="col-lg-4 sidebar">
-                  
-                      <div id="search-form">
-                          <!-- agoloia box here -->                            
-                      </div>
-                  
-                  <!-- /.search-form -->
-              </aside>
-              <!-- /column .sidebar -->
-          </div>
-          <!--/.row -->
-      </div>
-      <!-- /.container -->
-  </section>
-
-
-    
     <div class="container">
       <div class="row">
-        <aside class="col-xl-2 sidebar sticky-sidebar doc-sidebar mt-md-0 py-8 d-none d-xl-block">
+        <aside class="col-xl-2 sidebar sticky-sidebar doc-sidebar mt-md-0 py-16 d-none d-xl-block">
           <!-- /.widget -->
           
           
@@ -735,104 +687,7 @@
           
           
           
-          <div class="widget pb-3">
-            <h6 class="widget-title fs-17 mb-2">
-              AWS
-            </h6>
-            <nav id="collapse-usage">
-              <ul class="list-unstyled fs-sm lh-sm text-reset">
-                
-                <li><a href="/support/cloud-settings/amazon-web-services/aws-certificate-manager.html" class="active">
-                    AWS Certificate Manager</a></li>
-                
-                <li><a href="/support/cloud-settings/amazon-web-services/aws-cloudfront.html" class="active">
-                    AWS Cloudfront</a></li>
-                
-                <li><a href="/support/cloud-settings/amazon-web-services/aws-configuration.html" class="active">
-                    AWS Configuration</a></li>
-                
-                <li><a href="/support/cloud-settings/amazon-web-services/aws-iam-new-user.html" class="active">
-                    AWS IAM New User</a></li>
-                
-                <li><a href="/support/cloud-settings/amazon-web-services/aws-s3-bucket.html" class="active">
-                    AWS S3 Bucket</a></li>
-                
-              </ul>
-            </nav>
-            <!-- /nav -->
-          </div>
           
-          
-          
-          
-          
-          
-          
-          
-          
-          <div class="widget pb-3">
-            <h6 class="widget-title fs-17 mb-2">
-              Azure
-            </h6>
-            <nav id="collapse-usage">
-              <ul class="list-unstyled fs-sm lh-sm text-reset">
-                
-                <li><a href="/support/cloud-settings/microsoft-azure/microsoft-azure-setup.html" class="active">
-                    Microsoft Azure Setup</a></li>
-                
-                <li><a href="/support/cloud-settings/microsoft-azure/microsoft-azure-custom-domain.html" class="active">
-                    Microsoft Azure Custom Domain</a></li>
-                
-              </ul>
-            </nav>
-            <!-- /nav -->
-          </div>
-          
-          
-          
-          <div class="widget pb-3">
-            <h6 class="widget-title fs-17 mb-2">
-              Firebase
-            </h6>
-            <nav id="collapse-usage">
-              <ul class="list-unstyled fs-sm lh-sm text-reset">
-                
-                <li><a href="/support/cloud-settings/google-firebase/firebase-custom-domain.html" class="active">
-                    Firebase Custom Domain</a></li>
-                
-                <li><a href="/support/cloud-settings/google-firebase/firebase-hosting.html" class="active">
-                    Firebase Hosting</a></li>
-                
-                <li><a href="/support/cloud-settings/google-firebase/firebase-project.html" class="active">
-                    Firebase Project</a></li>
-                
-                <li><a href="/support/cloud-settings/google-firebase/firebase-setup.html" class="active">
-                    Firebase Setup</a></li>
-                
-              </ul>
-            </nav>
-            <!-- /nav -->
-          </div>
-          
-          
-          
-          <div class="widget pb-3">
-            <h6 class="widget-title fs-17 mb-2">
-              Cloudflare
-            </h6>
-            <nav id="collapse-usage">
-              <ul class="list-unstyled fs-sm lh-sm text-reset">
-                
-                <li><a href="/support/cloud-settings/cloudflare/cloudflare-pages.html" class="active">
-                    Cloudflare Pages</a></li>
-                
-                <li><a href="/support/cloud-settings/cloudflare/cloudflare-pages-custom-domain.html" class="active">
-                    Cloudflare Pages Custom Domain</a></li>
-                
-              </ul>
-            </nav>
-            <!-- /nav -->
-          </div>
           
           
           
@@ -883,174 +738,189 @@
         <!-- /column -->
         <div class="col-xl-10 order-xl-2">
 
-          <div id="hitlist"></div>
-          <div id="pagination"></div>
-
-          <div class="alert alert-blue alert-icon mb-6" role="alert">Guide to importing your CMS, create templates and deploy to the cloud..&nbsp;</div>
+          <section id="snippet-3" class="wrapper pt-16">
+<h2 class="mb-5">Page Object</h2>
+<div class="alert alert-blue alert-icon mb-6" role="alert"><i class="uil uil-exclamation-circle"></i>Each time a page is generated YouDoCMS creates a page object using dot notation<span style="font-family: var(--bs-body-font-family); font-size: var(--bs-body-font-size); font-weight: var(--bs-body-font-weight); text-align: var(--bs-body-text-align); word-spacing: 0.05rem;">.&nbsp;</span></div>
 <div class="card">
 <div class="card-body">
-<p>Our application can be used with any HTML template system from any CMS. Typically you would use your existing Joomla! or WordPress template and copy the HTML to create templates for each of different page types within your site.&nbsp;</p>
-<p>Similarly you can use any standard HTML template and incorporate our code to generate the pages. In the template section of this documentation I have included examples of our code to generate different types of page. Our template language covers the following.</p>
-<p>Hierarchical menus<br />Breadcrumbs<br />Single page content<br />Blog style content with readme<br />Category lists including child categories<br />Multiple pages from defined category.</p>
-<p>List content can be sorted by date, manually via the ordering field or title<br />All content can be published and unpublished during the build process</p>
-<h3>Demonstration template</h3>
-<p>The default installation includes a demonstration domain incorporating a standard set of of template's for each of the page types. These page types can be easily modified by copying and pasting from your existing template source to generate static version of your current CMS.</p>
+<h4>Page Object Structure</h4>
+<p>Using dot notation <code>page_o</code> is the page object and within the page object are collections and entities representing the data for the page.</p>
+<pre class="language-markup"><code>page_o.article:=New article entity object
+page_o.articles:=New collection of article entities
+page_o.category:=New category entity object
+page_o.categories:=New collection of category entities
+page_o.menu:=New current menu object
+page_o.modules:=New collection of module entities
+page_o.pagination:=New pagination object
+page_o.paginate:=Boolean (True = include pagination)
+page_o.tag:=New tag entity object
+page_o.tags:=New collection of tag entities</code></pre>
+<h4></h4>
+<h4>Single Article Object Example</h4>
+<p>Any data within the <code>page_o.article</code> object can be referenced in an hmtl page as follows:</p>
+<pre class="language-markup"><code>&lt;!--#4DHTML page_o.article.fulltext--&gt; Returns the html content of the article</code></pre>
+<h4>&nbsp;<br />List Articles Collection Example&nbsp;</h4>
+<p>Any data within the <code>page_o.articles</code> collection can be referenced using and 4DEACH statement in an html page as follows:</p>
+<pre class="language-markup"><code>&lt;!--#4DEACH $post in page_o.articles--&gt; Each post in the page_o.articles collection
+&lt;h2 class="post-title h3 mt-1 mb-3"&gt;&lt;a class="link-dark"
+    href="/&lt;!--#4DTEXT $post.filepath--&gt;"&gt; The relative url
+    &lt;!--#4DTEXT $post.title--&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;div class="post-content"&gt;
+&lt;!--#4DHTML $post.introtext--&gt; Equivalent to page_o.article.introtext
+&lt;/div&gt;
+&lt;!--#4DENDEACH--&gt;
+
+
+
+</code></pre>
+<p></p>
+<h4>Pagination Example</h4>
+<p>The <code>page_o.pagination</code> object is built for each list type page if the number of articles, categories or tags is greater then the list length defined by the list source usually the menu or module.&nbsp;</p>
+<pre class="language-markup"><code>&lt;!-- Pagination --&gt;
+&lt;!--#4DIF (page_o.paginate)--&gt; Boolean True if length of page_o.articles &gt; the list length param.
+&lt;nav class="navigation pagination" role="navigation" aria-label="Posts"&gt;
+    &lt;h2 class="screen-reader-text"&gt;Posts navigation&lt;/h2&gt;
+    &lt;div class="nav-links"&gt;&lt;a class="prev page-numbers" href="&lt;!--#4DHTML page_o.pagination.startpath--&gt;"&gt;&lt;i
+                class="fa fa-angle-double-left"&gt;&lt;/i&gt;&lt;/a&gt;
+        &lt;a class="page-numbers" href="&lt;!--#4DHTML page_o.pagination.startpath--&gt;"&gt;
+            &lt;!--#4DHTML page_o.pagination.start--&gt;&lt;/a&gt;
+        &lt;span class="page-numbers dots"&gt;&amp;hellip;&lt;/span&gt;
+        &lt;a class="page-numbers" href="&lt;!--#4DHTML page_o.pagination.previouspath--&gt;"&gt;
+            &lt;!--#4DHTML page_o.pagination.previous--&gt;&lt;/a&gt;
+        &lt;span aria-current="page" class="page-numbers current"&gt;
+            &lt;!--#4DHTML page_o.pagination.current--&gt;&lt;/span&gt;
+        &lt;a class="page-numbers" href="&lt;!--#4DHTML page_o.pagination.nextpath--&gt;"&gt;
+            &lt;!--#4DHTML page_o.pagination.next--&gt;&lt;/a&gt;
+        &lt;a class="next page-numbers" href="&lt;!--#4DHTML page_o.pagination.nextpath--&gt;"&gt;&lt;i
+                class="fa fa-angle-double-right"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;/nav&gt; &lt;!-- Pagination --&gt;
+&lt;!--#4DENDIF--&gt;</code></pre>
+<p></p>
+<p></p>
 </div>
 </div>
+</section>
 
-
-        <section id="articles" class="wrapper pt-8"> 
-          <div class="card">
-              <div class="card-body">
-                <div class="row gy-6">
-                  
-                </div>
-                </div>
-              <!--/.card-body -->
-          </div>
-          <!--/.card -->
-      </section>
-
-
-
-
-
-
-
+        </div>
+        <!-- /column -->
       </div>
-      <!-- /column -->
+      <!-- /.row -->
     </div>
-    <!-- /.row -->
-  </div>
-  <!-- /.container -->
+    <!-- /.container -->
   </div>
   <!-- /.content-wrapper -->
   <footer class="bg-dark text-inverse">
     <div class="container py-13 py-md-15">
-    <div class="row gy-6 gy-lg-0">
+      <div class="row gy-6 gy-lg-0">
         <div class="col-md-4 col-lg-3">
-            <div class="widget">
-                <img class="mb-4" src="/images/cms_logo.png" srcset="/images/cms_logo@2x.png 2x" alt="" />
-                <p class="mb-4">© 2021 Youdo Ltd. <br class="d-none d-lg-block" />All rights reserved.</p>
-                <nav class="nav social social-white">
-                    <a href="#"><i class="uil uil-twitter"></i></a>
-                    <a href="#"><i class="uil uil-facebook-f"></i></a>
-                    <a href="#"><i class="uil uil-dribbble"></i></a>
-                    <a href="#"><i class="uil uil-instagram"></i></a>
-                    <a href="#"><i class="uil uil-youtube"></i></a>
-                </nav>
-                <!-- /.social -->
-            </div>
-            <!-- /.widget -->
+          <div class="widget">
+            <img class="mb-4" src="/images/cms_logo.png" srcset="/images/cms_logo@2x.png 2x" alt="" />
+            <p class="mb-4">© 2021 Youdo Ltd. <br class="d-none d-lg-block" />All rights reserved.</p>
+            <nav class="nav social social-white">
+              <a href="#"><i class="uil uil-twitter"></i></a>
+              <a href="#"><i class="uil uil-facebook-f"></i></a>
+              <a href="#"><i class="uil uil-dribbble"></i></a>
+              <a href="#"><i class="uil uil-instagram"></i></a>
+              <a href="#"><i class="uil uil-youtube"></i></a>
+            </nav>
+            <!-- /.social -->
+          </div>
+          <!-- /.widget -->
         </div>
         <!-- /column -->
         <div class="col-md-4 col-lg-3">
-            <div class="widget">
-                <h4 class="widget-title text-white mb-3">Get in Touch</h4>
-                <address class="pe-xl-15 pe-xxl-17">Made in Upminster, Essex, United Kingdom</address>
-                <a href="mailto:#">info@youdocms.com</a><br /> +44 (020) 7148 3322
-            </div>
-            <!-- /.widget -->
+          <div class="widget">
+            <h4 class="widget-title text-white mb-3">Get in Touch</h4>
+            <address class="pe-xl-15 pe-xxl-17">Made in Upminster, Essex, United Kingdom</address>
+            <a href="mailto:#">info@youdocms.com</a><br /> +44 (020) 7148 3322
+          </div>
+          <!-- /.widget -->
         </div>
         <!-- /column -->
         <div class="col-md-4 col-lg-3">
-            <div class="widget">
-                <h4 class="widget-title text-white mb-3">Learn More</h4>
+          <div class="widget">
+            <h4 class="widget-title text-white mb-3">Learn More</h4>
 
-                
-                
-                
-                
-                
-                
-                
-                
+            
+            
+            
+            
 
-                <ul class="list-unstyled mb-0">
-                    
+            <ul class="list-unstyled mb-0">
+              
 
-                    <li><a href="/about-us.html">
-                            About Us</a></li>
+              <li><a href="/about-us.html">
+                  About Us</a></li>
 
-                    
+              
 
-                    <li><a href="/terms-and-conditions.html">
-                            Terms and Conditions</a></li>
+              <li><a href="/terms-and-conditions.html">
+                  Terms and Conditions</a></li>
 
-                    
+              
 
-                    <li><a href="/index.html">
-                            Home</a></li>
+              <li><a href="/index.html">
+                  Home</a></li>
 
-                    
-                </ul>
+              
+            </ul>
 
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+            
+            
+            
+            
+            
+            
+            
+            
 
-            </div>
-            <!-- /.widget -->
+          </div>
+          <!-- /.widget -->
         </div>
         <!-- /column -->
         <div class="col-md-12 col-lg-3">
+          <div class="widget">
             <div class="widget">
-                <div class="widget">
-                    <h4 class="widget-title text-white mb-3">Our Newsletter</h4>
-                    <p class="mb-5">Subscribe to our newsletter for news and community support.</p>
-                    <div class="newsletter-wrapper">
-                        <!-- Begin Mailchimp Signup Form -->
-                        <div id="mc_embed_signup2">
-                            <form
-                                action="https://elemisfreebies.us20.list-manage.com/subscribe/post?u=aa4947f70a475ce162057838d&amp;id=b49ef47a9a"
-                                method="post" id="mc-embedded-subscribe-form2" name="mc-embedded-subscribe-form"
-                                class="validate dark-fields" target="_blank" novalidate>
-                                <div id="mc_embed_signup_scroll2">
-                                    <div class="mc-field-group input-group form-floating">
-                                        <input type="email" value="" name="EMAIL"
-                                            class="required email form-control" placeholder="Email Address"
-                                            id="mce-EMAIL2">
-                                        <label for="mce-EMAIL2">Email Address</label>
-                                        <input type="submit" value="Join" name="subscribe"
-                                            id="mc-embedded-subscribe2" class="btn btn-primary ">
-                                    </div>
-                                    <div id="mce-responses2" class="clear">
-                                        <div class="response" id="mce-error-response2" style="display:none">
-                                        </div>
-                                        <div class="response" id="mce-success-response2" style="display:none">
-                                        </div>
-                                    </div>
-                                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                                    <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                                        <input type="text" name="b_ddc180777a163e0f9f66ee014_4b1bcfa0bc"
-                                            tabindex="-1" value=""></div>
-                                    <div class="clear"></div>
-                                </div>
-                            </form>
-                        </div>
-                        <!--End mc_embed_signup-->
+              <h4 class="widget-title text-white mb-3">Our Newsletter</h4>
+              <p class="mb-5">Subscribe to our newsletter for news and community support.</p>
+              <div class="newsletter-wrapper">
+                <!-- Begin Mailchimp Signup Form -->
+                <div id="mc_embed_signup2">
+                  <form
+                    action="https://elemisfreebies.us20.list-manage.com/subscribe/post?u=aa4947f70a475ce162057838d&amp;id=b49ef47a9a"
+                    method="post" id="mc-embedded-subscribe-form2" name="mc-embedded-subscribe-form"
+                    class="validate dark-fields" target="_blank" novalidate>
+                    <div id="mc_embed_signup_scroll2">
+                      <div class="mc-field-group input-group form-floating">
+                        <input type="email" value="" name="EMAIL" class="required email form-control"
+                          placeholder="Email Address" id="mce-EMAIL2">
+                        <label for="mce-EMAIL2">Email Address</label>
+                        <input type="submit" value="Join" name="subscribe" id="mc-embedded-subscribe2"
+                          class="btn btn-primary ">
+                      </div>
+                      <div id="mce-responses2" class="clear">
+                        <div class="response" id="mce-error-response2" style="display:none"></div>
+                        <div class="response" id="mce-success-response2" style="display:none"></div>
+                      </div>
+                      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                          name="b_ddc180777a163e0f9f66ee014_4b1bcfa0bc" tabindex="-1" value=""></div>
+                      <div class="clear"></div>
                     </div>
-                    <!-- /.newsletter-wrapper -->
+                  </form>
                 </div>
-                <!-- /.widget -->
+                <!--End mc_embed_signup-->
+              </div>
+              <!-- /.newsletter-wrapper -->
             </div>
-            <!-- /column -->
+            <!-- /.widget -->
+          </div>
+          <!-- /column -->
         </div>
         <!--/.row -->
-    </div>
-    <!-- /.container --> <!-- Only call 4d base once per page -->
-</footer>
+      </div>
+      <!-- /.container -->
+  </footer>
   <!-- /section -->
   <div class="progress-wrap">
     <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
@@ -1058,9 +928,10 @@
     </svg>
   </div>
 
-  <script src="/templates/sandbox3/assets/js/search.js"></script>
+
   <script src="/templates/sandbox3/assets/js/plugins.js"></script>
   <script src="/templates/sandbox3/assets/js/theme.js"></script>
+  <script src="/templates/sandbox3/assets/js/prism.js"></script>
 </body>
 
 </html>

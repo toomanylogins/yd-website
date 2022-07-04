@@ -4,10 +4,10 @@
 <head>
   <base href="https://www6.youdocms.com" />
   <meta charset="utf-8">
-  <meta name='viewport' content='width=device-width, initial-scale=1.0' /><meta http-equiv='content-type' content='text/html; charset=utf-8' /><meta name='author' content='Paul Dennis' /><meta name='description' content='' /><meta name='generator' content='YouDoCMS Serverless Content Management' /><meta name='robots' content='index, follow' />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0' /><meta http-equiv='content-type' content='text/html; charset=utf-8' /><meta name='author' content='Paul Dennis' /><meta name='description' content='Static Site Templates. Create a static template from Joomla or Wordpress.' /><meta name='generator' content='YouDoCMS Serverless Content Management' /><meta name='robots' content='index, follow' />
 
   <script type="application/ld+json" class="youdo-schema-graph">
-  {
+      {
 	"@context": "https://schema.org",
 	"@graph": [
 		{
@@ -51,25 +51,35 @@
 			"inLanguage": "en-gb"
 		},
 		{
-			"@type": "CollectionPage",
-			"@id": "https://www.youdocms.com/support/cloud-settings/#webpage",
-			"url": "https://www.youdocms.com/support/cloud-settings",
-			"name": "Documentation",
+			"@type": "ImageObject",
+			"@id": "https://www.youdocms.com/support/help/template-manager/#primaryimage",
+			"inLanguage": "en-gb",
+			"url": "https://www.youdocms.com/",
+			"contentUrl": "https://www.youdocms.com/"
+		},
+		{
+			"@type": "WebPage",
+			"@id": "https://www.youdocms.com/support/help/template-manager/#webpage",
+			"url": "https://www.youdocms.com/support/help/template-manager",
+			"name": "Template Manager",
 			"isPartOf": {
-				"@id": "https://www.youdocms.com/support/cloud-settings/#webpage"
+				"@id": "https://www.youdocms.com/support/help/template-manager/#webpage"
+			},
+			"primaryImageOfPage": {
+				"@id": "https://www.youdocms.com/support/help/template-manager/#primaryimage"
 			},
 			"breadcrumb": {
-				"@id": "https://www.youdocms.com/support/cloud-settings/#breadcrumb"
+				"@id": "https://www.youdocms.com/support/help/template-manager/#breadcrumb"
 			},
 			"inLanguage": "en-gb",
 			"potentialAction": {
 				"type": "ReadAction",
-				"target": "https://www.youdocms.com/support/cloud-settings"
+				"target": "https://www.youdocms.com/support/help/template-manager"
 			}
 		},
 		{
 			"@type": "BreadcrumbList",
-			"@id": "https://www.youdocms.com/support/cloud-settings/#breadcrumb",
+			"@id": "https://www.youdocms.com/support/help/template-manager/#breadcrumb",
 			"itemListElement": [
 				{
 					"@type": "ListItem",
@@ -79,9 +89,15 @@
 				},
 				{
 					"@type": "ListItem",
-					"item": "https://www.youdocms.com/support/cloud-settings",
-					"name": "Cloud Settings",
+					"item": "https://www.youdocms.com/support/help",
+					"name": "Help",
 					"position": 2
+				},
+				{
+					"@type": "ListItem",
+					"item": "https://www.youdocms.com/support/help/template-manager",
+					"name": "Template Manager",
+					"position": 3
 				}
 			]
 		}
@@ -91,16 +107,11 @@
 
   <link rel="shortcut icon" href="favicon.ico">
   <title>
-    Documentation
+    Template Manager
   </title>
-
-  <script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.5.1/dist/algoliasearch-lite.umd.js"
-  integrity="sha256-EXPXz4W6pQgfYY3yTpnDa3OH8/EPn16ciVsPQ/ypsjk=" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.8.3/dist/instantsearch.production.min.js"
-  integrity="sha256-LAGhRRdtVoD6RLo2qDQsU2mp+XVSciKRC8XPOBWmofM=" crossorigin="anonymous"></script>
-
   <link rel="stylesheet" href="templates/sandbox3/assets/css/plugins.css">
   <link rel="stylesheet" href="templates/sandbox3/assets/css/style.css">
+  <link rel="stylesheet" href="templates/sandbox3/assets/css/prism.css">
 </head>
 
 <body data-bs-spy="scroll" data-bs-target="#sidebar-nav">
@@ -109,8 +120,8 @@
 
       <nav class="navbar center-nav transparent navbar-expand-lg navbar-light">
         <div class="container flex-lg-row flex-nowrap align-items-center">
-          <div class="navbar-brand w-100"><a href="https://www6.youdocms.com/index.html"><img
-                src="/images/cms_logo.png" srcset="/images/cms_logo@2x.png 2x" alt="" /></a>
+          <div class="navbar-brand w-100"><a href="https://www6.youdocms.com/index.html"><img src="/images/cms_logo.png"
+                srcset="/images/cms_logo@2x.png 2x" alt="" /></a>
           </div>
 
           <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
@@ -589,55 +600,66 @@
         <div class="row">
           <div class="col-md-9 col-lg-7 col-xl-5 mx-auto">
             <h1 class="display-2 mb-3">
-              Documentation
+              Template Manager
             </h1>
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            <nav class="d-inline-block" aria-label="breadcrumb">
-
-              <ol class="breadcrumb">
-                
-                
-                <li class="breadcrumb-item"><a href="/support.html">
-                    Support</a></li>
-
-                
-                
-                
-                <li class="breadcrumb-item active" aria-current="page">
-                  Cloud Settings
-                </li>
-                
-                
-              </ol>
-            </nav>
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-
-
-
+            <p class="lead px-xxl-11">
+              
+            </p>
 
           </div>
+          <div class="row">
+            <div class="col-md-10 col-lg-9 col-xl-8 mx-auto"> <!-- was the same as the header but made it wider -->
+                                  
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                        <nav class="d-inline-block" aria-label="breadcrumb">
+
+                          <ol class="breadcrumb">
+                              
+                              
+                              <li class="breadcrumb-item"><a href="/support.html">
+                                      Support</a></li>
+
+                              
+                              
+                              
+                              <li class="breadcrumb-item"><a href="/support/help.html">
+                                      Help</a></li>
+
+                              
+                              
+                              
+                              <li class="breadcrumb-item active" aria-current="page">
+                                  Template Manager
+                              </li>
+                              
+                              
+                          </ol>
+                      </nav>
+                      
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                    </div>
+                    <!-- /.row -->
+                  </div>
+                  <!-- /.row -->
+
           <!-- /column -->
         </div>
         <!-- /.row -->
@@ -645,59 +667,9 @@
       <!-- /.container -->
     </section>
     <!-- /section -->
-
-    <section class="wrapper bg-light wrapper-border">
-      <div class="container inner py-8">
-          <div class="row gx-lg-8 gx-xl-12 gy-4 gy-lg-0">
-              <div class="col-lg-8 align-self-center">
-                  <div class="blog-filter filter">
-                      <p>Blog Categories:</p>
-
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                  </div>
-                  <!--/.filter -->
-              </div>
-              <!--/column -->
-              <aside class="col-lg-4 sidebar">
-                  
-                      <div id="search-form">
-                          <!-- agoloia box here -->                            
-                      </div>
-                  
-                  <!-- /.search-form -->
-              </aside>
-              <!-- /column .sidebar -->
-          </div>
-          <!--/.row -->
-      </div>
-      <!-- /.container -->
-  </section>
-
-
-    
     <div class="container">
       <div class="row">
-        <aside class="col-xl-2 sidebar sticky-sidebar doc-sidebar mt-md-0 py-8 d-none d-xl-block">
+        <aside class="col-xl-2 sidebar sticky-sidebar doc-sidebar mt-md-0 py-16 d-none d-xl-block">
           <!-- /.widget -->
           
           
@@ -883,174 +855,176 @@
         <!-- /column -->
         <div class="col-xl-10 order-xl-2">
 
-          <div id="hitlist"></div>
-          <div id="pagination"></div>
-
-          <div class="alert alert-blue alert-icon mb-6" role="alert">Guide to importing your CMS, create templates and deploy to the cloud..&nbsp;</div>
+          <section id="snippet-3" class="wrapper pt-16">
+<h2 class="mb-5">Template/Theme Groups</h2>
+<div class="alert alert-blue alert-icon mb-6" role="alert"><i class="uil uil-exclamation-circle"></i>YouDoCMS supports switching between templates/themes using groups.&nbsp;</div>
 <div class="card">
 <div class="card-body">
-<p>Our application can be used with any HTML template system from any CMS. Typically you would use your existing Joomla! or WordPress template and copy the HTML to create templates for each of different page types within your site.&nbsp;</p>
-<p>Similarly you can use any standard HTML template and incorporate our code to generate the pages. In the template section of this documentation I have included examples of our code to generate different types of page. Our template language covers the following.</p>
-<p>Hierarchical menus<br />Breadcrumbs<br />Single page content<br />Blog style content with readme<br />Category lists including child categories<br />Multiple pages from defined category.</p>
-<p>List content can be sorted by date, manually via the ordering field or title<br />All content can be published and unpublished during the build process</p>
-<h3>Demonstration template</h3>
-<p>The default installation includes a demonstration domain incorporating a standard set of of template's for each of the page types. These page types can be easily modified by copying and pasting from your existing template source to generate static version of your current CMS.</p>
+<p>Content management system such as Joomla! and WordPress use templates/themes to display different types of pages. For example individual pages for single articles, pages or posts or list pages for categories to display lists of content with links to the single page. A YouDoCMS template group is a collection of templates that are assigned to different pages in a website. Template groups enable switching between different styles similar to choosing a different template within Joomla! or WordPress theme. Navigate to templates and create your first template group from the New button. Name the group and save. Ignore JSON file.</p>
+<p><br /><a data-glightbox="" href="/images/templates/template-group.png"><img src="/images/templates/medium/template-group_medium.png" alt="Create Site" width="500" height="290" /></a><br /><br /></p>
+<p>After saving the group appears in the groups list. Click to select this template group before creating individual templates within the selected group.&nbsp;<br /><br /><a href="/images/templates/template-group-select.png"><img src="/images/templates/medium/template-group-select_medium.png" width="500" height="290" alt="template-group-select_medium.png" /></a></p>
+</div>
+<!--/.card-body --></div>
+<!--/.card --></section>
+<section id="snippet-3" class="wrapper pt-16">
+<h2 class="mb-5">Template Types</h2>
+<div class="alert alert-blue alert-icon mb-6" role="alert"><i class="uil uil-exclamation-circle"></i>Individual templates are used to create different layouts for pages within the site.</div>
+<div class="card">
+<div class="card-body">
+<p>Templates can be created from any html source of Joomla!, WordPress or Html templates e.g. <a href="https://themeforest.net/" target="_blank" rel="noopener">Themeforest</a>. Generally most CMS websites incorporate 3 different types of page to display single articles/posts, lists of articles/posts in a category or a list of categories. Each of these may have modules/widgets displayed in different positions/locations.</p>
+<p>Using <a href="https://en-gb.wordpress.org/themes/avril/" title="Avril Theme" target="_blank" rel="noopener">WordPress Avril theme</a> as an example the theme consists of two distinct page types. The homepage which displays the list of latest posts and a page for displaying a single WordPress page. It includes an option for a right-hand sidebar which can be used to display a tags widget and incorporates a drop-down menu.</p>
+<p>To replicate this theme in YouDoCMS we need to create two templates. One for the list page and the other for the single page. If you want to hide the sidebar then you will need to create a version with the sidebar hidden.&nbsp;</p>
+<p><a data-glightbox="" href="/images/integration/aws/prefs_createbucket.png"><img src="/images/help/medium/template-manager_medium.png" alt="azure subscription" width="500" height="291" /></a><br /><br /></p>
+<p>Enter a name for your resource group (this can be anything).</p>
+<p>Enter a name for the storage account. This will be associated with the resource group so it makes sense to relate the two names.<br /><br /><img src="/images/integration/azure/medium/prefs_cdn_created_medium.png" width="500" height="447" alt="prefs_cdn_created_medium.png" /><br /><br /></p>
+<p>In your azure portal you will now see the newly created resource group plus the bucket and cdn endpoint.<br /><br />.</p>
 </div>
 </div>
+</section>
+<section id="snippet-3" class="wrapper pt-16">
+<h2 class="mb-5">Header</h2>
+<div class="alert alert-blue alert-icon mb-6" role="alert"><i class="uil uil-exclamation-circle"></i>YouDoCMS can be used to manage multiple websites/domains either manually or importing from Joomla! or WordPress.:</div>
+<div class="card">
+<div class="card-body">
+<ol class="mb-0">
+<li>After registering the software you will be presented with the welcome splash screen. This is also available from the file-switch domain&nbsp; menu. From the splash screen you can choose to create a new empty site without a defined content management system ie a new plain html site. Or create a new site for either Joomla! or WordPress. It is also possible to clone an existing site.</li>
+<li>The functionality of YouDoCMS is the same irrespective of the CMS selected. The primary difference is the look and feel of the interface and importantly the URL routing we use is compatible with the original CMS.<br /><br /><a data-glightbox="" href="/images/integration/aws/prefs_createbucket.png"><img src="/images/features/medium/multi_site_medium.png" alt="Create Site" width="500" height="369" /></a><br /><br /></li>
+<li>Simply go to file-switch domain which will display the splash screen and enable you to select a different site. To delete a site you can access the splash screen and right click the site provided this is not the current active site.&nbsp;<br /><br /><img src="/images/features/medium/delete_site_medium.png" width="500" height="321" alt="delete_site_medium.png" /></li>
+</ol>
+</div>
+<!--/.card-body --></div>
+<!--/.card --></section>
 
-
-        <section id="articles" class="wrapper pt-8"> 
-          <div class="card">
-              <div class="card-body">
-                <div class="row gy-6">
-                  
-                </div>
-                </div>
-              <!--/.card-body -->
-          </div>
-          <!--/.card -->
-      </section>
-
-
-
-
-
-
-
+        </div>
+        <!-- /column -->
       </div>
-      <!-- /column -->
+      <!-- /.row -->
     </div>
-    <!-- /.row -->
-  </div>
-  <!-- /.container -->
+    <!-- /.container -->
   </div>
   <!-- /.content-wrapper -->
   <footer class="bg-dark text-inverse">
     <div class="container py-13 py-md-15">
-    <div class="row gy-6 gy-lg-0">
+      <div class="row gy-6 gy-lg-0">
         <div class="col-md-4 col-lg-3">
-            <div class="widget">
-                <img class="mb-4" src="/images/cms_logo.png" srcset="/images/cms_logo@2x.png 2x" alt="" />
-                <p class="mb-4">© 2021 Youdo Ltd. <br class="d-none d-lg-block" />All rights reserved.</p>
-                <nav class="nav social social-white">
-                    <a href="#"><i class="uil uil-twitter"></i></a>
-                    <a href="#"><i class="uil uil-facebook-f"></i></a>
-                    <a href="#"><i class="uil uil-dribbble"></i></a>
-                    <a href="#"><i class="uil uil-instagram"></i></a>
-                    <a href="#"><i class="uil uil-youtube"></i></a>
-                </nav>
-                <!-- /.social -->
-            </div>
-            <!-- /.widget -->
+          <div class="widget">
+            <img class="mb-4" src="/images/cms_logo.png" srcset="/images/cms_logo@2x.png 2x" alt="" />
+            <p class="mb-4">© 2021 Youdo Ltd. <br class="d-none d-lg-block" />All rights reserved.</p>
+            <nav class="nav social social-white">
+              <a href="#"><i class="uil uil-twitter"></i></a>
+              <a href="#"><i class="uil uil-facebook-f"></i></a>
+              <a href="#"><i class="uil uil-dribbble"></i></a>
+              <a href="#"><i class="uil uil-instagram"></i></a>
+              <a href="#"><i class="uil uil-youtube"></i></a>
+            </nav>
+            <!-- /.social -->
+          </div>
+          <!-- /.widget -->
         </div>
         <!-- /column -->
         <div class="col-md-4 col-lg-3">
-            <div class="widget">
-                <h4 class="widget-title text-white mb-3">Get in Touch</h4>
-                <address class="pe-xl-15 pe-xxl-17">Made in Upminster, Essex, United Kingdom</address>
-                <a href="mailto:#">info@youdocms.com</a><br /> +44 (020) 7148 3322
-            </div>
-            <!-- /.widget -->
+          <div class="widget">
+            <h4 class="widget-title text-white mb-3">Get in Touch</h4>
+            <address class="pe-xl-15 pe-xxl-17">Made in Upminster, Essex, United Kingdom</address>
+            <a href="mailto:#">info@youdocms.com</a><br /> +44 (020) 7148 3322
+          </div>
+          <!-- /.widget -->
         </div>
         <!-- /column -->
         <div class="col-md-4 col-lg-3">
-            <div class="widget">
-                <h4 class="widget-title text-white mb-3">Learn More</h4>
+          <div class="widget">
+            <h4 class="widget-title text-white mb-3">Learn More</h4>
 
-                
-                
-                
-                
-                
-                
-                
-                
+            
+            
+            
+            
+            
+            
+            
+            
 
-                <ul class="list-unstyled mb-0">
-                    
+            <ul class="list-unstyled mb-0">
+              
 
-                    <li><a href="/about-us.html">
-                            About Us</a></li>
+              <li><a href="/about-us.html">
+                  About Us</a></li>
 
-                    
+              
 
-                    <li><a href="/terms-and-conditions.html">
-                            Terms and Conditions</a></li>
+              <li><a href="/terms-and-conditions.html">
+                  Terms and Conditions</a></li>
 
-                    
+              
 
-                    <li><a href="/index.html">
-                            Home</a></li>
+              <li><a href="/index.html">
+                  Home</a></li>
 
-                    
-                </ul>
+              
+            </ul>
 
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
 
-            </div>
-            <!-- /.widget -->
+          </div>
+          <!-- /.widget -->
         </div>
         <!-- /column -->
         <div class="col-md-12 col-lg-3">
+          <div class="widget">
             <div class="widget">
-                <div class="widget">
-                    <h4 class="widget-title text-white mb-3">Our Newsletter</h4>
-                    <p class="mb-5">Subscribe to our newsletter for news and community support.</p>
-                    <div class="newsletter-wrapper">
-                        <!-- Begin Mailchimp Signup Form -->
-                        <div id="mc_embed_signup2">
-                            <form
-                                action="https://elemisfreebies.us20.list-manage.com/subscribe/post?u=aa4947f70a475ce162057838d&amp;id=b49ef47a9a"
-                                method="post" id="mc-embedded-subscribe-form2" name="mc-embedded-subscribe-form"
-                                class="validate dark-fields" target="_blank" novalidate>
-                                <div id="mc_embed_signup_scroll2">
-                                    <div class="mc-field-group input-group form-floating">
-                                        <input type="email" value="" name="EMAIL"
-                                            class="required email form-control" placeholder="Email Address"
-                                            id="mce-EMAIL2">
-                                        <label for="mce-EMAIL2">Email Address</label>
-                                        <input type="submit" value="Join" name="subscribe"
-                                            id="mc-embedded-subscribe2" class="btn btn-primary ">
-                                    </div>
-                                    <div id="mce-responses2" class="clear">
-                                        <div class="response" id="mce-error-response2" style="display:none">
-                                        </div>
-                                        <div class="response" id="mce-success-response2" style="display:none">
-                                        </div>
-                                    </div>
-                                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                                    <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                                        <input type="text" name="b_ddc180777a163e0f9f66ee014_4b1bcfa0bc"
-                                            tabindex="-1" value=""></div>
-                                    <div class="clear"></div>
-                                </div>
-                            </form>
-                        </div>
-                        <!--End mc_embed_signup-->
+              <h4 class="widget-title text-white mb-3">Our Newsletter</h4>
+              <p class="mb-5">Subscribe to our newsletter for news and community support.</p>
+              <div class="newsletter-wrapper">
+                <!-- Begin Mailchimp Signup Form -->
+                <div id="mc_embed_signup2">
+                  <form
+                    action="https://elemisfreebies.us20.list-manage.com/subscribe/post?u=aa4947f70a475ce162057838d&amp;id=b49ef47a9a"
+                    method="post" id="mc-embedded-subscribe-form2" name="mc-embedded-subscribe-form"
+                    class="validate dark-fields" target="_blank" novalidate>
+                    <div id="mc_embed_signup_scroll2">
+                      <div class="mc-field-group input-group form-floating">
+                        <input type="email" value="" name="EMAIL" class="required email form-control"
+                          placeholder="Email Address" id="mce-EMAIL2">
+                        <label for="mce-EMAIL2">Email Address</label>
+                        <input type="submit" value="Join" name="subscribe" id="mc-embedded-subscribe2"
+                          class="btn btn-primary ">
+                      </div>
+                      <div id="mce-responses2" class="clear">
+                        <div class="response" id="mce-error-response2" style="display:none"></div>
+                        <div class="response" id="mce-success-response2" style="display:none"></div>
+                      </div>
+                      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                          name="b_ddc180777a163e0f9f66ee014_4b1bcfa0bc" tabindex="-1" value=""></div>
+                      <div class="clear"></div>
                     </div>
-                    <!-- /.newsletter-wrapper -->
+                  </form>
                 </div>
-                <!-- /.widget -->
+                <!--End mc_embed_signup-->
+              </div>
+              <!-- /.newsletter-wrapper -->
             </div>
-            <!-- /column -->
+            <!-- /.widget -->
+          </div>
+          <!-- /column -->
         </div>
         <!--/.row -->
-    </div>
-    <!-- /.container --> <!-- Only call 4d base once per page -->
-</footer>
+      </div>
+      <!-- /.container -->
+  </footer>
   <!-- /section -->
   <div class="progress-wrap">
     <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
@@ -1058,9 +1032,10 @@
     </svg>
   </div>
 
-  <script src="/templates/sandbox3/assets/js/search.js"></script>
+
   <script src="/templates/sandbox3/assets/js/plugins.js"></script>
   <script src="/templates/sandbox3/assets/js/theme.js"></script>
+  <script src="/templates/sandbox3/assets/js/prism.js"></script>
 </body>
 
 </html>
