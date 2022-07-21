@@ -1,0 +1,12 @@
+/* 
+Content-Type: text/html
+/images/* 
+Content-Type: image/png
+/templates/sandbox3/assets/css/*
+Content-Type: text/css
+/templates/sandbox3/assets/js/*
+Content-Type: application/javascript
+/templates/sandbox3/assets/fonts/*
+Content-Type: font/woff2
+/templates/sandbox3/assets/img/icons/*
+Content-Type: image/svg+xml
