@@ -1,0 +1,116 @@
+<!doctype html><html lang="en"><head><base href="https://www5.youdocms.com"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta name="author" content="Paul Dennis"><meta name="description" content="Serverless cms application to speed up your website. Increase Google ranking with greater security by switching to JAMstack."><meta property="og:title" content="Go Serverless CMS"><meta property="og:description" content="Serverless cms application to speed up your website. Increase Google ranking with greater security by switching to JAMstack."><meta property="og:image" content=""><meta name="generator" content="YouDoCMS Headless CMS"><meta name="msvalidate.01" content=""><meta name="google-site-verification" content="3f84yhuAiEgFIRI08cF3eJd57EqbgDub9CMhbwRIfoQ"><meta name="robots" content="noindex"><script type="application/ld+json" class="youdo-schema-graph">{
+	"@context": "https://schema.org",
+	"@graph": [
+		{
+			"@type": "Organization",
+			"@id": "https://www.youdocms.com/#organization",
+			"name": "Youdo Limited",
+			"url": "https://www.youdocms.com",
+			"logo": {
+				"@type": "ImageObject",
+				"@id": "https://www.youdocms.com/#logo",
+				"inLanguage": "en-gb",
+				"url": "https://www.youdocms.com/images/cms_logo.png",
+				"contentUrl": "https://www.youdocms.com/images/cms_logo.png",
+				"width": "",
+				"height": "",
+				"caption": ""
+			},
+			"image": {
+				"@id": "https://www.youdocms.com/#logo"
+			}
+		},
+		{
+			"@type": "WebSite",
+			"@id": "https://www.youdocms.com/#website",
+			"url": "https://www.youdocms.com",
+			"name": "YouDoCMS Serverless CMS",
+			"description": "Website builder, headless cms, static site generator and cdn deployment software",
+			"publisher": {
+				"@id": "https://www.youdocms.com/#organization"
+			},
+			"potentialAction": [
+				{
+					"@type": "SearchAction",
+					"target": {
+						"@type": "EntryPoint",
+						"urlTemplate": "https://www.youdocms.com/support/help/youdocms[query]={search_term_string}"
+					},
+					"query-input": "required name=search_term_string"
+				}
+			],
+			"inLanguage": "en-gb"
+		},
+		{
+			"@type": "ImageObject",
+			"@id": "https://www.youdocms.com/create/go-serverless/#primaryimage",
+			"inLanguage": "en-gb",
+			"url": "https://www.youdocms.com/images/create/google-page-speed.png",
+			"contentUrl": "https://www.youdocms.com/images/create/google-page-speed.png"
+		},
+		{
+			"@type": "WebPage",
+			"@id": "https://www.youdocms.com/create/go-serverless/#webpage",
+			"url": "https://www.youdocms.com/create/go-serverless",
+			"name": "Go Serverless CMS",
+			"isPartOf": {
+				"@id": "https://www.youdocms.com/create/go-serverless/#webpage"
+			},
+			"primaryImageOfPage": {
+				"@id": "https://www.youdocms.com/create/go-serverless/#primaryimage"
+			},
+			"breadcrumb": {
+				"@id": "https://www.youdocms.com/create/go-serverless/#breadcrumb"
+			},
+			"inLanguage": "en-gb",
+			"potentialAction": {
+				"type": "ReadAction",
+				"target": "https://www.youdocms.com/create/go-serverless"
+			}
+		},
+		{
+			"@type": "Article",
+			"@id": "https://www.youdocms.com/create/go-serverless/#article",
+			"headline": "Go Serverless CMS",
+			"description": "Serverless cms application to speed up your website. Increase Google ranking with greater security by switching to JAMstack.",
+			"author": "Paul Dennis",
+			"keywords": [
+				"host for free with Github pages",
+				"static site generator",
+				"host free github pages",
+				"jamstack bounce rate",
+				"serverless cms",
+				"slow loading pages",
+				"self hosted serverless cms"
+			],
+			"articleSection": [
+				"Features"
+			],
+			"publisher": {
+				"@id": "https://www.youdocms.com/#organization"
+			},
+			"mainEntityOfPage": {
+				"@id": "https://www.youdocms.com/create/go-serverless/#webpage"
+			},
+			"inLanguage": "en-gb"
+		},
+		{
+			"@type": "BreadcrumbList",
+			"@id": "https://www.youdocms.com/create/go-serverless/#breadcrumb",
+			"itemListElement": [
+				{
+					"@type": "ListItem",
+					"item": "https://www.youdocms.com/create/go-serverless",
+					"name": "Create",
+					"position": 1
+				},
+				{
+					"@type": "ListItem",
+					"item": "https://www.youdocms.com/create/go-serverless",
+					"name": "Go Serverless",
+					"position": 2
+				}
+			]
+		}
+	]
+}</script><link rel="shortcut icon" href="favicon.ico"><title>Go Serverless CMS</title><link rel="stylesheet" href="templates/sandbox3/assets/css/plugins.css"><link rel="stylesheet" href="templates/sandbox3/assets/css/style.css"><link rel="stylesheet" href="templates/sandbox3/assets/css/colors/aqua.css"></head><body><div class="content-wrapper"><header class="wrapper bg-soft-primary"><nav class="navbar center-nav transparent navbar-expand-lg navbar-light"><div class="container flex-lg-row flex-nowrap align-items-center"><div class="navbar-brand w-100"><a href="https://www5.youdocms.com/index.html"><img src="/images/cms_logo.png" srcset="/images/cms_logo@2x.png 2x" alt=""></a></div><div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start"><div class="offcanvas-header d-lg-none"><a href="https://www5.youdocms.com"><img src="/images/cms_logo.png" srcset="/images/cms_logo@2x.png 2x" alt=""></a><button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button></div><div class="offcanvas-body ms-lg-auto d-flex flex-column h-100"><ul class="navbar-nav"><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="" data-bs-toggle="dropdown">Create</a><ul class="dropdown-menu"><li class="nav-item"><a class="dropdown-item" href="/create/bootstrap-templates">Bootstrap Templates</a></li><li class="nav-item"><a class="dropdown-item" href="/create/go-serverless">Go Serverless</a></li><li class="nav-item"><a class="dropdown-item" href="/create/migrate-joomla">Migrate Joomla</a></li><li class="nav-item"><a class="dropdown-item" href="/create/migrate-wordpress">Migrate WordPress</a></li><li class="nav-item"><a class="dropdown-item" href="/create/static-website-design">Static Website Design</a></li><li class="nav-item"><a class="dropdown-item" href="/create/website-builder">Website Builder</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="" data-bs-toggle="dropdown">Features</a><ul class="dropdown-menu"><li class="nav-item"><a class="dropdown-item" href="/features/headless-cms">Headless CMS</a></li><li class="nav-item"><a class="dropdown-item" href="/features/import-cms">Import CMS</a></li><li class="nav-item"><a class="dropdown-item" href="/features/media-manager">Media Manager</a></li><li class="nav-item"><a class="dropdown-item" href="/features/static-site-seo">Static Site SEO</a></li><li class="nav-item"><a class="dropdown-item" href="/features/site-search">Site Search</a></li><li class="nav-item"><a class="dropdown-item" href="/features/static-site-generator">Static Site Generator</a></li><li class="nav-item"><a class="dropdown-item" href="/features/tasks-and-users">Tasks and Users</a></li><li class="nav-item"><a class="dropdown-item" href="/features/web-crawler">Web Crawler</a></li><li class="nav-item"><a class="dropdown-item" href="/features/web-server-logs">Web Server Logs</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="" data-bs-toggle="dropdown">Integration</a><ul class="dropdown-menu"><li class="nav-item"><a class="dropdown-item" href="/integration/cdn-integration">CDN Integration</a></li><li class="nav-item"><a class="dropdown-item" href="/integration/amazon-aws">Amazon AWS</a></li><li class="nav-item"><a class="dropdown-item" href="/integration/cloudflare">Cloudflare</a></li><li class="nav-item"><a class="dropdown-item" href="/integration/github-pages">Github Pages</a></li><li class="nav-item"><a class="dropdown-item" href="/integration/google-firebase">Google Firebase</a></li><li class="nav-item"><a class="dropdown-item" href="/integration/microsoft-azure">Microsoft Azure</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="" data-bs-toggle="dropdown">Pricing</a><ul class="dropdown-menu"><li class="nav-item"><a class="dropdown-item" href="/pricing/download-installers">Download Installer</a></li><li class="nav-item"><a class="dropdown-item" href="/pricing/pricing-plans">Pricing Plans</a></li><li class="nav-item"><a class="dropdown-item" href="/pricing/subscribe">Subscribe</a></li></ul></li><li class="nav-item dropdown dropdown-mega"><a class="nav-link dropdown-toggle" href="support/" data-bs-toggle="dropdown">Support</a><ul class="dropdown-menu mega-menu"><li class="mega-menu-content"><div class="row gx-0 gx-lg-4"><div class="col-lg-6"><h6 class="dropdown-header"><a href="/support/cloud-settings/">Cloud Settings</a></h6><ul class="list-unstyled cc-2 pb-lg-1"><li class=""><a class="dropdown-item" href="/support/cloud-settings/amazon-aws/">Amazon AWS</a></li><li class=""><a class="dropdown-item" href="/support/cloud-settings/cloudflare/">Cloudflare</a></li><li class=""><a class="dropdown-item" href="/support/cloud-settings/github-hosting/">Github Hosting</a></li><li class=""><a class="dropdown-item" href="/support/cloud-settings/google-firebase/">Google Firebase</a></li><li class=""><a class="dropdown-item" href="/support/cloud-settings/microsoft-azure/">Microsoft Azure</a></li></ul><h6 class="dropdown-header mt-lg-6"><a href="/support/help/">Help</a></h6><ul class="list-unstyled cc-2"><li class=""><a class="dropdown-item" href="/support/help/create-site">Create Site</a></li><li class=""><a class="dropdown-item" href="/support/help/cli-and-node-tools">CLI and Node Tools</a></li><li class=""><a class="dropdown-item" href="/support/help/cms-import">CMS Import</a></li><li class=""><a class="dropdown-item" href="/support/help/joomla-example">Joomla Example</a></li><li class=""><a class="dropdown-item" href="/support/help/template-manager">Template Manager</a></li><li class=""><a class="dropdown-item" href="/support/help/wordpress-example">WordPress Example</a></li></ul></div><div class="col-lg-6"><h6 class="dropdown-header"><a href="/support/search/">Search</a></h6><ul class="list-unstyled cc-2 pb-lg-1"><li class=""><a class="dropdown-item" href="/support/search/algolia">Algolia</a></li><li class=""><a class="dropdown-item" href="/support/search/json-ld">JSON-LD</a></li></ul><h6 class="dropdown-header mt-lg-6"><a href="/support/templates/">Templates</a></h6><ul class="list-unstyled cc-2"><li class=""><a class="dropdown-item" href="/support/templates/syntax">Syntax</a></li><li class=""><a class="dropdown-item" href="/support/templates/page-object">Page Object</a></li><li class=""><a class="dropdown-item" href="/support/templates/breadcrumbs">Breadcrumbs</a></li><li class=""><a class="dropdown-item" href="/support/templates/menus">Menus</a></li><li class=""><a class="dropdown-item" href="/support/templates/html-includes">HTML Includes</a></li><li class=""><a class="dropdown-item" href="/support/templates/modules-or-widgets">Modules or Widgets</a></li><li class=""><a class="dropdown-item" href="/support/templates/blog-list-pages-or-posts">Blog List Pages or Posts</a></li><li class=""><a class="dropdown-item" href="/support/templates/list-categories">List Categories</a></li><li class=""><a class="dropdown-item" href="/support/templates/single-article-example">Single Article Example</a></li><li class=""><a class="dropdown-item" href="/support/templates/single-category-with-datatables">Single Category with Datatables</a></li></ul></div></div></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="" data-bs-toggle="dropdown">Blog</a><ul class="dropdown-menu"><li class="nav-item"><a class="dropdown-item" href="/blog/serverless-blog/">Serverless Blog</a></li></ul></li></ul></div></div><div class="navbar-other w-100 d-flex ms-auto"><ul class="navbar-nav flex-row align-items-center ms-auto"><li class="nav-item d-lg-none"><button class="hamburger offcanvas-nav-btn"><span></span></button></li></ul></div></div></nav></header><section class="wrapper bg-soft-primary"><div class="container pt-10 pb-12 pt-md-14 pb-md-16 text-center" style="padding-bottom:0!important;padding-top:0!important"><div class="row"><div class="col-lg-8 mx-auto"><h1 class="display-2 mb-3">Go Serverless CMS</h1><nav class="d-inline-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="index.html">Home</a></li><li class="breadcrumb-item active" aria-current="page">Create</li><li class="breadcrumb-item active" aria-current="page">Go Serverless</li></ol></nav></div></div></div></section><section class="wrapper bg-light"><div class="container py-14 py-md-10"><div class="row mb-5"><div class="col-md-10 col-xl-8 col-xxl-7 mx-auto text-center"><img src="/templates/sandbox3/assets/img/icons/lineal/sitemap.svg" class="svg-inject icon-svg icon-svg-md mb-4" alt=""><h2 class="display-4 mb-4 px-lg-14">3 reasons to Go Serverless with the Jamstack.</h2></div></div><div class="row gx-md-8 gx-xl-12 gy-10 align-items-center"><div class="col-lg-6 order-lg-2"><div class="card me-lg-6"><div class="card-body p-6"><div class="d-flex flex-row"><div><span class="icon btn btn-circle btn-lg btn-soft-primary pe-none me-4"><span class="number">01</span></span></div><div><h4 class="mb-1">Speed</h4><p class="mb-0">Static sites are faster and speed is a known Google metric particularly on mobile. A high bounce rate is a symptom of slow loading pages.</p></div></div></div></div><div class="card ms-lg-13 mt-6"><div class="card-body p-6"><div class="d-flex flex-row"><div><span class="icon btn btn-circle btn-lg btn-soft-primary pe-none me-4"><span class="number">02</span></span></div><div><h4 class="mb-1">Security</h4><p class="mb-0">Static sites are secure and are not targeted which in turn reduces wasteful traffic. Its a win for you and the environment.</p></div></div></div></div><div class="card mx-lg-6 mt-6"><div class="card-body p-6"><div class="d-flex flex-row"><div><span class="icon btn btn-circle btn-lg btn-soft-primary pe-none me-4"><span class="number">03</span></span></div><div><h4 class="mb-1">Cost Effective</h4><p class="mb-0">Reduce your costs with Serverless low cost or free cloud hosting. Build and host for free with Github pages and YouDoCMS.</p></div></div></div></div></div><div class="col-lg-6"><h2 class="display-6 mb-3">What is a Serverless CMS?</h2><p class="lead fs-lg pe-lg-5">Is a headless the same as serverless CMS.</p><p>A headless cms de-couple's the content management of the backend from the publication of the site on the front end. The majority of headless cms are dependent upon a hosted back-end server which is used to manage the content. The other option is a self hosted serverless cms application which is used for content management locally in conjunction with a static site generator to publish the site to a CDN. YouDoCMS is both a headless and serverless cms.</p><p class="mb-6">In conjunction with cloud APIs via JavaScript static pages generated by a serverless CMS can provide interaction for the user. This platform is known as the Jamstack.</p><a href="/create/website-builder" class="btn btn-primary rounded-pill mb-0">Free Website Builder</a></div></div></div></section><section class="wrapper bg-light wrapper-border"><div class="container py-14 py-md-10"><div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center"><div class="col-lg-6 position-relative"><div class="shape bg-line leaf rounded-circle rellax w-17 h-17" data-rellax-speed="1" style="top:-2rem;right:-.6rem"></div><div class="shape bg-pale-violet rounded-circle rellax w-17 h-17" data-rellax-speed="1" style="bottom:-2rem;left:-.4rem"></div><figure class="rounded mb-0"><a href="/images/integration/aws/aws-gt-metrix.png" class="glightbox"><img src="/images/integration/aws/medium/aws-gt-metrix_medium.png" srcset="" alt="cf-gtmetrix-result.png" width="500" height="333"></a></figure></div><div class="col-lg-6"><h3 class="display-4 mb-4">The Need for Speed</h3><p class="mb-5">For those old enough to remember the original websites that were based on static HTML. These were replaced by content management systems such as WordPress. The advent of the cloud and the spread of JavaScript enabling automation within the browser has given rise to the new generation of static websites based upon JavaScript and API's. The so called JAMstack.</p><div class="row gy-3"><div class="col-xl-6"><ul class="icon-list bullet-bg bullet-soft-leaf mb-0"><li><span><i class="uil uil-check"></i></span><span>Sites load 50% faster.</span></li><li class="mt-3"><span><i class="uil uil-check"></i></span><span>Faster sites have a higher search ranking.</span></li></ul></div><div class="col-xl-6"><ul class="icon-list bullet-bg bullet-soft-leaf mb-0"><li><span><i class="uil uil-check"></i></span><span>Reduce your bounce rate with faster loading pages.</span></li><li class="mt-3"><span><i class="uil uil-check"></i></span><span>100% secure cannot be hacked.</span></li></ul></div></div><a class="btn btn-soft-leaf rounded mt-6 mb-0" href="/features/static-site-generator">Static Sites</a></div></div></div></section><section class="wrapper bg-light wrapper-border"><div class="container py-14 py-md-10"><div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center"><div class="col-lg-6 order-lg-2 position-relative"><div class="shape bg-line aqua rounded-circle rellax w-17 h-17" style="top:-2rem;left:-.6rem" data-rellax-speed="1">&nbsp;</div><div class="shape bg-pale-red rounded-circle rellax w-17 h-17" style="bottom:-2rem;right:-.4rem" data-rellax-speed="1">&nbsp;</div><figure class="rounded mb-0"><a href="/images/cms/pagespeed-insights.png" class="glightbox"><img src="/images/cms/medium/pagespeed-insights_medium.png" alt="pagespeed-insights_medium.png" width="500" height="362"></a></figure></div><div class="col-lg-6"><h3 class="display-4 mb-4">Improve Search Ranking</h3><p class="mb-5"><span class="ILfuVd"><span class="hgKElc">It is a fact that <b>page speed </b>is a direct factor used by Google to rank pages. As proof they have introduced tools for you to measure the speed of your site. <a href="https://developers.google.com/speed/pagespeed/insights/" target="_blank" rel="noopener">Google's PageSpeed Insights</a> Speed Score provides reports on important speed metrics for SEO.&nbsp; Serverless sites allow you to optimise your page load speed and improve your visitors experience.</span></span></p><div class="row gy-3"><div class="col-xl-6"><ul class="icon-list bullet-bg bullet-soft-aqua mb-0"><li><span><i class="uil uil-check"></i></span><span>YouDoCMS pre-renders pages on your desktop.</span></li><li class="mt-3"><span><i class="uil uil-check"></i></span><span>Content delivery network speed.</span></li></ul></div><div class="col-xl-6"><ul class="icon-list bullet-bg bullet-soft-aqua mb-0"><li><span><i class="uil uil-check"></i></span><span>Optimise responsive images.</span></li><li class="mt-3"><span><i class="uil uil-check"></i></span><span>Minify js and css files.</span></li></ul></div></div><a class="btn btn-soft-aqua rounded mt-6 mb-0" href="/features/static-site-seo">SEO Details</a></div></div></div></section><section class="wrapper bg-light"><div class="container py-14 py-md-10"><div class="row gx-lg-8 gx-xl-12 gy-10 mb-14 mb-md-18 align-items-center"><div class="col-lg-6 position-relative"><div class="shape bg-line leaf rounded-circle rellax w-17 h-17" data-rellax-speed="1" style="top:-2rem;right:-.6rem"></div><div class="shape bg-pale-violet rounded-circle rellax w-17 h-17" data-rellax-speed="1" style="bottom:-2rem;left:-.4rem"></div><figure class="rounded mb-0"><img src="/images/create/hacking.png" srcset="" alt=""></figure></div><div class="col-lg-6"><h3 class="display-4 mb-5">Security By Design</h3><p class="mb-5">Static serverless sites are inherently secure for one simple reason. They do not rely on a traditional web server. Joomla! and WordPress dominate the web and are continuously targeted by unscrupulous hackers. If you're currently using one take a look in your log file to see the spurious requests trying to steal data (see image). For the vast majority of personal blogs or corporate marketing and communication websites it is secure by design.</p><div class="row gy-3"><div class="col-xl-6"><ul class="icon-list bullet-bg bullet-soft-red mb-0"><li><span><i class="uil uil-check"></i></span><span>No Operating System to update.</span></li><li class="mt-3"><span><i class="uil uil-check"></i></span><span>No PHP version upgrades.</span></li></ul></div><div class="col-xl-6"><ul class="icon-list bullet-bg bullet-soft-red mb-0"><li><span><i class="uil uil-check"></i></span><span>No Database to access.</span></li><li class="mt-3"><span><i class="uil uil-check"></i></span><span>No server to configure.</span></li></ul></div></div><a href="/features/headless-cms" class="btn btn-soft-red rounded mt-6 mb-0">Headless CMS</a></div></div></div></section><p></p></div><footer class="bg-dark text-inverse"><div class="container py-13 py-md-15"><div class="row gy-6 gy-lg-0"><div class="col-md-4 col-lg-3"><div class="widget"><img class="mb-4" src="/images/cms_logo.png" srcset="/images/cms_logo@2x.png 2x" alt=""><p class="mb-4">© 2021 YouDo Ltd.<br class="d-none d-lg-block">All rights reserved.YouDoCMS is not affiliated with or endorsed by Open Source Matters, the Joomla! Project, Wordpress.org or Wordpress.com. Joomla!® is a registered trademark of Open Source Matters, Inc.</p></div></div><div class="col-md-4 col-lg-3"><div class="widget"><h4 class="widget-title text-white mb-3">Get in Touch</h4><address class="pe-xl-15 pe-xxl-17">Made in Upminster, Essex, United Kingdom</address><a href="mailto:info@youdocms.com">info@youdocms.com</a><br>+44 (020) 7148 3322</div></div><div class="col-md-4 col-lg-3"><div class="widget"><h4 class="widget-title text-white mb-3">Learn More</h4><ul class="list-unstyled mb-0"><li><a href="about-us">About Us</a></li><li><a href="privacy-policy">Privacy Policy</a></li><li><a href="terms-and-conditions">Terms and Conditions</a></li><li><a href="index.html">Home</a></li></ul></div></div><div class="col-md-12 col-lg-3"><div class="widget"><div class="widget"><h4 class="widget-title text-white mb-3">Our Community</h4><p class="mb-5">Subscribe to our forum for news and support.</p><div class="newsletter-wrapper"><div id="mc_embed_signup2"><a href="https://forum.youdocms.com/login" class="btn btn-primary" target="_blank">Community</a></div></div></div></div></div></div></div></footer><div class="progress-wrap"><svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102"><path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/></svg></div><script src="/templates/sandbox3/assets/js/plugins.js"></script><script src="/templates/sandbox3/assets/js/theme.js"></script></body></html>

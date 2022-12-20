@@ -426,7 +426,8 @@ var theme = {
    */
   lightbox: function () {
     const lightbox = GLightbox({
-      selector: '*[data-glightbox]',
+      /* selector: '*[data-glightbox]', see email elemis 07/07/22 */
+      selector: '.glightbox',
       touchNavigation: true,
       loop: false,
       zoomable: false,

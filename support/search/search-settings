@@ -1,0 +1,118 @@
+<!doctype html><html lang="en"><head><base href="https://www5.youdocms.com"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta name="author" content="Paul Dennis"><meta name="description" content="Static site JSON-LD schema.org structured data "><meta name="generator" content="YouDoCMS Serverless Content Management"><meta name="msvalidate.01" content=""><meta name="google-site-verification" content="3f84yhuAiEgFIRI08cF3eJd57EqbgDub9CMhbwRIfoQ"><meta name="robots" content="noindex"><script type="application/ld+json" class="youdo-schema-graph">{
+	"@context": "https://schema.org",
+	"@graph": [
+		{
+			"@type": "Organization",
+			"@id": "https://www.youdocms.com/#organization",
+			"name": "Youdo Limited",
+			"url": "https://www.youdocms.com",
+			"logo": {
+				"@type": "ImageObject",
+				"@id": "https://www.youdocms.com/#logo",
+				"inLanguage": "en-gb",
+				"url": "https://www.youdocms.com/images/cms_logo.png",
+				"contentUrl": "https://www.youdocms.com/images/cms_logo.png",
+				"width": "",
+				"height": "",
+				"caption": ""
+			},
+			"image": {
+				"@id": "https://www.youdocms.com/#logo"
+			}
+		},
+		{
+			"@type": "WebSite",
+			"@id": "https://www.youdocms.com/#website",
+			"url": "https://www.youdocms.com",
+			"name": "YouDoCMS Serverless CMS",
+			"description": "Serverless desktop cms and static site generator.",
+			"publisher": {
+				"@id": "https://www.youdocms.com/#organization"
+			},
+			"potentialAction": [
+				{
+					"@type": "SearchAction",
+					"target": {
+						"@type": "EntryPoint",
+						"urlTemplate": "https://www.youdocms.com/support/help/youdocms[query]={search_term_string}"
+					},
+					"query-input": "required name=search_term_string"
+				}
+			],
+			"inLanguage": "en-gb"
+		},
+		{
+			"@type": "ImageObject",
+			"@id": "https://www.youdocms.com/support/search/search-settings/#primaryimage",
+			"inLanguage": "en-gb",
+			"url": "https://www.youdocms.com/",
+			"contentUrl": "https://www.youdocms.com/"
+		},
+		{
+			"@type": "WebPage",
+			"@id": "https://www.youdocms.com/support/search/search-settings/#webpage",
+			"url": "https://www.youdocms.com/support/search/search-settings",
+			"name": "Search Settings",
+			"isPartOf": {
+				"@id": "https://www.youdocms.com/support/search/search-settings/#webpage"
+			},
+			"primaryImageOfPage": {
+				"@id": "https://www.youdocms.com/support/search/search-settings/#primaryimage"
+			},
+			"breadcrumb": {
+				"@id": "https://www.youdocms.com/support/search/search-settings/#breadcrumb"
+			},
+			"inLanguage": "en-gb",
+			"potentialAction": {
+				"type": "ReadAction",
+				"target": "https://www.youdocms.com/support/search/search-settings"
+			}
+		},
+		{
+			"@type": "Article",
+			"@id": "https://www.youdocms.com/support/search/search-settings/#article",
+			"headline": "Search Settings",
+			"description": "Static site JSON-LD schema.org structured data ",
+			"author": "Paul Dennis",
+			"keywords": [
+				"JSON-LD Generator",
+				"Structured data generator",
+				"JSON-LD Schema Generator For SEO"
+			],
+			"articleSection": [
+				"Search"
+			],
+			"publisher": {
+				"@id": "https://www.youdocms.com/#organization"
+			},
+			"mainEntityOfPage": {
+				"@id": "https://www.youdocms.com/support/search/search-settings/#webpage"
+			},
+			"inLanguage": "en-gb"
+		},
+		{
+			"@type": "BreadcrumbList",
+			"@id": "https://www.youdocms.com/support/search/search-settings/#breadcrumb",
+			"itemListElement": [
+				{
+					"@type": "ListItem",
+					"item": "https://www.youdocms.com/",
+					"name": "Support",
+					"position": 1
+				},
+				{
+					"@type": "ListItem",
+					"item": "https://www.youdocms.com/support/search/",
+					"name": "Search",
+					"position": 2
+				},
+				{
+					"@type": "ListItem",
+					"item": "https://www.youdocms.com/support/search/search-settings",
+					"name": "Search Settings",
+					"position": 3
+				}
+			]
+		}
+	]
+}</script><link rel="shortcut icon" href="favicon.ico"><title>Search Settings</title><link rel="stylesheet" href="templates/sandbox3/assets/css/plugins.css"><link rel="stylesheet" href="templates/sandbox3/assets/css/style.css"><link rel="stylesheet" href="templates/sandbox3/assets/css/prism.css"></head><body data-bs-spy="scroll" data-bs-target="#sidebar-nav"><div class="content-wrapper"><header class="wrapper bg-gray"><nav class="navbar center-nav transparent navbar-expand-lg navbar-light"><div class="container flex-lg-row flex-nowrap align-items-center"><div class="navbar-brand w-100"><a href="https://www5.youdocms.com/index.html"><img src="/images/cms_logo.png" srcset="/images/cms_logo@2x.png 2x" alt=""></a></div><div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start"><div class="offcanvas-header d-lg-none"><a href="https://www5.youdocms.com"><img src="/images/cms_logo.png" srcset="/images/cms_logo@2x.png 2x" alt=""></a><button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button></div><div class="offcanvas-body ms-lg-auto d-flex flex-column h-100"><ul class="navbar-nav"><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="" data-bs-toggle="dropdown">Create</a><ul class="dropdown-menu"><li class="nav-item"><a class="dropdown-item" href="/create/bootstrap-templates">Bootstrap Templates</a></li><li class="nav-item"><a class="dropdown-item" href="/create/go-serverless">Go Serverless</a></li><li class="nav-item"><a class="dropdown-item" href="/create/migrate-joomla">Migrate Joomla</a></li><li class="nav-item"><a class="dropdown-item" href="/create/migrate-wordpress">Migrate WordPress</a></li><li class="nav-item"><a class="dropdown-item" href="/create/static-website-design">Static Website Design</a></li><li class="nav-item"><a class="dropdown-item" href="/create/website-builder">Website Builder</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="" data-bs-toggle="dropdown">Features</a><ul class="dropdown-menu"><li class="nav-item"><a class="dropdown-item" href="/features/headless-cms">Headless CMS</a></li><li class="nav-item"><a class="dropdown-item" href="/features/import-cms">Import CMS</a></li><li class="nav-item"><a class="dropdown-item" href="/features/media-manager">Media Manager</a></li><li class="nav-item"><a class="dropdown-item" href="/features/static-site-seo">Static Site SEO</a></li><li class="nav-item"><a class="dropdown-item" href="/features/site-search">Site Search</a></li><li class="nav-item"><a class="dropdown-item" href="/features/static-site-generator">Static Site Generator</a></li><li class="nav-item"><a class="dropdown-item" href="/features/tasks-and-users">Tasks and Users</a></li><li class="nav-item"><a class="dropdown-item" href="/features/web-crawler">Web Crawler</a></li><li class="nav-item"><a class="dropdown-item" href="/features/web-server-logs">Web Server Logs</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="" data-bs-toggle="dropdown">Integration</a><ul class="dropdown-menu"><li class="nav-item"><a class="dropdown-item" href="/integration/cdn-integration">CDN Integration</a></li><li class="nav-item"><a class="dropdown-item" href="/integration/amazon-aws">Amazon AWS</a></li><li class="nav-item"><a class="dropdown-item" href="/integration/cloudflare">Cloudflare</a></li><li class="nav-item"><a class="dropdown-item" href="/integration/github-pages">Github Pages</a></li><li class="nav-item"><a class="dropdown-item" href="/integration/google-firebase">Google Firebase</a></li><li class="nav-item"><a class="dropdown-item" href="/integration/microsoft-azure">Microsoft Azure</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="" data-bs-toggle="dropdown">Pricing</a><ul class="dropdown-menu"><li class="nav-item"><a class="dropdown-item" href="/pricing/download-installers">Download Installer</a></li><li class="nav-item"><a class="dropdown-item" href="/pricing/pricing-plans">Pricing Plans</a></li><li class="nav-item"><a class="dropdown-item" href="/pricing/subscribe">Subscribe</a></li></ul></li><li class="nav-item dropdown dropdown-mega"><a class="nav-link dropdown-toggle" href="support/" data-bs-toggle="dropdown">Support</a><ul class="dropdown-menu mega-menu"><li class="mega-menu-content"><div class="row gx-0 gx-lg-4"><div class="col-lg-6"><h6 class="dropdown-header"><a href="/support/cloud-settings/">Cloud Settings</a></h6><ul class="list-unstyled cc-2 pb-lg-1"><li class=""><a class="dropdown-item" href="/support/cloud-settings/amazon-aws/">Amazon AWS</a></li><li class=""><a class="dropdown-item" href="/support/cloud-settings/cloudflare/">Cloudflare</a></li><li class=""><a class="dropdown-item" href="/support/cloud-settings/github-hosting/">Github Hosting</a></li><li class=""><a class="dropdown-item" href="/support/cloud-settings/google-firebase/">Google Firebase</a></li><li class=""><a class="dropdown-item" href="/support/cloud-settings/microsoft-azure/">Microsoft Azure</a></li></ul><h6 class="dropdown-header mt-lg-6"><a href="/support/help/">Help</a></h6><ul class="list-unstyled cc-2"><li class=""><a class="dropdown-item" href="/support/help/create-site">Create Site</a></li><li class=""><a class="dropdown-item" href="/support/help/cli-and-node-tools">CLI and Node Tools</a></li><li class=""><a class="dropdown-item" href="/support/help/cms-import">CMS Import</a></li><li class=""><a class="dropdown-item" href="/support/help/joomla-example">Joomla Example</a></li><li class=""><a class="dropdown-item" href="/support/help/template-manager">Template Manager</a></li><li class=""><a class="dropdown-item" href="/support/help/wordpress-example">WordPress Example</a></li></ul></div><div class="col-lg-6"><h6 class="dropdown-header"><a href="/support/search/">Search</a></h6><ul class="list-unstyled cc-2 pb-lg-1"><li class=""><a class="dropdown-item" href="/support/search/algolia">Algolia</a></li><li class=""><a class="dropdown-item" href="/support/search/json-ld">JSON-LD</a></li></ul><h6 class="dropdown-header mt-lg-6"><a href="/support/templates/">Templates</a></h6><ul class="list-unstyled cc-2"><li class=""><a class="dropdown-item" href="/support/templates/syntax">Syntax</a></li><li class=""><a class="dropdown-item" href="/support/templates/page-object">Page Object</a></li><li class=""><a class="dropdown-item" href="/support/templates/breadcrumbs">Breadcrumbs</a></li><li class=""><a class="dropdown-item" href="/support/templates/menus">Menus</a></li><li class=""><a class="dropdown-item" href="/support/templates/html-includes">HTML Includes</a></li><li class=""><a class="dropdown-item" href="/support/templates/modules-or-widgets">Modules or Widgets</a></li><li class=""><a class="dropdown-item" href="/support/templates/blog-list-pages-or-posts">Blog List Pages or Posts</a></li><li class=""><a class="dropdown-item" href="/support/templates/list-categories">List Categories</a></li><li class=""><a class="dropdown-item" href="/support/templates/single-article-example">Single Article Example</a></li><li class=""><a class="dropdown-item" href="/support/templates/single-category-with-datatables">Single Category with Datatables</a></li></ul></div></div></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="" data-bs-toggle="dropdown">Blog</a><ul class="dropdown-menu"><li class="nav-item"><a class="dropdown-item" href="/blog/serverless-blog/">Serverless Blog</a></li></ul></li></ul><div class="offcanvas-footer d-lg-none"><div><a href="mailto:first.last@email.com" class="link-inverse">info@youdocms.com</a><br>+44 (020) 7148 3322<br><nav class="nav social social-white mt-4"><a href="#"><i class="uil uil-twitter"></i></a> <a href="#"><i class="uil uil-facebook-f"></i></a> <a href="#"><i class="uil uil-dribbble"></i></a> <a href="#"><i class="uil uil-instagram"></i></a> <a href="#"><i class="uil uil-youtube"></i></a></nav></div></div></div></div><div class="navbar-other w-100 d-flex ms-auto"><ul class="navbar-nav flex-row align-items-center ms-auto"><li class="nav-item d-lg-none"><button class="hamburger offcanvas-nav-btn"><span></span></button></li></ul></div></div></nav></header><section class="wrapper bg-gray"><div class="container pt-10 pb-12 pt-md-14 pb-md-16 text-center" style="padding-bottom:0!important;padding-top:0!important"><div class="row"><div class="col-md-9 col-lg-7 col-xl-5 mx-auto"><h1 class="display-2 mb-3">Search Settings</h1><p class="lead px-xxl-11"></p></div><div class="row"><div class="col-md-10 col-lg-9 col-xl-8 mx-auto"><nav class="d-inline-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="index.html">Home</a></li><li class="breadcrumb-item"><a href="">Support</a></li><li class="breadcrumb-item"><a href="support/search/">Search</a></li><li class="breadcrumb-item active" aria-current="page">Search Settings</li></ol></nav></div></div></div></div></section><div class="container"><div class="row"><aside class="col-xl-2 sidebar sticky-sidebar doc-sidebar mt-md-0 py-16 d-none d-xl-block"><div class="widget"><h4 class="widget-title mb-3">Tags</h4><ul class="list-unstyled tag-list"><li><a class="btn btn-soft-ash btn-sm rounded-pill" href="fastest-cdn/">Fastest CDN</a></li><li><a class="btn btn-soft-ash btn-sm rounded-pill" href="free-website-hosting/">Free Website Hosting</a></li><li><a class="btn btn-soft-ash btn-sm rounded-pill" href="static-site-search/">Static Site Search</a></li><li><a class="btn btn-soft-ash btn-sm rounded-pill" href="website-builder/">Website Builder</a></li></ul></div></aside><div class="col-xl-10 order-xl-2"><section id="snippet-3" class="wrapper pt-16"><h2 class="mb-5">Search Settings</h2><div class="alert alert-blue alert-icon mb-6" role="alert"><i class="uil uil-exclamation-circle"></i>Setup your <a href="https://schema.org/" target="_blank" rel="noopener">schema.org</a> default site organisation information and responsive image dimensions<span style="font-family:var(--bs-body-font-family);font-size:var(--bs-body-font-size);font-weight:var(--bs-body-font-weight);text-align:var(--bs-body-text-align);word-spacing:.05rem">.</span></div><div class="card"><div class="card-body"><h4>Schema.org</h4><p>Using dot notation <code>page_o</code> is the page object and within the page object are collections and entities representing the data for the page.</p><h4><img src="/images/help/medium/prefs-search_medium.png" width="500" height="291" alt="prefs-search_medium.png"></h4><h4>Responsive Image Sizes</h4><p>Any data within the <code>page_o.article</code> object can be referenced in an hmtl page as follows:</p><h4>Wordpress Permalinks</h4><p>Any data within the <code>page_o.article</code> object can be referenced in an hmtl page as follows:</p><h4>301 Redirect List</h4><p>Any data within the <code>page_o.article</code> object can be referenced in an hmtl page as follows:</p><h4>&nbsp;</h4><p></p></div></div></section></div></div></div></div><footer class="bg-dark text-inverse"><div class="container py-13 py-md-15"><div class="row gy-6 gy-lg-0"><div class="col-md-4 col-lg-3"><div class="widget"><img class="mb-4" src="/images/cms_logo.png" srcset="/images/cms_logo@2x.png 2x" alt=""><p class="mb-4">© 2021 YouDo Ltd.<br class="d-none d-lg-block">All rights reserved.YouDoCMS is not affiliated with or endorsed by Open Source Matters, the Joomla! Project, Wordpress.org or Wordpress.com. Joomla!® is a registered trademark of Open Source Matters, Inc.</p></div></div><div class="col-md-4 col-lg-3"><div class="widget"><h4 class="widget-title text-white mb-3">Get in Touch</h4><address class="pe-xl-15 pe-xxl-17">Made in Upminster, Essex, United Kingdom</address><a href="mailto:info@youdocms.com">info@youdocms.com</a><br>+44 (020) 7148 3322</div></div><div class="col-md-4 col-lg-3"><div class="widget"><h4 class="widget-title text-white mb-3">Learn More</h4><ul class="list-unstyled mb-0"><li><a href="about-us">About Us</a></li><li><a href="privacy-policy">Privacy Policy</a></li><li><a href="terms-and-conditions">Terms and Conditions</a></li><li><a href="index.html">Home</a></li></ul></div></div><div class="col-md-12 col-lg-3"><div class="widget"><div class="widget"><h4 class="widget-title text-white mb-3">Our Community</h4><p class="mb-5">Subscribe to our forum for news and support.</p><div class="newsletter-wrapper"><div id="mc_embed_signup2"><a href="https://forum.youdocms.com/login" class="btn btn-primary" target="_blank">Community</a></div></div></div></div></div></div></div></footer><div class="progress-wrap"><svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102"><path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/></svg></div><script src="/templates/sandbox3/assets/js/plugins.js"></script><script src="/templates/sandbox3/assets/js/theme.js"></script><script src="/templates/sandbox3/assets/js/prism.js"></script></body></html>
